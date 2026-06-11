@@ -1,26 +1,18 @@
-from langchain_groq import ChatGroq
-from backend.config.settings import GROQ_API_KEY
+def planner_agent(query):
 
-llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
-    api_key=GROQ_API_KEY
-)
+    query = query.lower()
 
-def planner_agent(user_query):
+    if "delayed" in query:
+        return "delayed_orders"
 
-    prompt = f"""
-    You are a Planner Agent.
+    elif "complaint" in query:
+        return "complaint_analysis"
 
-    Break the user query into workflow steps.
+    elif "ticket" in query:
+        return "ticket_analysis"
+    elif "summary" in query:
+        return "dashboard_summary"
 
-    User Query:
-    {user_query}
-
-    Return only the steps.
-    """
-
-    response = llm.invoke(prompt)
-
-    return response.content
-
-
+    elif "dashboard" in query:
+        return "dashboard_summary"
+    return "general"
