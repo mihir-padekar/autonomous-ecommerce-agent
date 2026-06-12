@@ -2,13 +2,13 @@ from collections import Counter
 
 def analysis_agent(state):
 
-    workflow = state["workflow_type"]
+    data_type = state["data_type"]
 
     # Delayed Orders Analysis
     
-    if workflow == "delayed_orders":
+    if data_type == "orders":
 
-        orders = state["orders"]
+        orders = state["data"]
 
         total_orders = len(orders)
 
@@ -74,9 +74,9 @@ def analysis_agent(state):
         }
     ## Complaint Analysis
 
-    elif workflow == "complaint_analysis":
+    elif data_type == "complaints":
 
-        complaints = state["complaints"]
+        complaints = state["data"]
 
         total_complaints = len(complaints)
 
@@ -123,9 +123,10 @@ def analysis_agent(state):
             "risk_level": risk
         }
     # Ticket Analysis
-    elif workflow == "ticket_analysis":
+    elif data_type == "tickets":    
 
-        tickets = state["tickets"]
+        tickets = state["data"]
+        query_function = state["query_function"]
 
         total_tickets = len(tickets)
 
@@ -171,4 +172,20 @@ def analysis_agent(state):
 
             "risk_level": risk
         }
+
+    elif data_type == "summary":
+
+        products = state["data"]
+
+        top_product = products[0]
+
+        state["analysis"] = {
+
+            "top_product": top_product["product"],
+
+            "delayed_count": top_product["delayed_count"],
+
+            "avg_delay_days": top_product["avg_delay_days"]
+        }
+
     return state

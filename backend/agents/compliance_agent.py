@@ -49,4 +49,13 @@ def compliance_agent(state):
             f"{critical} critical tickets remain open."
         )
 
+    elif workflow == "product_analysis":
+
+        state["compliance_status"] = "INFO"
+
+        state["compliance_score"] = 100
+
+        state["compliance_reason"] = (
+            "Product delay analysis does not require compliance evaluation."
+        )
     return state

@@ -170,6 +170,24 @@ Relevant Rule:
 
 ==================================================
 """
+        
+    elif workflow == "product_analysis":
+        report = f"""
+==================================================
+PRODUCT DELAY REPORT
+==================================================
+
+Top Delayed Product:
+{analysis['top_product']}
+
+Delayed Orders:
+{analysis['delayed_count']}
+
+Average Delay:
+{analysis['avg_delay_days']} days
+
+==================================================
+"""
     state["report"] = report
 
     return state

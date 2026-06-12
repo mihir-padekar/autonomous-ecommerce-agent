@@ -6,6 +6,7 @@ class WorkflowState(TypedDict):
     workflow_type: str
     query_function: str
     orders: list
+    data_type: str
     complaints: list
     tickets: list
     data: dict

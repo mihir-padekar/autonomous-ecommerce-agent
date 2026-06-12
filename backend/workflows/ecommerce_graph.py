@@ -6,6 +6,7 @@ from backend.agents.analysis_agent import analysis_agent
 from backend.agents.report_agent import report_agent
 from backend.agents.compliance_agent import compliance_agent
 from backend.agents.executive_summary_agent import executive_summary_agent
+from backend.config.query_metadata import QUERY_METADATA
 
 workflow = StateGraph(dict)
 
@@ -13,9 +14,25 @@ workflow = StateGraph(dict)
 # Planner Agent
 def planner_node(state):
 
-    workflow = planner_agent(state["query"])
+    result = planner_agent(
+        state["query"]
+    )
 
-    state["workflow_type"] = workflow
+    state["workflow_type"] = result["workflow_type"]
+
+    state["query_function"] = result["query_function"]
+
+    metadata = QUERY_METADATA[
+    state["query_function"]
+    ]
+
+    state["data_type"] = metadata[
+        "data_type"
+    ]
+
+    print("Workflow:", state["workflow_type"])
+    print("Function:", state["query_function"])
+    print("Data Type:", state["data_type"])
 
     return state
 
@@ -78,7 +95,7 @@ graph = workflow.compile()
 # TEST
 result = graph.invoke(
     {
-        "query": "Show open tickets"
+        "query": "show top delayed products"
     }
 )
 

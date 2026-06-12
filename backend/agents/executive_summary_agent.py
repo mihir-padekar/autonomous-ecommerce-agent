@@ -13,7 +13,24 @@ def executive_summary_agent(state):
 
     workflow = state["workflow_type"]
 
-    prompt = f"""
+    if state["workflow_type"] == "product_analysis":
+
+        analysis = state["analysis"]
+
+        state["executive_summary"] = (
+
+            f"{analysis['top_product']} is currently the most delayed "
+            f"product with {analysis['delayed_count']} delayed orders "
+            f"and an average delay of "
+            f"{analysis['avg_delay_days']} days."
+
+        )
+
+        return state
+    
+    else:
+
+        prompt = f"""
 You are a Senior E-Commerce Operations Analyst.
 
 Workflow:
@@ -51,5 +68,5 @@ Rules:
     response = llm.invoke(prompt)
 
     state["executive_summary"] = response.content
-
+    
     return state
