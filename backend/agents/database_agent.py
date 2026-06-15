@@ -67,6 +67,16 @@ def database_agent(state):
 
         query_function = state["query_function"]
 
+        if query_function not in QUERY_MAP:
+
+            state["error"] = (
+                f"Unsupported query function: {query_function}"
+            )
+
+            state["workflow_type"] = "unknown"
+
+            return state
+
         func = QUERY_MAP[query_function]
 
         result = func(db)

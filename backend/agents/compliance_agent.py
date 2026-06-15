@@ -6,21 +6,28 @@ def compliance_agent(state):
 
         violations = state["analysis"]["sla_violations"]
 
-        if violations > 0:
+        score = max(
+            0,
+            100 - (violations * 2)
+        )
 
-            state["compliance_status"] = "NON_COMPLIANT"
+        state["compliance_score"] = score
 
-            state["compliance_reason"] = (
-                f"{violations} orders exceed SLA thresholds."
-            )
-
-        else:
+        if score >= 90:
 
             state["compliance_status"] = "COMPLIANT"
 
-            state["compliance_reason"] = (
-                "No SLA violations detected."
-            )
+        elif score >= 70:
+
+            state["compliance_status"] = "AT_RISK"
+
+        else:
+
+            state["compliance_status"] = "NON_COMPLIANT"
+
+        state["compliance_reason"] = (
+            f"{violations} orders exceed SLA thresholds."
+        )
 
     elif workflow == "ticket_analysis":
 
@@ -58,4 +65,50 @@ def compliance_agent(state):
         state["compliance_reason"] = (
             "Product delay analysis does not require compliance evaluation."
         )
+
+    elif workflow == "warehouse_analysis":
+
+        delayed_orders = state["analysis"]["delayed_orders"]
+
+        if delayed_orders > 40:
+
+            state["compliance_status"] = "AT_RISK"
+            state["compliance_score"] = 70
+
+            state["compliance_reason"] = (
+                f"Warehouse has {delayed_orders} delayed orders."
+            )
+
+        else:
+
+            state["compliance_status"] = "COMPLIANT"
+            state["compliance_score"] = 100
+
+            state["compliance_reason"] = (
+                "Warehouse delay levels are acceptable."
+            )
+    elif workflow == "dashboard_analysis":
+
+        delayed_orders = state["analysis"]["delayed_orders"]
+
+        if delayed_orders > 200:
+
+            state["compliance_status"] = "AT_RISK"
+
+            state["compliance_score"] = 60
+
+            state["compliance_reason"] = (
+                f"{delayed_orders} delayed orders detected."
+            )
+
+        else:
+
+            state["compliance_status"] = "COMPLIANT"
+
+            state["compliance_score"] = 100
+
+            state["compliance_reason"] = (
+                "Operational metrics are within limits."
+            )
+
     return state

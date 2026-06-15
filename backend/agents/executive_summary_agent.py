@@ -13,7 +13,22 @@ def executive_summary_agent(state):
 
     workflow = state["workflow_type"]
 
-    if state["workflow_type"] == "product_analysis":
+    if state["workflow_type"] == "dashboard_analysis":
+
+        analysis = state["analysis"]
+
+        state["executive_summary"] = f"""
+    Operations are currently under pressure due to elevated delivery delays.
+    {analysis['top_warehouse']} is the most affected warehouse,
+    while {analysis['top_product']} is the most delayed product.
+    The most common customer issue is
+    {analysis['top_complaint']}.
+    Management should prioritize logistics improvements.
+    """
+
+        return state
+    
+    elif state["workflow_type"] == "product_analysis":
 
         analysis = state["analysis"]
 

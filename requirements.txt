@@ -17,3 +17,6 @@ sentence-transformers
 chromadb
 pypdf
 docx2txt
+streamlit
+SpeechRecognition
+plotly

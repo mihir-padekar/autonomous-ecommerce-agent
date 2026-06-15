@@ -45,12 +45,14 @@ QUERY_METADATA = {
 
     "get_warehouse_delay_summary": {
         "workflow": "warehouse_analysis",
-        "data_type": "summary"
+        "data_type": "summary",
+        "summary_type": "warehouse"
     },
 
     "get_top_delayed_products": {
         "workflow": "product_analysis",
-        "data_type": "summary"
+        "data_type": "summary",
+        "summary_type": "products"
     },
 
     "get_full_dashboard_summary": {

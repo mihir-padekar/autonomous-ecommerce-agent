@@ -22,13 +22,30 @@ def planner_node(state):
 
     state["query_function"] = result["query_function"]
 
-    metadata = QUERY_METADATA[
-    state["query_function"]
-    ]
+    if state["query_function"] not in QUERY_METADATA:
+
+        raise ValueError(
+            f"Unsupported query: {state['query']}"
+        )
+
+    metadata = QUERY_METADATA.get(
+        state["query_function"]
+    )
+
+    if not metadata:
+
+        raise ValueError(
+            f"Unsupported query: {state['query']}"
+        )
 
     state["data_type"] = metadata[
         "data_type"
     ]
+
+
+    state["summary_type"] = metadata.get(
+        "summary_type"
+    )
 
     print("Workflow:", state["workflow_type"])
     print("Function:", state["query_function"])
@@ -91,13 +108,14 @@ workflow.set_finish_point("report")
 graph = workflow.compile()
 
 
-
+"""
 # TEST
 result = graph.invoke(
     {
-        "query": "show top delayed products"
+        "query": "Show executive dashboard"
     }
 )
 
 print(result["analysis"])
 print(result["report"])
+"""

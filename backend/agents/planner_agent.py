@@ -36,6 +36,22 @@ def planner_agent(query):
             "query_function": "get_top_delayed_products"
         }
 
+    elif "warehouse" in query and "delay" in query:
+        print("Summary Type:", state["summary_type"])
+        return {
+            "workflow_type": "warehouse_analysis",
+            "query_function": "get_warehouse_delay_summary"
+        }
+
+    elif "dashboard" in query:
+
+        return {
+
+            "workflow_type": "dashboard_analysis",
+
+            "query_function": "get_full_dashboard_summary"
+        }
+
     return {
         "workflow_type": "unknown",
         "query_function": "unknown"

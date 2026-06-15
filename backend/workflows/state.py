@@ -20,3 +20,4 @@ class WorkflowState(TypedDict):
     analysis: dict
     executive_summary: str
     report: str
+    summary_type: str

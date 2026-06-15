@@ -90,7 +90,7 @@ def analysis_agent(state):
             if c.priority == "High"
         ])
 
-        from collections import Counter
+       
 
         category_counts = Counter(
             c.category
@@ -140,7 +140,6 @@ def analysis_agent(state):
             if t.priority == "High"
         ])
 
-        from collections import Counter
 
         team_counts = Counter(
             t.assigned_team
@@ -175,17 +174,89 @@ def analysis_agent(state):
 
     elif data_type == "summary":
 
-        products = state["data"]
+        summary_type = state["summary_type"]
 
-        top_product = products[0]
+        # PRODUCT SUMMARY
+        if summary_type == "products":
+
+            product = state["data"][0]
+
+            state["analysis"] = {
+
+                "top_product": product["product"],
+
+                "delayed_count": product["delayed_count"],
+
+                "avg_delay_days": product["avg_delay_days"]
+            }
+
+        # WAREHOUSE SUMMARY
+        elif summary_type == "warehouse":
+
+            warehouse = state["data"][0]
+
+            state["analysis"] = {
+
+                "warehouse": warehouse["warehouse"],
+
+                "delayed_orders": warehouse["delayed_count"],
+
+                "avg_delay_days": warehouse["avg_delay_days"],
+
+                "total_orders": warehouse["total_orders"]
+            }
+
+    elif data_type == "dashboard":
+
+        dashboard = state["data"]
+
+        delayed_orders = next(
+            item["count"]
+            for item in dashboard["order_status"]
+            if item["status"] == "Delayed"
+        )
+
+        top_warehouse = dashboard[
+            "warehouse_delays"
+        ][0]
+
+        top_product = dashboard[
+            "top_delayed_products"
+        ][0]
+
+        top_complaint = dashboard[
+            "complaint_categories"
+        ][0]
+
+        busiest_team = max(
+            dashboard["ticket_teams"],
+            key=dashboard["ticket_teams"].get
+        )
 
         state["analysis"] = {
 
-            "top_product": top_product["product"],
+            "delayed_orders": delayed_orders,
 
-            "delayed_count": top_product["delayed_count"],
+            "top_warehouse":
+                top_warehouse["warehouse"],
 
-            "avg_delay_days": top_product["avg_delay_days"]
-        }
+            "warehouse_delays":
+                top_warehouse["delayed_count"],
 
+            "top_product":
+                top_product["product"],
+
+            "product_delays":
+                top_product["delayed_count"],
+
+            "top_complaint":
+                top_complaint["category"],
+
+            "complaint_count":
+                top_complaint["count"],
+
+            "busiest_team":
+                busiest_team
+        }   
+        
     return state
