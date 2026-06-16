@@ -408,3 +408,46 @@ def get_full_dashboard_summary(db: Session) -> dict:
         "top_delayed_products": get_top_delayed_products(db, limit=5),
         "ticket_teams":         count_tickets_by_team(db),
     }
+
+def get_dashboard_kpis(db: Session):
+
+    order_status = get_order_status_summary(db)
+
+    total_orders = sum(
+        row["count"]
+        for row in order_status
+    )
+
+    delayed_orders = next(
+        (
+            row["count"]
+            for row in order_status
+            if row["status"] == "Delayed"
+        ),
+        0
+    )
+
+    complaints = sum(
+        row["count"]
+        for row in get_complaint_category_summary(db)
+    )
+
+    open_tickets = sum(
+        count
+        for count in count_tickets_by_team(db).values()
+    )
+
+    sla_violations = delayed_orders
+
+    return {
+
+        "total_orders": total_orders,
+
+        "delayed_orders": delayed_orders,
+
+        "complaints": complaints,
+
+        "sla_violations": sla_violations,
+
+        "open_tickets": open_tickets
+    }

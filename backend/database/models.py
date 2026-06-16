@@ -66,7 +66,7 @@ class WorkflowLog(Base):
     The AI agents will write their activity here automatically as they run.
     This table starts empty — agents fill it during execution.
     """
-    __tablename__ = "workflow_logs"
+    __tablename__ = "workflow_log"
 
     log_id          = Column(Integer, primary_key=True, index=True, autoincrement=True)
     workflow_id     = Column(String(100), nullable=False)   # unique ID per workflow run
@@ -76,3 +76,47 @@ class WorkflowLog(Base):
     status          = Column(String(50), nullable=False)    # Success / Failed / In Progress
     execution_time  = Column(Float, nullable=True)          # how many seconds it took
     timestamp       = Column(DateTime, nullable=False)
+
+class WorkflowExecution(Base):
+
+    __tablename__ = "workflow_execution"
+
+    execution_id = Column(
+        Integer,
+        primary_key=True,
+        index=True
+    )
+
+    workflow_id = Column(
+        String(100),
+        unique=True,
+        nullable=False
+    )
+
+    workflow_name = Column(
+        String(100),
+        nullable=False
+    )
+
+    user_query = Column(
+        Text,
+        nullable=False
+    )
+
+    status = Column(
+        String(50),
+        nullable=False
+    )
+
+    started_at = Column(
+        DateTime,
+        nullable=False
+    )
+
+    completed_at = Column(
+        DateTime
+    )
+
+    duration_seconds = Column(
+        Float
+    )

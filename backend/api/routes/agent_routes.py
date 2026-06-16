@@ -1,15 +1,20 @@
 from fastapi import FastAPI, HTTPException
-from backend.api.schemas import (
+from backend.api.schemas.query_schemas import (
     QueryRequest,
     QueryResponse
 )
 from fastapi.middleware.cors import CORSMiddleware
 from backend.workflows.ecommerce_graph import graph
-
+from backend.api.schemas.agent_schemas import (
+    AgentStatusResponse
+)
 
 from fastapi import APIRouter
 
-router = APIRouter()
+router = APIRouter(
+    prefix="/agents",
+    tags=["Agents"]
+)
 
 @router.post(
     "/query",
@@ -59,6 +64,7 @@ def run_query(request: QueryRequest):
         
         import traceback
 
+        traceback.print_exc()
         print(traceback.format_exc())
 
         raise HTTPException(
@@ -66,3 +72,46 @@ def run_query(request: QueryRequest):
             detail=f"Workflow execution failed: {str(e)}"
         )
     
+@router.get(
+    "/status",
+    response_model=list[AgentStatusResponse]
+)
+def get_agent_status():
+
+    return [
+
+        {
+            "name": "Planner Agent",
+            "status": "Healthy"
+        },
+
+        {
+            "name": "Database Agent",
+            "status": "Healthy"
+        },
+
+        {
+            "name": "Analysis Agent",
+            "status": "Healthy"
+        },
+
+        {
+            "name": "Policy Agent",
+            "status": "Healthy"
+        },
+
+        {
+            "name": "Compliance Agent",
+            "status": "Healthy"
+        },
+
+        {
+            "name": "Executive Summary Agent",
+            "status": "Healthy"
+        },
+
+        {
+            "name": "Report Agent",
+            "status": "Healthy"
+        }
+    ]
