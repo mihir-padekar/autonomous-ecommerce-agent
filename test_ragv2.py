@@ -11,3 +11,4 @@ for r in results:
 
     print("\nCONTENT:")
     print(r["content"][:300])
+    print("Rag working")
