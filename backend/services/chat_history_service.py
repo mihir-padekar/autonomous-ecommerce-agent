@@ -33,7 +33,7 @@ def save_message(
 
 def get_conversation_history(
     session_id,
-    limit=10
+    limit=8
 ):
 
     db = SessionLocal()
@@ -45,7 +45,10 @@ def get_conversation_history(
             db.query(ChatHistory)
 
             .filter(
-                ChatHistory.session_id == session_id
+                ChatHistory.session_id == session_id,
+                ChatHistory.role.in_(
+                    ["user", "assistant"]
+                )
             )
 
             .order_by(

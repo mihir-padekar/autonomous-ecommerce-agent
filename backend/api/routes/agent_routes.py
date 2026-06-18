@@ -12,7 +12,8 @@ from backend.services.chat_history_service import (
     save_message,
     get_conversation_history
 )
-
+from backend.agents.intent_agent import intent_agent
+from backend.agents.followup_agent import followup_agent
 from fastapi import APIRouter
 
 router = APIRouter(
@@ -44,7 +45,37 @@ def run_query(request: QueryRequest):
         history = get_conversation_history(
             request.session_id
         )
+        print("HISTORY:")
+        for item in history:
+            print(item)
+        intent = intent_agent(
+            request.query,
+            history
+        )
+        print("INTENT:", intent)
 
+        if intent["intent"] == "followup":
+            response = followup_agent(
+                request.query,
+                history
+            )
+
+            save_message(
+                request.session_id,
+                "assistant",
+                response
+            )
+
+            return {
+
+                "workflow_type": "followup",
+
+                "analysis": {},
+
+                "report": "",
+
+                "chat_response": response
+            }
         # Execute workflow
 
         result = graph.invoke(
@@ -60,6 +91,7 @@ def run_query(request: QueryRequest):
                     history
             }
         )
+
 
         if result.get("workflow_type") == "unknown":
 
