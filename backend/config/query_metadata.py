@@ -3,12 +3,12 @@ QUERY_METADATA = {
     # Orders
 
     "get_delayed_orders": {
-        "workflow": "order_analysis",
+        "workflow": "delayed_orders",
         "data_type": "orders"
     },
 
     "get_high_delay_orders": {
-        "workflow": "order_analysis",
+        "workflow": "delayed_orders",
         "data_type": "orders"
     },
 
@@ -56,7 +56,7 @@ QUERY_METADATA = {
     },
 
     "get_full_dashboard_summary": {
-        "workflow": "dashboard_summary",
+        "workflow": "dashboard_analysis",
         "data_type": "dashboard"
     }
 }

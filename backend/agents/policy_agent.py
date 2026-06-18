@@ -7,8 +7,8 @@ def policy_agent(state):
 
     policy_query_map = {
 
-        "delayed_orders":
-            "delivery SLA escalation rules for delayed orders",
+    "order_analysis":
+        "delivery SLA escalation rules for delayed orders",
 
         "complaint_analysis":
             "customer complaint escalation policy",

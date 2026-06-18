@@ -2,7 +2,7 @@ def compliance_agent(state):
 
     workflow = state["workflow_type"]
 
-    if workflow == "delayed_orders":
+    if workflow == "order_analysis":
 
         violations = state["analysis"]["sla_violations"]
 
@@ -110,5 +110,13 @@ def compliance_agent(state):
             state["compliance_reason"] = (
                 "Operational metrics are within limits."
             )
+    else:
 
+        state["compliance_status"] = "UNKNOWN"
+
+        state["compliance_score"] = 0
+
+        state["compliance_reason"] = (
+            "No compliance evaluation available."
+        )
     return state

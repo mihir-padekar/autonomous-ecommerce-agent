@@ -1,58 +1,84 @@
-def planner_agent(query):
+import json
 
-    query = query.lower()
+from backend.llm.llm import llm
 
-    if "open tickets" in query:
+from backend.config.query_metadata import QUERY_METADATA
 
-        return {
-            "workflow_type": "ticket_analysis",
-            "query_function": "get_open_tickets"
-        }
 
-    elif "critical tickets" in query:
+#planner helper 
 
-        return {
-            "workflow_type": "ticket_analysis",
-            "query_function": "get_critical_open_tickets"
-        }
+def build_workflow_prompt():
 
-    elif "delayed orders" in query:
+    workflows = []
 
-        return {
-            "workflow_type": "delayed_orders",
-            "query_function": "get_delayed_orders"
-        }
+    for function_name, metadata in QUERY_METADATA.items():
 
-    elif "warehouse" in query:
+        workflows.append(
 
-        return {
-            "workflow_type": "warehouse_analysis",
-            "query_function": "get_warehouse_delay_summary"
-        }
-    
-    elif "top delayed products" in query:
-        return {
-            "workflow_type": "product_analysis",
-            "query_function": "get_top_delayed_products"
-        }
+            f"""
+Function:
+{function_name}
 
-    elif "warehouse" in query and "delay" in query:
-        print("Summary Type:", state["summary_type"])
-        return {
-            "workflow_type": "warehouse_analysis",
-            "query_function": "get_warehouse_delay_summary"
-        }
+Workflow:
+{metadata['workflow']}
+"""
+        )
 
-    elif "dashboard" in query:
+    return "\n".join(workflows)
 
-        return {
 
-            "workflow_type": "dashboard_analysis",
+def planner_agent(
+    query,
+    history=None
+):
 
-            "query_function": "get_full_dashboard_summary"
-        }
+    if history is None:
+        history = []
 
-    return {
-        "workflow_type": "unknown",
-        "query_function": "unknown"
-    }
+    workflow_catalog = build_workflow_prompt()
+
+    prompt = f"""
+You are an E-Commerce Operations Workflow Router.
+
+Conversation History:
+
+{history}
+
+Current User Query:
+
+{query}
+
+Available Query Functions:
+
+{workflow_catalog}
+
+Instructions:
+
+1. Choose the BEST matching query function.
+2. Return ONLY JSON.
+3. No explanation.
+
+Format:
+
+{{
+    "query_function": "..."
+}}
+"""
+
+    response = llm.invoke(
+        prompt
+    )
+
+    content = response.content.strip()
+
+    print(content)
+
+    try:
+
+        return json.loads(content)
+
+    except Exception:
+
+        raise ValueError(
+            f"Planner failed to parse JSON: {content}"
+        )

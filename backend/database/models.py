@@ -2,7 +2,7 @@
 # This file defines all 4 database tables as Python classes.
 # SQLAlchemy will use these classes to create actual tables in PostgreSQL.
 
-from sqlalchemy import Column, Integer, String, Text, Float, Date, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, Text, Float, Date, DateTime, ForeignKey, func
 from backend.database.db import Base
 
 
@@ -119,4 +119,34 @@ class WorkflowExecution(Base):
 
     duration_seconds = Column(
         Float
+    )
+
+class ChatHistory(Base):
+
+    __tablename__ = "chat_history"
+
+    message_id = Column(
+        Integer,
+        primary_key=True,
+        index=True
+    )
+
+    session_id = Column(
+        String(100),
+        nullable=False
+    )
+
+    role = Column(
+        String(20),
+        nullable=False
+    )
+
+    message = Column(
+        Text,
+        nullable=False
+    )
+
+    created_at = Column(
+        DateTime,
+        server_default=func.now()
     )

@@ -5,9 +5,9 @@ def executive_summary_agent(state):
 
     analysis = state["analysis"]
 
-    compliance_status = state["compliance_status"]
+    compliance_status = state.get("compliance_status","UNKNOWN")
 
-    compliance_score = state["compliance_score"]
+    compliance_score = state.get("compliance_score",0)
 
     policy_source = state["policy_source"]
 

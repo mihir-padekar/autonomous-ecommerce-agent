@@ -9,6 +9,7 @@ from backend.agents.analysis_agent import analysis_agent
 from backend.agents.report_agent import report_agent
 from backend.agents.compliance_agent import compliance_agent
 from backend.agents.executive_summary_agent import executive_summary_agent
+from backend.agents.chat_response_agent import chat_response_agent
 from backend.config.query_metadata import QUERY_METADATA
 from datetime import datetime
 
@@ -123,15 +124,8 @@ def planner_node(state):
     state["workflow_id"] = workflow_id
 
     result = planner_agent(
-        state["query"]
-    )
-
-    state["workflow_type"] = result["workflow_type"]
-
-    create_execution(
-        workflow_id,
-        state["workflow_type"],
-        state["query"]
+        query=state["query"],
+        history=state.get("history", [])
     )
 
     state["query_function"] = result["query_function"]
@@ -146,7 +140,19 @@ def planner_node(state):
         state["query_function"]
     ]
 
+    state["workflow_type"] = metadata["workflow"]
+
     state["data_type"] = metadata["data_type"]
+
+    state["summary_type"] = metadata.get(
+        "summary_type"
+    )
+
+    create_execution(
+        workflow_id,
+        state["workflow_type"],
+        state["query"]
+    )
 
     state["summary_type"] = metadata.get(
         "summary_type"
@@ -303,6 +309,7 @@ workflow.add_node("policy", policy_node)
 workflow.add_node("compliance",compliance_node)
 workflow.add_node("analysis", analysis_node)
 workflow.add_node("executive_summary", executive_summary_node)
+workflow.add_node("chat_response",chat_response_agent)
 workflow.add_node("report", report_node)
 
 
@@ -313,7 +320,8 @@ workflow.add_edge("database", "analysis")
 workflow.add_edge("analysis", "policy")
 workflow.add_edge("policy", "compliance")
 workflow.add_edge("compliance", "executive_summary")
-workflow.add_edge("executive_summary", "report")
+workflow.add_edge("executive_summary","chat_response")
+workflow.add_edge("chat_response", "report")
 
 workflow.set_finish_point("report")
 
