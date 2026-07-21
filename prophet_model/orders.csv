@@ -1,0 +1,1001 @@
+order_id,customer_id,customer_name,product_name,order_date,expected_delivery_date,actual_delivery_date,status,delay_days,warehouse
+1,1777,Odika Varkey,Action Camera,2024-07-28,2024-08-07,,Pending,0,Bangalore
+2,1508,Nidra Munshi,Smart TV,2024-01-17,2024-01-23,2024-01-24,Delivered,1,Mumbai
+3,1896,Upadhriti Talwar,Noise Cancelling Earbuds,2024-12-17,2024-12-23,,Delayed,15,Chennai
+4,1923,Hemal Nagi,USB Hub,2024-02-28,2024-03-05,,Pending,0,Kolkata
+5,1034,Anya Master,LED Desk Lamp,2024-03-13,2024-03-17,2024-03-22,Delivered,5,Hyderabad
+6,1484,Devika Natt,LED Desk Lamp,2024-10-18,2024-10-25,2024-10-27,Delivered,2,Pune
+7,1086,George Rana,Power Bank,2024-07-25,2024-08-01,2024-08-03,Delivered,2,Mumbai
+8,1751,Gautam Majumdar,Ergonomic Chair,2024-11-02,2024-11-05,,Delayed,14,Hyderabad
+9,1355,Zashil Kakar,Smartphone,2024-05-08,2024-05-11,2024-05-15,Delivered,4,Kolkata
+10,1524,Odika Bajwa,Smart Watch,2024-12-10,2024-12-17,2024-12-22,Delivered,5,Chennai
+11,1185,Zilmil Naidu,Network Switch,2024-09-22,2024-10-02,,Delayed,5,Pune
+12,1810,Prisha Biswas,Standing Desk,2024-09-08,2024-09-12,2024-09-14,Delivered,2,Bangalore
+13,1419,Nachiket Dewan,Wi-Fi Router,2024-12-09,2024-12-13,,Delayed,8,Pune
+14,1616,Yadavi Oak,Drawing Tablet,2024-09-10,2024-09-17,,Pending,0,Kolkata
+15,1683,Vedika Chaudhry,Laptop Stand,2024-10-08,2024-10-11,2024-10-12,Delivered,1,Bangalore
+16,1502,Xavier Tailor,Air Purifier,2024-02-29,2024-03-09,,Delayed,3,Chennai
+17,1761,Jasmit Singhal,Drone,2024-07-30,2024-08-02,2024-08-03,Delivered,1,Pune
+18,1050,Michael Sheth,512GB SSD,2024-08-14,2024-08-17,2024-08-20,Delivered,3,Bangalore
+19,1733,Irya Kuruvilla,Graphics Card,2024-08-12,2024-08-22,2024-08-26,Delivered,4,Pune
+20,1337,Oviya Agrawal,Wi-Fi Router,2024-03-22,2024-03-29,2024-04-01,Delivered,3,Mumbai
+21,1451,Gavin Sarma,HD Webcam,2024-04-25,2024-04-29,2024-04-28,Delivered,0,Chennai
+22,1791,Omaja Swamy,Action Camera,2024-05-29,2024-06-05,2024-06-07,Delivered,2,Delhi
+23,1351,Bhavya Sama,VR Headset,2024-08-21,2024-08-26,2024-08-29,Delivered,3,Pune
+24,1468,Darika Walia,Wi-Fi Router,2024-03-10,2024-03-14,2024-03-19,Delivered,5,Bangalore
+25,1623,Darika Mutti,LED Desk Lamp,2024-09-16,2024-09-23,,Delayed,7,Kolkata
+26,1477,Ekavir Parekh,Air Purifier,2024-10-27,2024-11-06,,Delayed,10,Chennai
+27,1615,Onveer Shenoy,Mechanical Pencil,2024-06-25,2024-07-03,2024-07-06,Delivered,3,Chennai
+28,1555,Bachittar Barad,Mechanical Pencil,2024-06-13,2024-06-19,,Delayed,6,Delhi
+29,1366,Yashawini Sastry,Mechanical Pencil,2024-07-29,2024-08-01,2024-08-03,Delivered,2,Chennai
+30,1771,Alexander Sahni,512GB SSD,2024-12-05,2024-12-10,2024-12-09,Delivered,0,Hyderabad
+31,1631,Bhanumati Chandran,iPad Tablet,2024-10-29,2024-11-06,,Delayed,10,Hyderabad
+32,1941,Irya Lal,Wi-Fi Router,2024-08-21,2024-08-24,,Pending,0,Kolkata
+33,1798,Ati Rai,Laptop Stand,2024-12-01,2024-12-06,2024-12-11,Delivered,5,Bangalore
+34,1497,Zehaan Lal,Standing Desk,2024-11-15,2024-11-24,,Pending,0,Kolkata
+35,1925,Aarnav Sidhu,Drone,2024-12-11,2024-12-20,,Delayed,13,Kolkata
+36,1370,Barkha Kaul,Graphics Card,2024-10-04,2024-10-07,,Pending,0,Pune
+37,1597,Wazir Zachariah,Wireless Mouse,2024-12-16,2024-12-23,,Delayed,14,Chennai
+38,1721,Sanaya Chada,LED Desk Lamp,2024-02-20,2024-02-24,2024-02-28,Delivered,4,Mumbai
+39,1054,Yug Patla,Thermal Printer,2024-01-24,2024-02-01,,Pending,0,Bangalore
+40,1427,Girindra Parmer,Wi-Fi Router,2024-07-10,2024-07-19,2024-07-22,Delivered,3,Hyderabad
+41,1057,Bahadurjit Gupta,Mechanical Pencil,2024-12-15,2024-12-20,2024-12-19,Delivered,0,Hyderabad
+42,1265,Varsha Patla,HD Webcam,2024-12-15,2024-12-21,2024-12-24,Delivered,3,Delhi
+43,1773,Andrew Kaul,Laptop,2024-08-24,2024-08-31,2024-09-04,Delivered,4,Kolkata
+44,1186,Jackson Chhabra,Gaming Chair,2024-08-26,2024-09-02,,Pending,0,Mumbai
+45,1467,Ucchal Chandran,Network Switch,2024-08-14,2024-08-22,,Delayed,7,Pune
+46,1790,Samar Srivastava,Mechanical Pencil,2024-05-08,2024-05-18,,Delayed,6,Kolkata
+47,1175,Ubika Atwal,Microphone,2024-09-04,2024-09-08,2024-09-11,Delivered,3,Hyderabad
+48,1151,Vaishnavi Chada,Drawing Tablet,2024-05-31,2024-06-07,2024-06-12,Delivered,5,Bangalore
+49,1742,Zansi Nadig,Drone,2024-01-05,2024-01-08,,Delayed,14,Kolkata
+50,1114,Yadavi Hayer,Microphone,2024-05-26,2024-06-01,,Pending,0,Delhi
+51,1429,Zarna Solanki,512GB SSD,2024-11-21,2024-11-27,,Pending,0,Pune
+52,1966,Udarsh Venkataraman,Bluetooth Headphones,2024-02-19,2024-02-22,2024-02-24,Delivered,2,Hyderabad
+53,1019,Kamala Dutta,Ergonomic Chair,2024-07-05,2024-07-10,2024-07-11,Delivered,1,Pune
+54,1190,Ojas Kaur,Air Purifier,2024-07-31,2024-08-05,2024-08-10,Delivered,5,Bangalore
+55,1415,Frederick Ganesh,Action Camera,2024-09-28,2024-10-05,,Delayed,7,Kolkata
+56,1590,Bakhshi Chandran,27-inch Monitor,2024-05-31,2024-06-08,,Delayed,10,Delhi
+57,1667,Jeremiah Gill,Ring Light,2024-04-25,2024-05-04,,Delayed,15,Mumbai
+58,1764,Dalaja Kanda,Smart TV,2024-07-21,2024-07-24,2024-07-23,Delivered,0,Bangalore
+59,1222,Jai Toor,Ring Light,2024-12-10,2024-12-17,2024-12-22,Delivered,5,Mumbai
+60,1587,Anthony Oak,Ergonomic Chair,2024-12-11,2024-12-17,2024-12-20,Delivered,3,Hyderabad
+61,1582,Jalsa Ganesh,Smart TV,2024-04-23,2024-04-27,,Pending,0,Pune
+62,1300,Laban Gola,Bluetooth Headphones,2024-06-03,2024-06-12,2024-06-11,Delivered,0,Bangalore
+63,1639,Triya Basak,512GB SSD,2024-09-09,2024-09-13,2024-09-16,Delivered,3,Chennai
+64,1387,Nitara Bhattacharyya,Air Purifier,2024-08-20,2024-08-28,,Pending,0,Chennai
+65,1365,Finn Sathe,iPad Tablet,2024-10-27,2024-11-01,,Delayed,13,Kolkata
+66,1880,Samaksh Sangha,Bluetooth Headphones,2024-09-07,2024-09-16,,Delayed,7,Pune
+67,1335,Nachiket Khatri,Ring Light,2024-07-08,2024-07-14,2024-07-14,Delivered,0,Mumbai
+68,1017,Matthew Tiwari,Microphone,2024-12-17,2024-12-25,2024-12-29,Delivered,4,Mumbai
+69,1203,Krish Aurora,Smart TV,2024-07-22,2024-07-29,2024-07-28,Delivered,0,Mumbai
+70,1002,Vihaan Hari,Smartphone,2024-12-05,2024-12-11,,Pending,0,Mumbai
+71,1039,Max Apte,Portable Speaker,2024-06-19,2024-06-25,,Delayed,15,Mumbai
+72,1291,Gautami Anand,External Hard Drive,2024-10-10,2024-10-16,2024-10-21,Delivered,5,Bangalore
+73,1494,Charles Goswami,512GB SSD,2024-03-16,2024-03-19,2024-03-19,Delivered,0,Hyderabad
+74,1248,Harita Acharya,Smartphone,2024-05-08,2024-05-13,2024-05-18,Delivered,5,Delhi
+75,1507,Adweta Mitter,Graphics Card,2024-01-08,2024-01-16,,Pending,0,Hyderabad
+76,1897,Zilmil Devi,512GB SSD,2024-06-14,2024-06-17,2024-06-16,Delivered,0,Pune
+77,1714,Amol Deshmukh,Action Camera,2024-08-03,2024-08-07,,Pending,0,Chennai
+78,1892,Anya Barad,Bluetooth Headphones,2024-07-04,2024-07-08,2024-07-08,Delivered,0,Pune
+79,1077,Tanvi Chaudhry,Mechanical Keyboard,2024-12-03,2024-12-10,2024-12-09,Delivered,0,Chennai
+80,1912,Pooja Mani,Drone,2024-07-24,2024-08-02,,Pending,0,Pune
+81,1793,Yoshita Anne,HD Webcam,2024-08-15,2024-08-19,,Delayed,8,Mumbai
+82,1509,Anay Gera,Ergonomic Chair,2024-03-05,2024-03-12,,Pending,0,Chennai
+83,1178,Veer Swamy,Network Switch,2024-11-01,2024-11-08,2024-11-11,Delivered,3,Mumbai
+84,1843,Idika Rama,Portable Speaker,2024-12-25,2024-12-29,,Delayed,13,Chennai
+85,1201,Madhavi Iyengar,Smart TV,2024-08-19,2024-08-25,2024-08-30,Delivered,5,Chennai
+86,1766,Zehaan Dhar,Laptop Stand,2024-07-31,2024-08-04,2024-08-05,Delivered,1,Bangalore
+87,1910,Aarav Thakur,Wireless Mouse,2024-03-19,2024-03-29,2024-04-03,Delivered,5,Mumbai
+88,1294,Unnati Jayaraman,Ring Light,2024-08-09,2024-08-13,,Pending,0,Kolkata
+89,1539,Laksh Samra,Standing Desk,2024-03-07,2024-03-10,2024-03-13,Delivered,3,Pune
+90,1025,Ekansh Kapadia,Network Switch,2024-03-03,2024-03-12,2024-03-16,Delivered,4,Kolkata
+91,1695,Ikbal Dhar,Microphone,2024-01-27,2024-02-03,,Pending,0,Mumbai
+92,1211,Nathaniel Raghavan,External Hard Drive,2024-10-22,2024-10-28,2024-10-30,Delivered,2,Kolkata
+93,1425,Oliver Nayak,USB-C Charger,2024-02-25,2024-03-04,,Delayed,8,Kolkata
+94,1529,Gagan Malhotra,Smartphone,2024-05-22,2024-05-28,,Delayed,11,Hyderabad
+95,1035,Atharv Verma,LED Desk Lamp,2024-12-02,2024-12-09,2024-12-10,Delivered,1,Bangalore
+96,1929,Ira Chada,Drawing Tablet,2024-06-28,2024-07-01,2024-07-01,Delivered,0,Mumbai
+97,1399,Rehaan Konda,Portable Speaker,2024-03-13,2024-03-16,2024-03-19,Delivered,3,Chennai
+98,1608,Dev Issac,LED Desk Lamp,2024-08-02,2024-08-12,2024-08-13,Delivered,1,Pune
+99,1299,Balvan Ganesan,Gaming Chair,2024-06-15,2024-06-19,,Delayed,5,Kolkata
+100,1849,Oscar Kalla,USB Hub,2024-11-12,2024-11-15,,Pending,0,Chennai
+101,1669,Lohit Chauhan,Wi-Fi Router,2024-12-04,2024-12-13,2024-12-15,Delivered,2,Bangalore
+102,1283,Anamika Balakrishnan,Thermal Printer,2024-04-20,2024-04-24,2024-04-23,Delivered,0,Pune
+103,1940,Finn Garde,Bluetooth Headphones,2024-12-13,2024-12-23,2024-12-24,Delivered,1,Delhi
+104,1945,Dhriti Sood,Portable Speaker,2024-07-21,2024-07-24,2024-07-25,Delivered,1,Kolkata
+105,1607,Urishilla Kant,Laptop,2024-03-11,2024-03-18,2024-03-17,Delivered,0,Chennai
+106,1960,Lucky Kapoor,External Hard Drive,2024-08-08,2024-08-13,2024-08-16,Delivered,3,Hyderabad
+107,1935,Kabir Dutt,Bluetooth Headphones,2024-10-13,2024-10-21,2024-10-26,Delivered,5,Chennai
+108,1732,Bishakha Dhingra,Network Switch,2024-01-10,2024-01-20,,Delayed,8,Hyderabad
+109,1288,Vinaya Nagi,Smartphone,2024-07-26,2024-08-04,2024-08-06,Delivered,2,Bangalore
+110,1528,Aryan Dhar,Wireless Mouse,2024-03-28,2024-04-07,,Delayed,8,Chennai
+111,1808,Sarthak Chand,Smart Speaker,2024-02-24,2024-03-01,2024-03-03,Delivered,2,Mumbai
+112,1230,Kai Thakur,External Hard Drive,2024-07-21,2024-07-28,,Pending,0,Bangalore
+113,1437,Utkarsh Dutt,Smart Speaker,2024-03-27,2024-03-31,2024-03-30,Delivered,0,Hyderabad
+114,1029,Ekantika Sehgal,HD Webcam,2024-04-09,2024-04-17,2024-04-22,Delivered,5,Delhi
+115,1375,Ojasvi Bhargava,HD Webcam,2024-02-22,2024-02-27,2024-02-27,Delivered,0,Kolkata
+116,1820,Mekhala Peri,Drone,2024-12-01,2024-12-05,2024-12-10,Delivered,5,Chennai
+117,1317,Anamika Ahluwalia,Ergonomic Chair,2024-10-15,2024-10-25,,Pending,0,Kolkata
+118,1561,Umang Sankar,Action Camera,2024-11-17,2024-11-25,2024-11-24,Delivered,0,Chennai
+119,1242,Hemani Mane,Mechanical Keyboard,2024-11-19,2024-11-26,,Pending,0,Bangalore
+120,1150,Amruta Kota,Bluetooth Headphones,2024-09-16,2024-09-20,2024-09-22,Delivered,2,Mumbai
+121,1517,Jackson Guha,Wireless Mouse,2024-07-07,2024-07-14,2024-07-19,Delivered,5,Hyderabad
+122,1418,Ranbir Shan,Bluetooth Headphones,2024-10-31,2024-11-09,2024-11-12,Delivered,3,Chennai
+123,1661,Yochana Rao,VR Headset,2024-10-19,2024-10-25,2024-10-27,Delivered,2,Delhi
+124,1199,Wriddhish Dewan,Standing Desk,2024-02-01,2024-02-11,2024-02-16,Delivered,5,Pune
+125,1586,Kiaan Arora,Power Bank,2024-02-13,2024-02-18,2024-02-22,Delivered,4,Chennai
+126,1326,Faraj Nadkarni,Mechanical Pencil,2024-09-25,2024-09-30,2024-10-01,Delivered,1,Chennai
+127,1824,Chandani Sinha,Standing Desk,2024-06-22,2024-06-25,,Pending,0,Mumbai
+128,1703,Amrita Solanki,Thermal Printer,2024-06-17,2024-06-21,2024-06-23,Delivered,2,Bangalore
+129,1950,Upkaar Raghavan,HD Webcam,2024-12-02,2024-12-07,2024-12-10,Delivered,3,Bangalore
+130,1516,Amruta Basak,Wireless Mouse,2024-06-07,2024-06-16,2024-06-20,Delivered,4,Bangalore
+131,1865,Janya Sama,Standing Desk,2024-10-13,2024-10-22,,Pending,0,Kolkata
+132,1837,Farhan Jhaveri,Network Switch,2024-03-06,2024-03-10,,Pending,0,Hyderabad
+133,1878,Yash Mangat,Portable Speaker,2024-07-04,2024-07-07,2024-07-07,Delivered,0,Bangalore
+134,1360,Jack Pillai,HD Webcam,2024-09-05,2024-09-11,2024-09-11,Delivered,0,Mumbai
+135,1595,Omkaar Guha,Smart Speaker,2024-05-31,2024-06-04,2024-06-07,Delivered,3,Mumbai
+136,1789,Patrick Khare,512GB SSD,2024-12-04,2024-12-12,,Delayed,12,Hyderabad
+137,1189,Isha Johal,Gaming Chair,2024-07-11,2024-07-16,2024-07-21,Delivered,5,Pune
+138,1067,Girish Tandon,Graphics Card,2024-08-12,2024-08-15,2024-08-19,Delivered,4,Chennai
+139,1356,Zayan Bhagat,Power Bank,2024-11-08,2024-11-15,,Pending,0,Delhi
+140,1800,David Chander,Action Camera,2024-09-30,2024-10-06,2024-10-11,Delivered,5,Kolkata
+141,1903,Ayushman Choudhry,Power Bank,2024-04-09,2024-04-17,,Pending,0,Chennai
+142,1921,Kashish Warrior,Gaming Chair,2024-05-24,2024-06-02,2024-06-04,Delivered,2,Kolkata
+143,1943,Vivaan Badami,Action Camera,2024-04-12,2024-04-17,,Delayed,3,Kolkata
+144,1331,Pratyush Bahl,Smart Speaker,2024-07-09,2024-07-13,,Pending,0,Kolkata
+145,1728,Mahika Raju,USB Hub,2024-03-04,2024-03-11,2024-03-11,Delivered,0,Chennai
+146,1397,Vedhika Rai,External Hard Drive,2024-09-19,2024-09-24,,Delayed,4,Kolkata
+147,1464,Sai Lalla,Mechanical Keyboard,2024-08-18,2024-08-26,,Delayed,9,Chennai
+148,1394,Wyatt Kunda,Ring Light,2024-09-14,2024-09-22,2024-09-21,Delivered,0,Delhi
+149,1312,Riya Aurora,Standing Desk,2024-01-15,2024-01-23,,Delayed,14,Kolkata
+150,1681,Manbir Sagar,Action Camera,2024-03-15,2024-03-20,2024-03-25,Delivered,5,Pune
+151,1745,Onveer Bhandari,Wireless Mouse,2024-03-12,2024-03-22,2024-03-21,Delivered,0,Mumbai
+152,1922,Hardik Mall,Smart Speaker,2024-05-11,2024-05-17,,Delayed,11,Chennai
+153,1462,Robert Comar,Mechanical Keyboard,2024-02-26,2024-03-04,2024-03-03,Delivered,0,Delhi
+154,1523,Aishani Ramesh,Drone,2024-08-02,2024-08-12,2024-08-17,Delivered,5,Hyderabad
+155,1632,Veer Pai,Graphics Card,2024-10-01,2024-10-04,,Pending,0,Pune
+156,1491,Manya Jayaraman,Microphone,2024-03-14,2024-03-21,2024-03-24,Delivered,3,Delhi
+157,1196,Dev Vora,Wireless Mouse,2024-10-19,2024-10-28,2024-11-01,Delivered,4,Hyderabad
+158,1257,Jack Sagar,VR Headset,2024-07-03,2024-07-07,,Delayed,11,Kolkata
+159,1694,Januja Nair,Bluetooth Headphones,2024-09-16,2024-09-19,2024-09-21,Delivered,2,Pune
+160,1741,Yadavi Thakur,Microphone,2024-07-17,2024-07-25,2024-07-24,Delivered,0,Kolkata
+161,1578,Aadi Sarna,iPad Tablet,2024-02-04,2024-02-12,2024-02-16,Delivered,4,Kolkata
+162,1158,Ojasvi Luthra,Air Purifier,2024-10-24,2024-11-01,2024-11-02,Delivered,1,Bangalore
+163,1613,Jackson Walia,Smart TV,2024-11-25,2024-11-30,,Delayed,13,Pune
+164,1393,Harish Oza,Smart TV,2024-09-02,2024-09-07,,Delayed,4,Mumbai
+165,1970,Harini Mahajan,Bluetooth Headphones,2024-05-30,2024-06-05,2024-06-05,Delivered,0,Bangalore
+166,1689,Hemal Gaba,Action Camera,2024-06-07,2024-06-16,,Delayed,11,Bangalore
+167,1362,Ryan Choudhury,Mechanical Keyboard,2024-01-19,2024-01-25,2024-01-30,Delivered,5,Kolkata
+168,1817,Alka Rao,Ring Light,2024-12-01,2024-12-09,2024-12-14,Delivered,5,Chennai
+169,1402,Hredhaan Kara,Standing Desk,2024-07-23,2024-08-02,,Delayed,9,Delhi
+170,1093,Advaith Nagy,Smart Speaker,2024-09-11,2024-09-21,2024-09-26,Delivered,5,Bangalore
+171,1918,Netra Dora,Smart Watch,2024-02-12,2024-02-21,2024-02-24,Delivered,3,Hyderabad
+172,1490,Manthan Gara,Thermal Printer,2024-05-30,2024-06-07,2024-06-08,Delivered,1,Bangalore
+173,1452,Ojas Talwar,Microphone,2024-08-16,2024-08-25,2024-08-27,Delivered,2,Chennai
+174,1252,Aadi Chaudry,Network Switch,2024-01-22,2024-01-30,,Pending,0,Bangalore
+175,1654,Mitesh Thakur,Drawing Tablet,2024-11-23,2024-11-26,2024-11-30,Delivered,4,Bangalore
+176,1770,Chakrika Ganguly,Power Bank,2024-09-19,2024-09-24,,Delayed,5,Mumbai
+177,1671,Jai Buch,Ring Light,2024-03-05,2024-03-09,2024-03-13,Delivered,4,Bangalore
+178,1130,Wishi Oak,Power Bank,2024-07-15,2024-07-18,,Pending,0,Bangalore
+179,1638,Mason Khalsa,512GB SSD,2024-07-09,2024-07-19,,Pending,0,Hyderabad
+180,1992,Rachana Rege,Graphics Card,2024-07-06,2024-07-15,2024-07-16,Delivered,1,Mumbai
+181,1343,Harsh Pall,USB-C Charger,2024-01-14,2024-01-19,2024-01-21,Delivered,2,Bangalore
+182,1309,Jagvi Magar,Thermal Printer,2024-05-13,2024-05-23,2024-05-26,Delivered,3,Pune
+183,1137,Sai Bava,27-inch Monitor,2024-09-08,2024-09-14,2024-09-19,Delivered,5,Chennai
+184,1089,Ria Chandra,Ergonomic Chair,2024-03-29,2024-04-08,,Delayed,15,Pune
+185,1328,Oscar Sachdev,LED Desk Lamp,2024-06-26,2024-06-30,2024-07-01,Delivered,1,Kolkata
+186,1476,Gopal Devi,VR Headset,2024-03-21,2024-03-26,,Pending,0,Delhi
+187,1982,Harita Dhaliwal,Graphics Card,2024-03-03,2024-03-09,,Pending,0,Kolkata
+188,1851,Kritika Guha,Ring Light,2024-09-09,2024-09-12,2024-09-15,Delivered,3,Chennai
+189,1893,Yashawini Wali,Wireless Mouse,2024-10-09,2024-10-14,,Pending,0,Mumbai
+190,1376,Triya Aurora,Action Camera,2024-06-07,2024-06-16,,Delayed,14,Hyderabad
+191,1179,Rachana Sandal,512GB SSD,2024-07-29,2024-08-07,,Delayed,4,Bangalore
+192,1027,Chakrika Subramaniam,Smart Speaker,2024-11-24,2024-11-28,2024-12-02,Delivered,4,Bangalore
+193,1350,Sanaya Murthy,512GB SSD,2024-03-06,2024-03-11,,Pending,0,Chennai
+194,1500,Chaitaly Iyer,HD Webcam,2024-09-14,2024-09-17,,Delayed,11,Bangalore
+195,1475,Fiyaz Balakrishnan,External Hard Drive,2024-03-25,2024-03-30,2024-04-03,Delivered,4,Bangalore
+196,1618,Lipika Sibal,Noise Cancelling Earbuds,2024-09-22,2024-09-29,,Delayed,7,Pune
+197,1698,Arya Behl,Air Purifier,2024-10-09,2024-10-16,2024-10-17,Delivered,1,Mumbai
+198,1051,Abeer Bir,HD Webcam,2024-09-14,2024-09-19,2024-09-22,Delivered,3,Delhi
+199,1212,Odika Sarraf,Bluetooth Headphones,2024-12-03,2024-12-11,,Delayed,12,Kolkata
+200,1382,Mohini Hans,Laptop Stand,2024-01-15,2024-01-19,2024-01-23,Delivered,4,Pune
+201,1884,Karan Andra,Smartphone,2024-04-17,2024-04-26,,Pending,0,Chennai
+202,1174,Rehaan Nagi,LED Desk Lamp,2024-11-17,2024-11-24,,Pending,0,Chennai
+203,1148,Warhi Nanda,Mechanical Keyboard,2024-05-05,2024-05-14,2024-05-13,Delivered,0,Delhi
+204,1420,Nisha Bains,Standing Desk,2024-08-13,2024-08-22,2024-08-22,Delivered,0,Hyderabad
+205,1962,Yuvraj Dhar,Microphone,2024-03-14,2024-03-22,,Delayed,8,Chennai
+206,1149,Aashi Sami,Ergonomic Chair,2024-03-07,2024-03-15,2024-03-14,Delivered,0,Delhi
+207,1976,Kevin Mistry,HD Webcam,2024-08-26,2024-08-30,2024-08-30,Delivered,0,Mumbai
+208,1080,Urishilla Roy,Wi-Fi Router,2024-01-26,2024-02-02,,Delayed,12,Delhi
+209,1776,Chasmum Natt,Ergonomic Chair,2024-03-22,2024-03-30,,Delayed,14,Delhi
+210,1303,Oni Nath,Drone,2024-03-22,2024-04-01,,Delayed,10,Bangalore
+211,1996,Harshil Tailor,VR Headset,2024-09-11,2024-09-14,2024-09-16,Delivered,2,Chennai
+212,1526,Om Brahmbhatt,Mechanical Keyboard,2024-05-03,2024-05-09,2024-05-08,Delivered,0,Bangalore
+213,1775,Warjas Sastry,iPad Tablet,2024-09-10,2024-09-20,2024-09-19,Delivered,0,Chennai
+214,1232,Udant Chakrabarti,Drawing Tablet,2024-03-09,2024-03-16,,Pending,0,Bangalore
+215,1626,Advaith Wali,Noise Cancelling Earbuds,2024-01-24,2024-02-02,2024-02-05,Delivered,3,Bangalore
+216,1801,Ekani Thakur,Power Bank,2024-10-10,2024-10-17,2024-10-20,Delivered,3,Kolkata
+217,1562,Hema Gopal,USB-C Charger,2024-10-08,2024-10-15,,Delayed,12,Delhi
+218,1510,Kevin Sundaram,Ring Light,2024-02-19,2024-02-28,2024-02-29,Delivered,1,Kolkata
+219,1841,Ishanvi Gaba,Drawing Tablet,2024-03-14,2024-03-20,,Pending,0,Hyderabad
+220,1495,Caleb Krishnan,Standing Desk,2024-01-21,2024-01-24,2024-01-28,Delivered,4,Kolkata
+221,1120,Farhan Ghose,512GB SSD,2024-08-30,2024-09-09,2024-09-12,Delivered,3,Bangalore
+222,1478,Idika Mander,LED Desk Lamp,2024-11-09,2024-11-17,2024-11-20,Delivered,3,Hyderabad
+223,1145,Ayush Nair,LED Desk Lamp,2024-06-21,2024-07-01,,Pending,0,Chennai
+224,1030,Krishna Jaggi,Wi-Fi Router,2024-01-09,2024-01-17,2024-01-16,Delivered,0,Hyderabad
+225,1911,Tejas Natt,External Hard Drive,2024-06-06,2024-06-09,2024-06-10,Delivered,1,Pune
+226,1122,Dhruv Krish,Mechanical Pencil,2024-01-27,2024-02-06,2024-02-10,Delivered,4,Delhi
+227,1606,Peter Verma,USB-C Charger,2024-12-14,2024-12-20,2024-12-24,Delivered,4,Delhi
+228,1062,Yamini Nagy,Wi-Fi Router,2024-01-10,2024-01-20,2024-01-20,Delivered,0,Pune
+229,1872,Adweta Kapur,Action Camera,2024-04-14,2024-04-23,2024-04-26,Delivered,3,Kolkata
+230,1573,Ikbal Chauhan,Ergonomic Chair,2024-02-01,2024-02-06,2024-02-09,Delivered,3,Pune
+231,1006,Damyanti Upadhyay,Smart TV,2024-09-01,2024-09-10,2024-09-10,Delivered,0,Hyderabad
+232,1927,Fariq Dasgupta,Laptop Stand,2024-06-24,2024-07-02,,Pending,0,Hyderabad
+233,1640,Samesh Nadkarni,LED Desk Lamp,2024-09-04,2024-09-10,,Delayed,7,Delhi
+234,1440,Yashodhara Murty,Drone,2024-06-01,2024-06-08,,Pending,0,Bangalore
+235,1730,Patrick Bhagat,USB Hub,2024-09-02,2024-09-10,2024-09-15,Delivered,5,Bangalore
+236,1194,Vansha Chacko,Microphone,2024-03-03,2024-03-12,,Delayed,9,Kolkata
+237,1753,Aarav Munshi,Wireless Mouse,2024-03-15,2024-03-22,2024-03-26,Delivered,4,Bangalore
+238,1627,Ishanvi Yohannan,Portable Speaker,2024-08-14,2024-08-21,,Pending,0,Delhi
+239,1572,Onveer Varma,USB Hub,2024-10-02,2024-10-09,,Delayed,14,Delhi
+240,1018,Wridesh Kashyap,Smart Speaker,2024-02-25,2024-03-02,2024-03-06,Delivered,4,Delhi
+241,1743,Pranit Dhillon,Standing Desk,2024-11-22,2024-11-28,2024-11-30,Delivered,2,Pune
+242,1915,Vrishti Khalsa,512GB SSD,2024-08-29,2024-09-02,,Pending,0,Mumbai
+243,1511,Shivansh Gaba,Action Camera,2024-10-08,2024-10-13,2024-10-15,Delivered,2,Pune
+244,1574,Girish Gopal,Mechanical Keyboard,2024-04-12,2024-04-19,2024-04-23,Delivered,4,Kolkata
+245,1139,Bhavna Keer,Bluetooth Headphones,2024-02-15,2024-02-21,2024-02-25,Delivered,4,Delhi
+246,1192,Bakhshi Tella,Drawing Tablet,2024-08-01,2024-08-06,,Delayed,3,Kolkata
+247,1005,Quincy Arya,Bluetooth Headphones,2024-09-10,2024-09-15,,Delayed,7,Mumbai
+248,1444,Udyati Grover,Thermal Printer,2024-06-01,2024-06-05,,Delayed,8,Chennai
+249,1021,Lakshit Sundaram,VR Headset,2024-11-24,2024-12-04,,Delayed,5,Chennai
+250,1214,Qadim Mallick,Gaming Chair,2024-05-19,2024-05-25,,Delayed,8,Pune
+251,1065,Naveen Wali,Laptop,2024-08-22,2024-08-29,,Pending,0,Pune
+252,1412,Timothy Patla,Noise Cancelling Earbuds,2024-06-21,2024-06-28,2024-07-03,Delivered,5,Delhi
+253,1302,Jalsa Mital,Ergonomic Chair,2024-11-08,2024-11-17,,Delayed,11,Mumbai
+254,1334,Warjas Barad,Action Camera,2024-07-24,2024-07-28,2024-07-28,Delivered,0,Bangalore
+255,1193,Harita Som,Power Bank,2024-05-07,2024-05-10,2024-05-10,Delivered,0,Kolkata
+256,1665,Janya Lanka,Laptop,2024-05-16,2024-05-24,2024-05-28,Delivered,4,Bangalore
+257,1263,Ucchal Sampath,Mechanical Keyboard,2024-11-30,2024-12-08,,Pending,0,Pune
+258,1648,Quincy Loyal,VR Headset,2024-03-01,2024-03-11,2024-03-13,Delivered,2,Pune
+259,1811,Odika Dewan,Thermal Printer,2024-06-08,2024-06-12,,Pending,0,Bangalore
+260,1233,Chanchal Dara,Action Camera,2024-11-10,2024-11-16,2024-11-16,Delivered,0,Delhi
+261,1796,Devika Patla,Action Camera,2024-08-20,2024-08-28,2024-08-31,Delivered,3,Kolkata
+262,1682,Januja Mitra,Wireless Mouse,2024-10-02,2024-10-08,,Pending,0,Hyderabad
+263,1805,Naveen Barad,USB-C Charger,2024-08-16,2024-08-24,2024-08-27,Delivered,3,Mumbai
+264,1483,Vansha Cherian,Gaming Chair,2024-10-07,2024-10-13,2024-10-13,Delivered,0,Bangalore
+265,1361,Sai Iyengar,Drone,2024-09-23,2024-10-03,2024-10-03,Delivered,0,Mumbai
+266,1839,Jairaj Rajan,512GB SSD,2024-09-18,2024-09-28,,Delayed,10,Hyderabad
+267,1237,Januja Nagar,Smart TV,2024-07-31,2024-08-10,2024-08-13,Delivered,3,Pune
+268,1628,Upadhriti Sehgal,Laptop,2024-06-06,2024-06-09,2024-06-14,Delivered,5,Pune
+269,1958,Arya Comar,27-inch Monitor,2024-04-21,2024-04-25,2024-04-26,Delivered,1,Hyderabad
+270,1583,Vasudha Nayar,Bluetooth Headphones,2024-01-31,2024-02-04,,Delayed,10,Bangalore
+271,1273,Kashish Kala,Wi-Fi Router,2024-07-28,2024-08-02,,Pending,0,Bangalore
+272,1202,Balveer De,Mechanical Pencil,2024-07-14,2024-07-24,,Delayed,9,Mumbai
+273,1014,Jackson Borah,Microphone,2024-12-15,2024-12-20,,Pending,0,Mumbai
+274,1428,Onveer Kannan,External Hard Drive,2024-04-01,2024-04-10,2024-04-14,Delivered,4,Kolkata
+275,1240,Chandani Saha,Air Purifier,2024-01-02,2024-01-05,,Delayed,10,Chennai
+276,1085,Harish Chakraborty,Smart TV,2024-09-29,2024-10-08,,Delayed,6,Bangalore
+277,1533,Fitan Ranganathan,USB-C Charger,2024-03-20,2024-03-27,2024-03-31,Delivered,4,Mumbai
+278,1173,Bishakha Sahota,Smartphone,2024-12-04,2024-12-13,,Pending,0,Delhi
+279,1290,Vyanjana Bose,Power Bank,2024-04-15,2024-04-19,2024-04-18,Delivered,0,Hyderabad
+280,1486,Yashoda Mallick,Drawing Tablet,2024-12-10,2024-12-13,2024-12-12,Delivered,0,Chennai
+281,1330,Aahana Bhasin,Mechanical Keyboard,2024-04-29,2024-05-05,,Pending,0,Delhi
+282,1684,Bhavya Prashad,Ergonomic Chair,2024-09-14,2024-09-21,2024-09-25,Delivered,4,Hyderabad
+283,1319,Pavani Sawhney,Smart Speaker,2024-11-02,2024-11-10,2024-11-10,Delivered,0,Delhi
+284,1455,Aachal Lala,Smart Watch,2024-07-30,2024-08-06,2024-08-09,Delivered,3,Pune
+285,1250,Abhiram Narayanan,Microphone,2024-12-13,2024-12-22,2024-12-21,Delivered,0,Pune
+286,1847,Bhavna Puri,Ergonomic Chair,2024-12-09,2024-12-18,,Pending,0,Pune
+287,1280,Sai Nadkarni,Smart Watch,2024-08-01,2024-08-10,2024-08-12,Delivered,2,Kolkata
+288,1456,Bhavini Kapur,LED Desk Lamp,2024-10-02,2024-10-12,2024-10-12,Delivered,0,Kolkata
+289,1902,Bahadurjit Nagar,Wi-Fi Router,2024-12-28,2025-01-02,,Delayed,3,Chennai
+290,1762,Ayushman Devan,Portable Speaker,2024-10-12,2024-10-17,2024-10-18,Delivered,1,Bangalore
+291,1548,Vansha Khosla,Wireless Mouse,2024-11-27,2024-12-01,,Delayed,8,Hyderabad
+292,1181,Osha Pathak,Bluetooth Headphones,2024-04-07,2024-04-10,2024-04-14,Delivered,4,Kolkata
+293,1558,Bimala Ravi,Portable Speaker,2024-02-07,2024-02-13,,Delayed,12,Chennai
+294,1629,Qadim Sood,Portable Speaker,2024-04-16,2024-04-24,2024-04-23,Delivered,0,Delhi
+295,1424,Nidhi Raju,Portable Speaker,2024-03-01,2024-03-11,,Delayed,14,Chennai
+296,1844,Maanas Chowdhury,Mechanical Pencil,2024-05-02,2024-05-10,,Pending,0,Chennai
+297,1011,Naksh Kaur,VR Headset,2024-09-30,2024-10-08,2024-10-09,Delivered,1,Chennai
+298,1200,Charles Arya,Action Camera,2024-08-26,2024-08-30,,Delayed,14,Kolkata
+299,1426,Gaurangi Dhawan,Bluetooth Headphones,2024-06-12,2024-06-18,2024-06-20,Delivered,2,Hyderabad
+300,1535,Indali Sibal,Wi-Fi Router,2024-04-23,2024-04-28,2024-05-01,Delivered,3,Bangalore
+301,1032,Chaaya Joshi,Graphics Card,2024-03-19,2024-03-25,2024-03-27,Delivered,2,Chennai
+302,1580,Triveni Contractor,Drone,2024-10-08,2024-10-16,2024-10-21,Delivered,5,Pune
+303,1405,Wishi Bera,Microphone,2024-11-24,2024-12-04,2024-12-08,Delivered,4,Delhi
+304,1278,Ekavir Oak,Mechanical Keyboard,2024-03-12,2024-03-22,2024-03-25,Delivered,3,Hyderabad
+305,1445,Yash Vasa,Mechanical Keyboard,2024-01-18,2024-01-22,,Delayed,13,Kolkata
+306,1772,Logan Rao,External Hard Drive,2024-01-04,2024-01-13,2024-01-17,Delivered,4,Mumbai
+307,1373,Bishakha Dave,Smart TV,2024-12-28,2025-01-02,2025-01-05,Delivered,3,Bangalore
+308,1723,Ishita Ram,Smartphone,2024-01-31,2024-02-10,,Pending,0,Mumbai
+309,1401,Theodore Mohanty,USB Hub,2024-09-29,2024-10-08,2024-10-11,Delivered,3,Hyderabad
+310,1079,Upkaar Rana,Network Switch,2024-05-26,2024-05-29,2024-06-02,Delivered,4,Kolkata
+311,1538,Arjun Sem,HD Webcam,2024-04-01,2024-04-05,,Delayed,11,Delhi
+312,1576,Azad Yohannan,Drawing Tablet,2024-04-08,2024-04-15,,Delayed,7,Mumbai
+313,1549,Pranav Gandhi,External Hard Drive,2024-07-10,2024-07-19,2024-07-19,Delivered,0,Bangalore
+314,1711,Aadi Sahni,Bluetooth Headphones,2024-12-16,2024-12-20,,Pending,0,Mumbai
+315,1042,Gauri Dyal,Mechanical Keyboard,2024-07-26,2024-08-04,2024-08-06,Delivered,2,Pune
+316,1886,Aashi Saini,Network Switch,2024-01-05,2024-01-10,2024-01-15,Delivered,5,Pune
+317,1633,Hemang Golla,External Hard Drive,2024-06-18,2024-06-22,,Delayed,3,Delhi
+318,1859,Manthan Pal,USB Hub,2024-12-20,2024-12-30,2024-12-29,Delivered,0,Hyderabad
+319,1140,Azad Mani,Ergonomic Chair,2024-10-15,2024-10-18,2024-10-23,Delivered,5,Mumbai
+320,1386,Falguni Dua,Drawing Tablet,2024-04-16,2024-04-21,,Pending,0,Mumbai
+321,1457,Jhalak Devi,Mechanical Pencil,2024-06-02,2024-06-07,2024-06-10,Delivered,3,Pune
+322,1933,Deepa Wagle,512GB SSD,2024-10-03,2024-10-11,2024-10-15,Delivered,4,Kolkata
+323,1814,Vasatika Acharya,Mechanical Keyboard,2024-12-18,2024-12-22,2024-12-23,Delivered,1,Mumbai
+324,1141,Manan Kota,Drawing Tablet,2024-08-11,2024-08-17,,Delayed,8,Kolkata
+325,1625,Oviya Magar,Power Bank,2024-06-16,2024-06-19,,Pending,0,Chennai
+326,1321,Zaid Bal,Network Switch,2024-04-26,2024-05-04,2024-05-06,Delivered,2,Delhi
+327,1709,Radha Shetty,Thermal Printer,2024-12-14,2024-12-23,2024-12-26,Delivered,3,Kolkata
+328,1458,Yachana De,Mechanical Pencil,2024-05-06,2024-05-10,2024-05-10,Delivered,0,Pune
+329,1874,Naveen Swaminathan,Ergonomic Chair,2024-11-20,2024-11-25,,Pending,0,Bangalore
+330,1327,Udant Mani,Power Bank,2024-02-24,2024-02-28,2024-02-29,Delivered,1,Bangalore
+331,1127,Vasudha Butala,Network Switch,2024-05-18,2024-05-22,2024-05-22,Delivered,0,Chennai
+332,1133,Finn Saxena,Microphone,2024-10-12,2024-10-21,2024-10-20,Delivered,0,Hyderabad
+333,1818,Libni Banerjee,Thermal Printer,2024-02-17,2024-02-25,,Delayed,3,Chennai
+334,1398,David Nadkarni,Graphics Card,2024-07-17,2024-07-21,,Pending,0,Hyderabad
+335,1916,Aishani Tara,Gaming Chair,2024-09-23,2024-09-28,,Pending,0,Delhi
+336,1994,Vyanjana Jha,27-inch Monitor,2024-05-17,2024-05-24,2024-05-24,Delivered,0,Delhi
+337,1416,Hitesh Dass,27-inch Monitor,2024-08-10,2024-08-17,2024-08-19,Delivered,2,Bangalore
+338,1596,Mahika Dani,Drone,2024-05-08,2024-05-14,,Pending,0,Hyderabad
+339,1259,Alka Saxena,LED Desk Lamp,2024-11-11,2024-11-17,2024-11-17,Delivered,0,Mumbai
+340,1314,Balveer Khatri,Standing Desk,2024-07-21,2024-07-29,,Delayed,9,Chennai
+341,1410,Jagdish Salvi,512GB SSD,2024-06-20,2024-06-29,,Delayed,13,Bangalore
+342,1163,Rishi Sengupta,Drawing Tablet,2024-06-13,2024-06-19,2024-06-19,Delivered,0,Bangalore
+343,1305,Advaith Solanki,Graphics Card,2024-05-29,2024-06-08,,Delayed,15,Bangalore
+344,1287,Rushil Mody,Ring Light,2024-07-11,2024-07-18,,Delayed,9,Mumbai
+345,1645,Luke Gole,Smart Watch,2024-10-15,2024-10-21,2024-10-24,Delivered,3,Pune
+346,1636,Upadhriti Rout,Portable Speaker,2024-10-08,2024-10-11,,Delayed,10,Chennai
+347,1354,Patrick Kothari,Wi-Fi Router,2024-05-29,2024-06-02,,Delayed,15,Pune
+348,1069,Sneha Batta,Graphics Card,2024-09-12,2024-09-17,,Pending,0,Bangalore
+349,1679,Shivani Gole,Mechanical Pencil,2024-12-03,2024-12-08,,Pending,0,Mumbai
+350,1834,Samesh Samra,VR Headset,2024-08-17,2024-08-27,2024-08-30,Delivered,3,Kolkata
+351,1936,Ati Saini,Ring Light,2024-12-20,2024-12-29,2025-01-03,Delivered,5,Pune
+352,1680,Chandani Kala,Microphone,2024-10-01,2024-10-05,2024-10-05,Delivered,0,Delhi
+353,1720,Vrinda Bobal,Drawing Tablet,2024-11-27,2024-11-30,2024-12-04,Delivered,4,Kolkata
+354,1238,Xiti Dada,Laptop Stand,2024-06-18,2024-06-27,2024-06-26,Delivered,0,Delhi
+355,1266,Maya Kapoor,Smart TV,2024-09-18,2024-09-24,2024-09-26,Delivered,2,Kolkata
+356,1091,Vrishti Mander,Action Camera,2024-12-13,2024-12-18,2024-12-17,Delivered,0,Mumbai
+357,1836,Daksha Kanda,USB-C Charger,2024-05-31,2024-06-09,,Delayed,4,Kolkata
+358,1863,Ojas Chaudry,Portable Speaker,2024-03-13,2024-03-21,2024-03-23,Delivered,2,Hyderabad
+359,1055,Isaiah Walia,Power Bank,2024-09-04,2024-09-12,2024-09-14,Delivered,2,Bangalore
+360,1658,Edhitha Badami,USB-C Charger,2024-02-04,2024-02-11,2024-02-15,Delivered,4,Mumbai
+361,1944,Watika Brahmbhatt,Gaming Chair,2024-06-24,2024-06-28,,Pending,0,Pune
+362,1407,Devika Ganguly,Network Switch,2024-05-04,2024-05-09,2024-05-10,Delivered,1,Chennai
+363,1381,Gavin Hora,Smart Watch,2024-04-28,2024-05-07,,Pending,0,Pune
+364,1125,Reyansh Tak,Noise Cancelling Earbuds,2024-12-02,2024-12-11,2024-12-15,Delivered,4,Chennai
+365,1492,Hitesh Ramaswamy,Portable Speaker,2024-10-30,2024-11-08,2024-11-12,Delivered,4,Delhi
+366,1803,Oviya Dayal,Air Purifier,2024-05-22,2024-05-26,2024-05-31,Delivered,5,Delhi
+367,1901,Ladli Sanghvi,Laptop Stand,2024-07-06,2024-07-14,2024-07-13,Delivered,0,Pune
+368,1431,Meera Nair,Drawing Tablet,2024-09-07,2024-09-15,2024-09-18,Delivered,3,Hyderabad
+369,1946,Zayyan Savant,Smart Watch,2024-02-28,2024-03-07,2024-03-09,Delivered,2,Kolkata
+370,1704,Rehaan Sodhi,Wireless Mouse,2024-12-10,2024-12-17,,Delayed,12,Pune
+371,1295,Jhalak Mane,USB-C Charger,2024-03-09,2024-03-17,2024-03-18,Delivered,1,Delhi
+372,1879,Priya Contractor,512GB SSD,2024-07-10,2024-07-15,2024-07-17,Delivered,2,Hyderabad
+373,1213,Kai Soni,Air Purifier,2024-07-15,2024-07-24,2024-07-28,Delivered,4,Pune
+374,1919,Zashil Desai,Thermal Printer,2024-11-26,2024-12-01,2024-12-03,Delivered,2,Delhi
+375,1038,Harita Vohra,Mechanical Keyboard,2024-04-05,2024-04-13,,Delayed,12,Kolkata
+376,1861,Fitan Keer,Mechanical Pencil,2024-07-02,2024-07-05,2024-07-05,Delivered,0,Hyderabad
+377,1899,Lopa Shetty,Wi-Fi Router,2024-09-15,2024-09-25,2024-09-27,Delivered,2,Pune
+378,1126,Balveer Krish,Smartphone,2024-08-15,2024-08-25,2024-08-28,Delivered,3,Kolkata
+379,1024,Xavier Mody,Air Purifier,2024-04-22,2024-04-29,2024-04-29,Delivered,0,Bangalore
+380,1840,Samaksh Balay,Drone,2024-03-27,2024-04-06,2024-04-11,Delivered,5,Hyderabad
+381,1977,Lila Rajagopalan,Air Purifier,2024-09-18,2024-09-22,2024-09-23,Delivered,1,Kolkata
+382,1102,Pushti Soni,Power Bank,2024-07-06,2024-07-09,,Pending,0,Hyderabad
+383,1116,Vedhika Bali,Graphics Card,2024-04-21,2024-04-30,2024-05-05,Delivered,5,Bangalore
+384,1436,Ekbal Dave,Wireless Mouse,2024-01-17,2024-01-27,2024-02-01,Delivered,5,Chennai
+385,1951,Vedika Choudhry,Microphone,2024-03-01,2024-03-07,2024-03-11,Delivered,4,Kolkata
+386,1121,Shivani Balay,Portable Speaker,2024-12-29,2025-01-07,2025-01-07,Delivered,0,Kolkata
+387,1385,Udyati Mammen,USB Hub,2024-04-15,2024-04-18,2024-04-21,Delivered,3,Hyderabad
+388,1048,Radha Char,Thermal Printer,2024-10-02,2024-10-07,2024-10-11,Delivered,4,Bangalore
+389,1172,Anika Biswas,iPad Tablet,2024-10-20,2024-10-27,,Delayed,11,Delhi
+390,1318,Faqid Chander,512GB SSD,2024-07-29,2024-08-01,,Delayed,13,Pune
+391,1325,Pooja Hegde,Graphics Card,2024-03-08,2024-03-14,2024-03-15,Delivered,1,Kolkata
+392,1881,Bahadurjit Sandal,USB Hub,2024-12-12,2024-12-21,2024-12-24,Delivered,3,Pune
+393,1264,Jagat Dixit,Wireless Mouse,2024-07-31,2024-08-09,2024-08-13,Delivered,4,Chennai
+394,1146,Nitesh Sharaf,Ring Light,2024-09-20,2024-09-27,,Pending,0,Chennai
+395,1044,Ekaja Kakar,Wireless Mouse,2024-09-06,2024-09-14,2024-09-19,Delivered,5,Pune
+396,1505,Yachana Subramanian,Air Purifier,2024-08-22,2024-08-30,,Delayed,15,Chennai
+397,1087,Daniel Naik,USB Hub,2024-04-21,2024-04-30,,Delayed,10,Bangalore
+398,1377,Diya Behl,Drone,2024-05-25,2024-06-02,2024-06-02,Delivered,0,Kolkata
+399,1531,Bakhshi Bhagat,Smart TV,2024-06-24,2024-06-27,2024-07-01,Delivered,4,Mumbai
+400,1985,Nitesh Zacharia,Network Switch,2024-03-04,2024-03-09,2024-03-08,Delivered,0,Delhi
+401,1852,Chanchal Gara,Gaming Chair,2024-12-18,2024-12-23,,Delayed,7,Kolkata
+402,1346,Unni Dara,Laptop Stand,2024-05-20,2024-05-24,,Pending,0,Mumbai
+403,1404,Chavvi Sane,LED Desk Lamp,2024-07-09,2024-07-14,2024-07-18,Delivered,4,Pune
+404,1227,Peter Seshadri,iPad Tablet,2024-12-24,2024-12-30,2024-12-29,Delivered,0,Mumbai
+405,1988,Chakradhar Gopal,External Hard Drive,2024-04-19,2024-04-29,2024-05-02,Delivered,3,Hyderabad
+406,1165,Tristan Chaudhuri,Standing Desk,2024-12-14,2024-12-24,2024-12-28,Delivered,4,Kolkata
+407,1336,Zaid Mitra,Action Camera,2024-03-02,2024-03-11,,Pending,0,Mumbai
+408,1601,Indrajit Nayar,iPad Tablet,2024-04-27,2024-05-06,2024-05-11,Delivered,5,Mumbai
+409,1917,Warhi Dara,Mechanical Pencil,2024-06-09,2024-06-17,,Delayed,5,Kolkata
+410,1473,Urvi Lal,Laptop,2024-03-09,2024-03-14,2024-03-17,Delivered,3,Hyderabad
+411,1448,Rachit Kata,Portable Speaker,2024-11-28,2024-12-03,2024-12-07,Delivered,4,Pune
+412,1108,Devika Kulkarni,Power Bank,2024-03-18,2024-03-27,,Pending,0,Kolkata
+413,1857,Aarini Dixit,USB-C Charger,2024-04-21,2024-04-25,,Delayed,5,Hyderabad
+414,1156,Elijah Mishra,512GB SSD,2024-07-15,2024-07-23,,Delayed,8,Delhi
+415,1459,Aachal Tank,Thermal Printer,2024-05-21,2024-05-25,2024-05-28,Delivered,3,Kolkata
+416,1281,Waida Purohit,LED Desk Lamp,2024-12-19,2024-12-22,,Delayed,13,Delhi
+417,1208,Hardik Krishnan,Thermal Printer,2024-09-22,2024-09-28,,Pending,0,Pune
+418,1155,Dalaja Dora,Graphics Card,2024-01-28,2024-02-03,2024-02-02,Delivered,0,Chennai
+419,1588,Charvi Jani,Ring Light,2024-11-22,2024-11-26,2024-11-25,Delivered,0,Bangalore
+420,1758,Aadhya Shanker,Wi-Fi Router,2024-03-08,2024-03-17,,Delayed,12,Bangalore
+421,1986,Pranav Mani,27-inch Monitor,2024-10-06,2024-10-11,,Pending,0,Mumbai
+422,1384,Advay Kapadia,Bluetooth Headphones,2024-10-27,2024-10-31,2024-10-31,Delivered,0,Mumbai
+423,1802,Damyanti Dhaliwal,VR Headset,2024-07-22,2024-07-29,,Pending,0,Kolkata
+424,1649,Nihal Chakrabarti,Wireless Mouse,2024-07-31,2024-08-09,,Pending,0,Pune
+425,1807,Osha Magar,Wireless Mouse,2024-10-01,2024-10-06,2024-10-07,Delivered,1,Hyderabad
+426,1537,Saanvi More,27-inch Monitor,2024-04-14,2024-04-19,2024-04-21,Delivered,2,Bangalore
+427,1504,Lavanya Shenoy,Graphics Card,2024-12-23,2025-01-01,,Pending,0,Mumbai
+428,1738,Chaitanya Kota,Smart TV,2024-05-05,2024-05-09,,Delayed,4,Hyderabad
+429,1560,Kritika Narula,Smart Watch,2024-11-07,2024-11-10,2024-11-14,Delivered,4,Mumbai
+430,1545,George Parmer,Gaming Chair,2024-01-07,2024-01-12,,Pending,0,Chennai
+431,1357,Irya Goda,USB Hub,2024-06-26,2024-07-03,2024-07-03,Delivered,0,Pune
+432,1207,Aditya Pillai,USB Hub,2024-03-01,2024-03-04,2024-03-06,Delivered,2,Hyderabad
+433,1889,Harita Vyas,27-inch Monitor,2024-02-02,2024-02-09,,Pending,0,Chennai
+434,1612,Dhruv Bath,Gaming Chair,2024-08-21,2024-08-29,2024-09-03,Delivered,5,Bangalore
+435,1712,Adweta Loyal,USB-C Charger,2024-03-21,2024-03-28,,Pending,0,Delhi
+436,1532,Kashvi Sandhu,Laptop,2024-09-17,2024-09-20,2024-09-25,Delivered,5,Delhi
+437,1260,Ladli Kulkarni,Smart Watch,2024-01-24,2024-02-03,2024-02-03,Delivered,0,Kolkata
+438,1154,Netra Sastry,Wi-Fi Router,2024-01-19,2024-01-28,2024-01-28,Delivered,0,Pune
+439,1853,Januja Khalsa,Ring Light,2024-06-12,2024-06-19,,Delayed,12,Mumbai
+440,1064,Chandran Khare,Smart Speaker,2024-09-14,2024-09-17,2024-09-22,Delivered,5,Mumbai
+441,1435,Tristan Palan,LED Desk Lamp,2024-07-24,2024-07-28,,Delayed,7,Bangalore
+442,1340,Aayush Deol,Thermal Printer,2024-02-14,2024-02-24,2024-02-24,Delivered,0,Hyderabad
+443,1514,Yuvraj Rastogi,Drone,2024-06-04,2024-06-10,2024-06-13,Delivered,3,Kolkata
+444,1749,Neel Khurana,Smartphone,2024-04-10,2024-04-16,2024-04-18,Delivered,2,Delhi
+445,1488,Yutika Bhardwaj,Laptop,2024-10-04,2024-10-12,,Pending,0,Bangalore
+446,1525,Vedika Goda,LED Desk Lamp,2024-01-01,2024-01-10,,Delayed,14,Mumbai
+447,1894,Anmol Ganguly,HD Webcam,2024-04-15,2024-04-21,2024-04-20,Delivered,0,Pune
+448,1953,Michael Samra,Smart Speaker,2024-05-23,2024-05-27,2024-05-27,Delivered,0,Chennai
+449,1187,Sachi Krishnan,Wireless Mouse,2024-12-24,2025-01-01,2025-01-05,Delivered,4,Hyderabad
+450,1674,Oviya Krish,Drawing Tablet,2024-02-18,2024-02-23,,Pending,0,Mumbai
+451,1344,Luke Goyal,Graphics Card,2024-10-30,2024-11-02,2024-11-02,Delivered,0,Bangalore
+452,1378,Zinal Sarma,Ergonomic Chair,2024-05-13,2024-05-21,,Delayed,9,Bangalore
+453,1904,Tamanna Acharya,512GB SSD,2024-08-19,2024-08-26,2024-08-26,Delivered,0,Kolkata
+454,1369,Chakradhar Kara,Power Bank,2024-10-26,2024-10-30,2024-10-30,Delivered,0,Chennai
+455,1569,Daksh Sandhu,Portable Speaker,2024-06-09,2024-06-18,2024-06-19,Delivered,1,Chennai
+456,1276,Sachi Kaul,Wireless Mouse,2024-06-06,2024-06-16,2024-06-15,Delivered,0,Delhi
+457,1691,Advay Chand,Bluetooth Headphones,2024-12-17,2024-12-24,,Delayed,14,Delhi
+458,1267,Ansh Karpe,Microphone,2024-06-16,2024-06-21,2024-06-21,Delivered,0,Chennai
+459,1783,Xiti Gokhale,Laptop Stand,2024-09-19,2024-09-22,,Pending,0,Kolkata
+460,1938,Zinal Datta,Graphics Card,2024-03-30,2024-04-02,,Delayed,10,Mumbai
+461,1534,Henry Bala,USB-C Charger,2024-08-24,2024-08-28,,Delayed,5,Mumbai
+462,1023,Chaitaly D’Alia,Drawing Tablet,2024-02-01,2024-02-07,2024-02-12,Delivered,5,Bangalore
+463,1543,Anamika Dubey,27-inch Monitor,2024-12-17,2024-12-21,2024-12-22,Delivered,1,Mumbai
+464,1098,Ojas Ramachandran,512GB SSD,2024-02-03,2024-02-09,,Delayed,10,Mumbai
+465,1296,Radhika Nayak,Mechanical Keyboard,2024-06-18,2024-06-22,2024-06-24,Delivered,2,Delhi
+466,1461,Ishaan Chaudhuri,Drone,2024-10-20,2024-10-29,,Delayed,9,Mumbai
+467,1198,Guneet Saha,Smart Watch,2024-07-14,2024-07-23,2024-07-23,Delivered,0,Bangalore
+468,1708,Turvi Goyal,Graphics Card,2024-05-23,2024-06-02,,Delayed,3,Pune
+469,1262,Dayita Vora,Action Camera,2024-05-31,2024-06-10,2024-06-13,Delivered,3,Mumbai
+470,1311,Wyatt Halder,Noise Cancelling Earbuds,2024-02-14,2024-02-21,2024-02-23,Delivered,2,Pune
+471,1980,Madhav Jaggi,Air Purifier,2024-09-26,2024-10-02,,Pending,0,Kolkata
+472,1161,Shaurya Padmanabhan,Microphone,2024-01-10,2024-01-19,,Pending,0,Chennai
+473,1403,Zayan Badal,VR Headset,2024-10-05,2024-10-15,2024-10-18,Delivered,3,Bangalore
+474,1540,Devansh Mishra,External Hard Drive,2024-07-17,2024-07-24,2024-07-25,Delivered,1,Mumbai
+475,1177,Nandini Swaminathan,Smart Speaker,2024-05-23,2024-05-26,,Delayed,10,Bangalore
+476,1727,Warjas Patil,Graphics Card,2024-10-26,2024-11-01,,Delayed,4,Pune
+477,1794,Lekha Divan,Mechanical Keyboard,2024-05-03,2024-05-10,2024-05-15,Delivered,5,Kolkata
+478,1819,Jalsa Kamdar,Smart Watch,2024-04-22,2024-05-01,2024-05-06,Delivered,5,Delhi
+479,1779,Dhruv Rana,Microphone,2024-05-01,2024-05-09,,Delayed,14,Hyderabad
+480,1757,Chatura Bhasin,HD Webcam,2024-01-15,2024-01-23,,Delayed,12,Hyderabad
+481,1298,Nakul Krishnamurthy,Drone,2024-04-06,2024-04-16,2024-04-16,Delivered,0,Mumbai
+482,1092,Yatin Aggarwal,Smartphone,2024-02-16,2024-02-19,2024-02-19,Delivered,0,Hyderabad
+483,1930,Frado Loke,Noise Cancelling Earbuds,2024-09-01,2024-09-04,2024-09-07,Delivered,3,Kolkata
+484,1450,Hamsini Sarin,Ergonomic Chair,2024-03-07,2024-03-15,,Pending,0,Mumbai
+485,1646,Tejas Desai,USB-C Charger,2024-01-12,2024-01-17,2024-01-17,Delivered,0,Kolkata
+486,1015,Peter Devan,Drawing Tablet,2024-09-26,2024-10-04,,Delayed,8,Hyderabad
+487,1481,Dalbir Vig,Gaming Chair,2024-02-21,2024-02-29,2024-02-29,Delivered,0,Pune
+488,1997,Ekantika Vaidya,Smart Watch,2024-08-11,2024-08-21,,Pending,0,Pune
+489,1869,Aryan Chacko,Smart Watch,2024-10-14,2024-10-22,2024-10-25,Delivered,3,Chennai
+490,1432,Deepa Shanker,Laptop,2024-06-06,2024-06-13,2024-06-17,Delivered,4,Pune
+491,1696,Inaya Basak,Bluetooth Headphones,2024-10-20,2024-10-29,,Delayed,15,Delhi
+492,1503,Faris Singh,External Hard Drive,2024-11-04,2024-11-12,,Delayed,12,Pune
+493,1261,Anvi Nath,Standing Desk,2024-10-16,2024-10-20,,Delayed,5,Pune
+494,1329,Gauri Kala,Gaming Chair,2024-02-09,2024-02-15,2024-02-16,Delivered,1,Pune
+495,1180,Vyanjana Puri,Portable Speaker,2024-02-15,2024-02-23,2024-02-24,Delivered,1,Delhi
+496,1565,Krishna Parikh,iPad Tablet,2024-12-20,2024-12-24,2024-12-29,Delivered,5,Pune
+497,1396,Pratyush Edwin,Wi-Fi Router,2024-01-01,2024-01-04,2024-01-08,Delivered,4,Delhi
+498,1496,Lila Gade,Air Purifier,2024-07-30,2024-08-09,,Delayed,8,Chennai
+499,1036,Shaurya Ramaswamy,External Hard Drive,2024-02-21,2024-03-02,,Pending,0,Delhi
+500,1443,Baghyawati Bala,Bluetooth Headphones,2024-08-19,2024-08-23,,Pending,0,Bangalore
+501,1928,Lakshmi Mallick,27-inch Monitor,2024-01-11,2024-01-19,2024-01-18,Delivered,0,Bangalore
+502,1660,Elijah Nadig,Wireless Mouse,2024-03-28,2024-04-06,2024-04-05,Delivered,0,Bangalore
+503,1637,Garima Tailor,Network Switch,2024-10-31,2024-11-10,,Pending,0,Pune
+504,1099,Aadhya Dubey,Standing Desk,2024-03-25,2024-04-03,2024-04-02,Delivered,0,Delhi
+505,1338,Kashvi Virk,Air Purifier,2024-04-07,2024-04-16,,Pending,0,Bangalore
+506,1013,Mugdha Chacko,Mechanical Keyboard,2024-12-04,2024-12-11,2024-12-10,Delivered,0,Chennai
+507,1685,Hitesh Viswanathan,Laptop,2024-10-19,2024-10-29,2024-10-30,Delivered,1,Chennai
+508,1117,Yauvani Chokshi,Action Camera,2024-02-14,2024-02-21,,Delayed,13,Delhi
+509,1447,Ikbal Bhatti,Thermal Printer,2024-02-19,2024-02-22,2024-02-26,Delivered,4,Mumbai
+510,1408,Amol Doctor,Action Camera,2024-08-30,2024-09-03,2024-09-05,Delivered,2,Chennai
+511,1816,Zarna Chada,Mechanical Pencil,2024-12-04,2024-12-11,2024-12-14,Delivered,3,Delhi
+512,1313,Shivansh Basak,Bluetooth Headphones,2024-07-08,2024-07-17,2024-07-19,Delivered,2,Bangalore
+513,1359,Tara Mallick,USB Hub,2024-08-13,2024-08-23,2024-08-28,Delivered,5,Hyderabad
+514,1472,Harish Prashad,iPad Tablet,2024-02-01,2024-02-06,,Pending,0,Mumbai
+515,1205,Watika Halder,External Hard Drive,2024-12-08,2024-12-16,,Delayed,9,Hyderabad
+516,1228,Amruta Rege,Air Purifier,2024-02-01,2024-02-10,,Delayed,9,Pune
+517,1482,Madhav Som,Drawing Tablet,2024-08-31,2024-09-06,2024-09-05,Delivered,0,Kolkata
+518,1040,Gaurang Krishna,HD Webcam,2024-12-31,2025-01-03,2025-01-06,Delivered,3,Mumbai
+519,1392,Falguni Agrawal,Portable Speaker,2024-08-17,2024-08-22,,Delayed,5,Kolkata
+520,1111,Avni Mukherjee,Network Switch,2024-04-08,2024-04-13,2024-04-12,Delivered,0,Delhi
+521,1833,Onkar Borde,Ergonomic Chair,2024-11-17,2024-11-22,,Delayed,7,Pune
+522,1813,Chaitanya Chakraborty,Ergonomic Chair,2024-02-04,2024-02-08,2024-02-10,Delivered,2,Kolkata
+523,1963,Aishani Chawla,Smart Speaker,2024-05-21,2024-05-31,,Delayed,3,Kolkata
+524,1422,Kashvi Parmar,iPad Tablet,2024-08-02,2024-08-06,2024-08-06,Delivered,0,Mumbai
+525,1341,Samar Kuruvilla,Air Purifier,2024-10-15,2024-10-19,,Pending,0,Bangalore
+526,1184,Vedhika Menon,Action Camera,2024-07-29,2024-08-05,2024-08-07,Delivered,2,Mumbai
+527,1998,Alexander Dara,Drawing Tablet,2024-03-29,2024-04-05,2024-04-08,Delivered,3,Mumbai
+528,1423,Omisha Bhandari,Mechanical Keyboard,2024-07-21,2024-07-29,,Pending,0,Pune
+529,1182,Madhav Kalla,Standing Desk,2024-08-31,2024-09-07,,Delayed,3,Kolkata
+530,1905,Omkaar Gola,iPad Tablet,2024-06-04,2024-06-11,2024-06-13,Delivered,2,Kolkata
+531,1862,Dayita Shanker,Power Bank,2024-04-26,2024-05-01,2024-05-05,Delivered,4,Kolkata
+532,1650,Avni Soman,Wireless Mouse,2024-06-13,2024-06-20,,Pending,0,Delhi
+533,1746,Madhav Bains,Drone,2024-08-14,2024-08-20,,Delayed,9,Kolkata
+534,1701,Qasim Koshy,Gaming Chair,2024-09-21,2024-09-29,,Delayed,11,Mumbai
+535,1106,Vedika Dugar,Smart Speaker,2024-06-08,2024-06-17,2024-06-22,Delivered,5,Hyderabad
+536,1920,Abdul Wadhwa,Noise Cancelling Earbuds,2024-01-15,2024-01-20,2024-01-25,Delivered,5,Kolkata
+537,1652,Aryan Samra,Ring Light,2024-01-30,2024-02-05,2024-02-04,Delivered,0,Pune
+538,1367,Devika Tripathi,VR Headset,2024-04-11,2024-04-18,2024-04-20,Delivered,2,Chennai
+539,1620,Gauri Sunder,Graphics Card,2024-11-21,2024-11-25,,Pending,0,Bangalore
+540,1906,Wyatt Nair,Action Camera,2024-09-07,2024-09-17,2024-09-22,Delivered,5,Hyderabad
+541,1316,Fitan Dutta,Laptop Stand,2024-10-09,2024-10-17,2024-10-22,Delivered,5,Pune
+542,1043,Xalak Bhattacharyya,Mechanical Keyboard,2024-12-18,2024-12-22,2024-12-24,Delivered,2,Delhi
+543,1131,Aarna Bhalla,External Hard Drive,2024-10-19,2024-10-25,,Delayed,13,Pune
+544,1441,Vasatika Sastry,VR Headset,2024-04-15,2024-04-22,,Pending,0,Mumbai
+545,1152,Samuel Patla,Smart Watch,2024-12-15,2024-12-18,2024-12-18,Delivered,0,Hyderabad
+546,1589,Panini Thakkar,LED Desk Lamp,2024-01-05,2024-01-11,2024-01-16,Delivered,5,Pune
+547,1037,Oeshi Khanna,Microphone,2024-12-29,2025-01-05,2025-01-07,Delivered,2,Chennai
+548,1153,Gayathri Khosla,Smart Speaker,2024-05-09,2024-05-15,2024-05-19,Delivered,4,Kolkata
+549,1677,Ranveer Kuruvilla,VR Headset,2024-11-15,2024-11-24,2024-11-23,Delivered,0,Pune
+550,1961,Abha Wali,Action Camera,2024-07-10,2024-07-17,2024-07-16,Delivered,0,Mumbai
+551,1602,Vasudha Sawhney,USB Hub,2024-06-21,2024-06-28,,Pending,0,Bangalore
+552,1438,Nidhi Jani,Graphics Card,2024-12-01,2024-12-08,2024-12-11,Delivered,3,Mumbai
+553,1453,Sneha Sandal,512GB SSD,2024-11-03,2024-11-12,,Pending,0,Pune
+554,1786,Radha Rege,Wi-Fi Router,2024-01-14,2024-01-24,,Delayed,7,Chennai
+555,1269,Prisha Patil,Noise Cancelling Earbuds,2024-07-17,2024-07-20,2024-07-23,Delivered,3,Bangalore
+556,1134,Lavanya Gokhale,Action Camera,2024-12-31,2025-01-06,,Pending,0,Pune
+557,1342,Sai Mangat,Smart Watch,2024-07-02,2024-07-09,,Delayed,13,Bangalore
+558,1804,Tara Swamy,Smart Watch,2024-02-19,2024-02-29,2024-03-01,Delivered,1,Pune
+559,1046,Aahana Viswanathan,LED Desk Lamp,2024-06-20,2024-06-24,2024-06-24,Delivered,0,Chennai
+560,1284,Jagat Memon,Smart TV,2024-06-18,2024-06-26,2024-06-27,Delivered,1,Kolkata
+561,1653,Yatan Minhas,27-inch Monitor,2024-03-01,2024-03-11,2024-03-15,Delivered,4,Chennai
+562,1949,Lakshmi Sagar,Smart Speaker,2024-04-09,2024-04-13,,Delayed,9,Bangalore
+563,1053,Yahvi Chauhan,512GB SSD,2024-07-30,2024-08-02,,Delayed,5,Delhi
+564,1822,Azad Sem,HD Webcam,2024-06-24,2024-07-03,,Delayed,10,Bangalore
+565,1780,Ikshita Thaman,Smart Watch,2024-04-02,2024-04-06,2024-04-10,Delivered,4,Bangalore
+566,1978,Maanav Divan,Portable Speaker,2024-11-20,2024-11-23,2024-11-24,Delivered,1,Kolkata
+567,1600,Nilima Saxena,Wireless Mouse,2024-03-27,2024-04-01,2024-04-06,Delivered,5,Delhi
+568,1209,Fitan Wason,Drawing Tablet,2024-11-10,2024-11-19,,Pending,0,Chennai
+569,1352,Charvi Dhaliwal,Noise Cancelling Earbuds,2024-09-01,2024-09-10,2024-09-13,Delivered,3,Pune
+570,1216,Charita Sha,Smart Speaker,2024-07-10,2024-07-13,,Delayed,15,Delhi
+571,1289,Ishita Gopal,Graphics Card,2024-01-10,2024-01-13,,Pending,0,Delhi
+572,1279,Jackson Sundaram,Mechanical Pencil,2024-12-21,2024-12-29,2024-12-28,Delivered,0,Hyderabad
+573,1954,Omisha Kaul,Bluetooth Headphones,2024-10-28,2024-11-04,2024-11-09,Delivered,5,Bangalore
+574,1821,Veer Tiwari,Smart Speaker,2024-05-28,2024-06-07,,Pending,0,Bangalore
+575,1110,Daniel Vaidya,Microphone,2024-08-10,2024-08-15,2024-08-17,Delivered,2,Kolkata
+576,1119,Tarak Agrawal,Drawing Tablet,2024-04-06,2024-04-11,,Delayed,15,Mumbai
+577,1942,Yashoda Ravi,512GB SSD,2024-04-26,2024-05-02,,Pending,0,Delhi
+578,1138,Damini Tara,Bluetooth Headphones,2024-01-12,2024-01-17,2024-01-21,Delivered,4,Chennai
+579,1107,Gagan Chahal,Mechanical Keyboard,2024-11-23,2024-11-30,,Pending,0,Hyderabad
+580,1307,Chandani Lal,Smartphone,2024-01-25,2024-01-29,,Pending,0,Mumbai
+581,1973,Yuvraj Sachdeva,USB-C Charger,2024-12-19,2024-12-23,2024-12-25,Delivered,2,Hyderabad
+582,1009,Baljiwan Lad,Portable Speaker,2024-05-09,2024-05-19,,Pending,0,Pune
+583,1823,Ekansh Sodhi,iPad Tablet,2024-12-17,2024-12-20,2024-12-24,Delivered,4,Pune
+584,1310,Mitali Sagar,512GB SSD,2024-09-23,2024-09-30,,Pending,0,Chennai
+585,1557,Timothy Sabharwal,iPad Tablet,2024-02-23,2024-02-27,2024-03-03,Delivered,5,Chennai
+586,1744,Abhiram Bahri,Smart Speaker,2024-04-11,2024-04-17,,Pending,0,Delhi
+587,1635,Faris Zachariah,Drone,2024-07-02,2024-07-11,2024-07-10,Delivered,0,Delhi
+588,1292,Udyati Shroff,Laptop,2024-12-18,2024-12-28,2024-12-27,Delivered,0,Pune
+589,1379,Anay Chaudhry,Drone,2024-02-15,2024-02-19,,Delayed,13,Delhi
+590,1890,Aryan Pandey,iPad Tablet,2024-02-16,2024-02-20,,Pending,0,Bangalore
+591,1630,Raagini Joshi,Laptop Stand,2024-11-25,2024-12-01,2024-12-02,Delivered,1,Chennai
+592,1358,Gagan Agarwal,Thermal Printer,2024-01-26,2024-01-30,,Delayed,3,Bangalore
+593,1713,Chameli Sura,iPad Tablet,2024-12-12,2024-12-20,2024-12-19,Delivered,0,Kolkata
+594,1621,Qasim Memon,Gaming Chair,2024-01-24,2024-01-27,,Delayed,13,Bangalore
+595,1519,Neha Jayaraman,Wireless Mouse,2024-07-02,2024-07-12,,Delayed,7,Bangalore
+596,1663,Lekha Ratta,Smart TV,2024-06-24,2024-06-29,2024-07-01,Delivered,2,Bangalore
+597,1551,Warhi Munshi,Gaming Chair,2024-07-16,2024-07-26,,Pending,0,Mumbai
+598,1076,Leela Mishra,iPad Tablet,2024-03-08,2024-03-11,,Delayed,5,Chennai
+599,1103,Zehaan Dubey,Power Bank,2024-10-29,2024-11-08,,Delayed,13,Delhi
+600,1577,Indrajit Minhas,Smartphone,2024-11-08,2024-11-17,,Pending,0,Kolkata
+601,1858,Vansha Goel,USB-C Charger,2024-12-16,2024-12-21,2024-12-23,Delivered,2,Chennai
+602,1010,Christopher Radhakrishnan,Ergonomic Chair,2024-08-13,2024-08-16,2024-08-20,Delivered,4,Mumbai
+603,1075,Patrick Nayak,Standing Desk,2024-12-26,2025-01-01,,Delayed,13,Hyderabad
+604,1952,Peter Mukhopadhyay,Graphics Card,2024-09-24,2024-09-28,2024-10-02,Delivered,4,Chennai
+605,1469,Faraj Madan,Mechanical Keyboard,2024-06-26,2024-07-05,2024-07-10,Delivered,5,Mumbai
+606,1308,Wakeeta Wadhwa,Drone,2024-11-25,2024-11-30,2024-12-02,Delivered,2,Kolkata
+607,1135,Manan Datta,Ergonomic Chair,2024-03-25,2024-03-29,,Pending,0,Delhi
+608,1860,Charan Master,Mechanical Pencil,2024-06-18,2024-06-25,2024-06-25,Delivered,0,Chennai
+609,1885,Kashish Kara,Power Bank,2024-04-30,2024-05-04,2024-05-09,Delivered,5,Mumbai
+610,1245,Chaitanya Pai,Smartphone,2024-09-12,2024-09-22,2024-09-24,Delivered,2,Mumbai
+611,1642,Ekantika Aurora,Laptop,2024-07-25,2024-08-03,2024-08-06,Delivered,3,Kolkata
+612,1210,Upma Kothari,Portable Speaker,2024-02-16,2024-02-23,,Delayed,11,Pune
+613,1268,Jasmit Bora,Mechanical Keyboard,2024-12-09,2024-12-19,,Delayed,8,Kolkata
+614,1871,Utkarsh Karpe,Action Camera,2024-04-24,2024-05-04,2024-05-09,Delivered,5,Pune
+615,1536,Avi Buch,USB-C Charger,2024-12-02,2024-12-10,,Pending,0,Mumbai
+616,1579,Mahika Basak,Thermal Printer,2024-12-03,2024-12-09,2024-12-10,Delivered,1,Hyderabad
+617,1846,Kabir Banik,Bluetooth Headphones,2024-09-24,2024-10-02,,Pending,0,Delhi
+618,1969,Nilima Sarin,Wi-Fi Router,2024-09-09,2024-09-14,,Delayed,14,Mumbai
+619,1084,Hemangini Balay,Drawing Tablet,2024-05-10,2024-05-16,2024-05-21,Delivered,5,Delhi
+620,1041,Kashish Subramanian,iPad Tablet,2024-08-22,2024-08-28,,Pending,0,Kolkata
+621,1609,Oscar Chahal,USB-C Charger,2024-07-31,2024-08-03,,Delayed,13,Kolkata
+622,1593,Eiravati Raj,VR Headset,2024-08-18,2024-08-28,,Pending,0,Delhi
+623,1854,Tristan Bakshi,Network Switch,2024-09-12,2024-09-15,2024-09-14,Delivered,0,Kolkata
+624,1584,Kritika Bumb,Smart Watch,2024-10-26,2024-11-05,,Delayed,15,Pune
+625,1123,Vivaan Narayanan,512GB SSD,2024-10-23,2024-10-28,,Pending,0,Mumbai
+626,1414,Sachi Yadav,Wi-Fi Router,2024-07-17,2024-07-25,2024-07-27,Delivered,2,Hyderabad
+627,1241,Ayaan Bora,Thermal Printer,2024-12-20,2024-12-26,2024-12-27,Delivered,1,Chennai
+628,1724,Lipika Ben,VR Headset,2024-03-09,2024-03-14,2024-03-18,Delivered,4,Bangalore
+629,1610,Kritika Joshi,Portable Speaker,2024-12-25,2025-01-02,,Pending,0,Delhi
+630,1767,Ojas Narula,512GB SSD,2024-04-17,2024-04-24,,Pending,0,Pune
+631,1191,Bhavani Raval,Ergonomic Chair,2024-11-28,2024-12-03,2024-12-07,Delivered,4,Pune
+632,1083,Vyanjana Deshmukh,Wi-Fi Router,2024-02-29,2024-03-08,2024-03-11,Delivered,3,Pune
+633,1521,Brijesh Ramachandran,Laptop,2024-09-30,2024-10-07,,Delayed,9,Hyderabad
+634,1877,Gaurika Ganesh,Mechanical Keyboard,2024-02-24,2024-02-27,2024-02-26,Delivered,0,Delhi
+635,1806,Aahana Savant,Laptop Stand,2024-05-16,2024-05-21,,Delayed,13,Delhi
+636,1784,Nandini Hegde,Bluetooth Headphones,2024-02-01,2024-02-08,2024-02-11,Delivered,3,Bangalore
+637,1515,Samarth Vala,External Hard Drive,2024-08-19,2024-08-23,,Pending,0,Pune
+638,1489,Xiti Tiwari,Thermal Printer,2024-11-27,2024-12-06,2024-12-11,Delivered,5,Pune
+639,1848,Qarin Wadhwa,Wi-Fi Router,2024-12-06,2024-12-09,,Delayed,9,Kolkata
+640,1673,Ekbal Bajaj,Laptop,2024-12-16,2024-12-24,,Delayed,3,Pune
+641,1059,Warhi Chatterjee,Power Bank,2024-05-08,2024-05-14,,Pending,0,Kolkata
+642,1322,Vivaan Bhatti,Air Purifier,2024-04-25,2024-05-03,,Pending,0,Pune
+643,1692,Luke Tara,Noise Cancelling Earbuds,2024-11-04,2024-11-10,,Pending,0,Bangalore
+644,1556,Urishilla Garg,Smart Watch,2024-08-17,2024-08-22,,Delayed,4,Delhi
+645,1594,Zashil Saini,USB Hub,2024-09-20,2024-09-24,2024-09-26,Delivered,2,Hyderabad
+646,1838,Parth Mannan,Laptop Stand,2024-05-15,2024-05-20,2024-05-25,Delivered,5,Mumbai
+647,1223,Jagrati Dugar,HD Webcam,2024-06-18,2024-06-28,,Pending,0,Mumbai
+648,1304,Tamanna Wason,LED Desk Lamp,2024-03-19,2024-03-27,2024-04-01,Delivered,5,Chennai
+649,1717,Omaja Sani,Ergonomic Chair,2024-10-20,2024-10-28,2024-11-01,Delivered,4,Hyderabad
+650,1159,Ayush Chandran,VR Headset,2024-04-22,2024-04-27,2024-05-02,Delivered,5,Delhi
+651,1499,Ekantika Nath,Portable Speaker,2024-07-31,2024-08-09,2024-08-09,Delivered,0,Pune
+652,1570,Yochana Saini,Smart Speaker,2024-06-18,2024-06-26,2024-06-26,Delivered,0,Chennai
+653,1898,Frado Patel,Power Bank,2024-10-14,2024-10-17,2024-10-18,Delivered,1,Delhi
+654,1293,Kevin De,Ergonomic Chair,2024-11-24,2024-11-30,,Delayed,13,Chennai
+655,1466,Leela Sen,Thermal Printer,2024-02-28,2024-03-08,2024-03-12,Delivered,4,Mumbai
+656,1989,Abhiram Konda,Power Bank,2024-09-21,2024-09-29,2024-10-02,Delivered,3,Chennai
+657,1400,Jacob Choudhry,Ergonomic Chair,2024-01-23,2024-01-30,,Delayed,6,Hyderabad
+658,1003,Yadavi Purohit,Air Purifier,2024-02-12,2024-02-16,2024-02-21,Delivered,5,Hyderabad
+659,1887,Upadhriti Biswas,Portable Speaker,2024-01-04,2024-01-08,2024-01-12,Delivered,4,Kolkata
+660,1169,Rayaan Agarwal,Air Purifier,2024-12-16,2024-12-25,,Delayed,6,Kolkata
+661,1726,Lakshmi Prakash,27-inch Monitor,2024-12-25,2025-01-03,,Pending,0,Pune
+662,1870,Nitesh Agarwal,Standing Desk,2024-12-17,2024-12-22,2024-12-26,Delivered,4,Mumbai
+663,1219,Odika Bawa,Laptop Stand,2024-02-14,2024-02-18,2024-02-23,Delivered,5,Hyderabad
+664,1493,Naksh Borra,Mechanical Pencil,2024-02-06,2024-02-12,,Delayed,9,Chennai
+665,1716,Rajeshri Ganguly,Mechanical Pencil,2024-11-18,2024-11-27,2024-11-26,Delivered,0,Pune
+666,1752,Vamakshi Devan,27-inch Monitor,2024-03-01,2024-03-04,,Pending,0,Kolkata
+667,1171,Jeet Oak,27-inch Monitor,2024-10-26,2024-10-29,,Pending,0,Bangalore
+668,1243,Kashvi Om,LED Desk Lamp,2024-09-14,2024-09-18,2024-09-22,Delivered,4,Hyderabad
+669,1981,Girish Buch,Power Bank,2024-02-14,2024-02-21,,Pending,0,Chennai
+670,1016,Mahika Pall,External Hard Drive,2024-07-21,2024-07-24,2024-07-27,Delivered,3,Delhi
+671,1554,Azaan Baral,LED Desk Lamp,2024-07-19,2024-07-26,,Delayed,5,Pune
+672,1668,Warhi Agate,HD Webcam,2024-11-27,2024-12-05,,Delayed,3,Mumbai
+673,1052,Varsha Dhar,Air Purifier,2024-01-22,2024-01-25,2024-01-27,Delivered,2,Hyderabad
+674,1990,Ganga Upadhyay,Microphone,2024-02-13,2024-02-20,2024-02-24,Delivered,4,Delhi
+675,1564,Xiti Babu,Laptop Stand,2024-07-30,2024-08-04,2024-08-04,Delivered,0,Delhi
+676,1454,Aadhya Kumar,Mechanical Keyboard,2024-02-28,2024-03-04,,Pending,0,Kolkata
+677,1078,Anika Khare,27-inch Monitor,2024-10-08,2024-10-18,,Pending,0,Bangalore
+678,1256,Aradhana Bhat,Drone,2024-12-09,2024-12-13,2024-12-13,Delivered,0,Bangalore
+679,1913,Chameli Gade,Graphics Card,2024-07-01,2024-07-06,,Pending,0,Mumbai
+680,1718,Oeshi Rattan,Drone,2024-05-25,2024-05-29,,Delayed,8,Chennai
+681,1188,Maanav Buch,HD Webcam,2024-06-17,2024-06-24,,Pending,0,Hyderabad
+682,1830,Udant Butala,Gaming Chair,2024-10-17,2024-10-25,,Delayed,9,Mumbai
+683,1144,Lipika Pall,Network Switch,2024-06-09,2024-06-15,,Pending,0,Bangalore
+684,1967,Ojasvi Sheth,Standing Desk,2024-07-03,2024-07-08,,Pending,0,Chennai
+685,1815,Finn Thakur,Drone,2024-08-24,2024-09-03,2024-09-04,Delivered,1,Hyderabad
+686,1706,Oliver Golla,Wireless Mouse,2024-02-25,2024-03-01,,Pending,0,Kolkata
+687,1924,Finn Memon,Laptop Stand,2024-05-23,2024-05-28,,Delayed,6,Pune
+688,1255,Libni Dutta,Smartphone,2024-11-16,2024-11-20,,Pending,0,Kolkata
+689,1112,Ekiya Boase,Drawing Tablet,2024-09-16,2024-09-19,,Delayed,12,Kolkata
+690,1348,Qushi Sengupta,Laptop Stand,2024-10-29,2024-11-04,,Delayed,11,Hyderabad
+691,1413,Tanveer Thakur,HD Webcam,2024-10-03,2024-10-13,,Pending,0,Bangalore
+692,1063,Umang Sagar,Thermal Printer,2024-07-19,2024-07-25,,Delayed,12,Delhi
+693,1101,Bhavna Rau,Laptop,2024-08-25,2024-08-29,2024-09-01,Delivered,3,Pune
+694,1662,Sanaya Ghosh,512GB SSD,2024-05-02,2024-05-07,,Pending,0,Chennai
+695,1670,Udarsh Ghosh,HD Webcam,2024-03-22,2024-03-27,2024-03-30,Delivered,3,Pune
+696,1690,Manbir Chadha,Drone,2024-09-04,2024-09-12,2024-09-17,Delivered,5,Delhi
+697,1056,Aahana Batra,Portable Speaker,2024-02-02,2024-02-09,2024-02-08,Delivered,0,Hyderabad
+698,1479,Sanaya Khatri,Bluetooth Headphones,2024-07-03,2024-07-12,2024-07-14,Delivered,2,Mumbai
+699,1421,Faras Wadhwa,USB Hub,2024-11-28,2024-12-06,2024-12-09,Delivered,3,Kolkata
+700,1756,Arin Kumer,Ring Light,2024-05-14,2024-05-19,2024-05-21,Delivered,2,Hyderabad
+701,1363,Zilmil Kumar,External Hard Drive,2024-11-30,2024-12-04,2024-12-06,Delivered,2,Hyderabad
+702,1442,Libni Kata,Drone,2024-07-26,2024-08-03,,Delayed,8,Kolkata
+703,1675,Ekta Puri,Power Bank,2024-09-03,2024-09-06,2024-09-06,Delivered,0,Delhi
+704,1947,Ishani Chawla,Portable Speaker,2024-04-27,2024-05-01,2024-05-02,Delivered,1,Delhi
+705,1097,Samaksh Madan,USB-C Charger,2024-04-05,2024-04-10,2024-04-14,Delivered,4,Pune
+706,1195,Laksh Aurora,USB-C Charger,2024-04-27,2024-05-06,,Delayed,14,Chennai
+707,1417,Chatresh Borah,Gaming Chair,2024-12-11,2024-12-21,2024-12-24,Delivered,3,Pune
+708,1710,Yuvraj Nagy,Gaming Chair,2024-07-29,2024-08-01,2024-08-01,Delivered,0,Delhi
+709,1249,Onveer Bali,Mechanical Keyboard,2024-11-18,2024-11-21,,Delayed,5,Delhi
+710,1485,Prisha Sarkar,Smartphone,2024-05-12,2024-05-17,2024-05-19,Delivered,2,Pune
+711,1591,Shravya Bhavsar,Power Bank,2024-12-04,2024-12-11,,Delayed,6,Hyderabad
+712,1585,Shivani Atwal,Wi-Fi Router,2024-08-29,2024-09-08,2024-09-13,Delivered,5,Hyderabad
+713,1136,Raagini Mody,VR Headset,2024-03-14,2024-03-19,,Pending,0,Bangalore
+714,1754,Bakhshi Balay,27-inch Monitor,2024-03-26,2024-04-03,,Delayed,12,Delhi
+715,1220,Farhan Morar,Noise Cancelling Earbuds,2024-07-12,2024-07-21,2024-07-20,Delivered,0,Hyderabad
+716,1768,Chatura Buch,iPad Tablet,2024-09-15,2024-09-24,,Delayed,12,Delhi
+717,1686,Xalak Nori,VR Headset,2024-08-31,2024-09-03,,Delayed,11,Kolkata
+718,1286,Bimala Balakrishnan,Air Purifier,2024-03-01,2024-03-05,2024-03-05,Delivered,0,Kolkata
+719,1244,Kalpit Sani,Bluetooth Headphones,2024-01-01,2024-01-10,2024-01-11,Delivered,1,Pune
+720,1527,Ladli Upadhyay,Action Camera,2024-09-28,2024-10-07,2024-10-12,Delivered,5,Kolkata
+721,1729,Onveer Patil,iPad Tablet,2024-07-14,2024-07-22,2024-07-26,Delivered,4,Chennai
+722,1339,Nidhi Pradhan,Wireless Mouse,2024-03-09,2024-03-16,2024-03-16,Delivered,0,Bangalore
+723,1873,Theodore Shetty,Laptop,2024-11-02,2024-11-11,2024-11-10,Delivered,0,Hyderabad
+724,1070,Alka Kakar,Portable Speaker,2024-09-24,2024-09-28,2024-09-30,Delivered,2,Pune
+725,1875,Falak Das,Network Switch,2024-06-10,2024-06-19,2024-06-19,Delivered,0,Pune
+726,1061,Nakul Master,Network Switch,2024-10-26,2024-11-02,2024-11-05,Delivered,3,Hyderabad
+727,1647,Raghav Luthra,Portable Speaker,2024-07-06,2024-07-13,,Delayed,9,Chennai
+728,1725,Farhan Merchant,Action Camera,2024-10-09,2024-10-19,2024-10-22,Delivered,3,Bangalore
+729,1073,Vedhika Badami,Drawing Tablet,2024-06-06,2024-06-14,,Pending,0,Pune
+730,1008,Rayaan Rai,Power Bank,2024-03-11,2024-03-15,,Pending,0,Kolkata
+731,1968,Warhi Chawla,Drawing Tablet,2024-12-24,2024-12-29,2025-01-01,Delivered,3,Kolkata
+732,1735,Mitali Jayaraman,Laptop,2024-06-22,2024-06-25,2024-06-29,Delivered,4,Kolkata
+733,1236,Omaja Varghese,Network Switch,2024-02-16,2024-02-21,2024-02-24,Delivered,3,Mumbai
+734,1568,Jatin Minhas,Bluetooth Headphones,2024-02-02,2024-02-09,2024-02-08,Delivered,0,Pune
+735,1603,Amruta Contractor,Smart Speaker,2024-07-15,2024-07-24,,Pending,0,Bangalore
+736,1022,Manbir Bora,Drone,2024-12-30,2025-01-02,,Delayed,5,Chennai
+737,1347,Vivaan Nanda,Smart Speaker,2024-01-06,2024-01-12,,Delayed,15,Bangalore
+738,1828,George Kibe,VR Headset,2024-04-09,2024-04-12,,Pending,0,Hyderabad
+739,1231,Lajita Narayan,Bluetooth Headphones,2024-12-23,2024-12-29,,Pending,0,Bangalore
+740,1254,Azaan Mohan,USB Hub,2024-05-02,2024-05-05,,Delayed,4,Kolkata
+741,1124,Pushti Choudhry,Drawing Tablet,2024-07-23,2024-07-31,,Pending,0,Hyderabad
+742,1463,Ayaan Maharaj,27-inch Monitor,2024-04-12,2024-04-15,,Pending,0,Mumbai
+743,1530,Andrew Narula,Microphone,2024-10-08,2024-10-15,,Pending,0,Bangalore
+744,1449,Nimrat Sarin,Noise Cancelling Earbuds,2024-05-21,2024-05-27,,Pending,0,Chennai
+745,1832,Aayush Garde,VR Headset,2024-07-25,2024-07-28,2024-07-30,Delivered,2,Mumbai
+746,1972,Agastya Peri,USB-C Charger,2024-10-13,2024-10-17,2024-10-18,Delivered,1,Kolkata
+747,1688,Champak Jhaveri,Laptop Stand,2024-09-19,2024-09-26,,Delayed,15,Pune
+748,1845,Om Sane,Graphics Card,2024-08-14,2024-08-23,2024-08-28,Delivered,5,Kolkata
+749,1320,Madhav Shroff,Smartphone,2024-06-22,2024-07-02,,Pending,0,Chennai
+750,1731,Ekalinga Oza,External Hard Drive,2024-02-29,2024-03-07,2024-03-11,Delivered,4,Pune
+751,1206,Avi Patla,Microphone,2024-12-25,2024-12-31,,Delayed,9,Hyderabad
+752,1707,Rishi Bawa,Laptop Stand,2024-10-01,2024-10-04,,Pending,0,Delhi
+753,1939,Advika Gour,Standing Desk,2024-05-27,2024-05-31,2024-06-04,Delivered,4,Mumbai
+754,1785,Lohit Mody,Portable Speaker,2024-10-10,2024-10-15,2024-10-16,Delivered,1,Hyderabad
+755,1867,Ronith Malhotra,Noise Cancelling Earbuds,2024-05-17,2024-05-22,,Delayed,13,Chennai
+756,1434,Girish Dyal,Laptop Stand,2024-04-12,2024-04-18,,Pending,0,Delhi
+757,1622,Bhavini Nayar,Microphone,2024-04-27,2024-05-03,,Delayed,12,Delhi
+758,1541,Yoshita Arya,Drone,2024-02-24,2024-02-28,,Delayed,13,Hyderabad
+759,1856,Hitesh Batra,Ergonomic Chair,2024-01-04,2024-01-07,,Delayed,8,Chennai
+760,1170,Watika Bahl,VR Headset,2024-10-21,2024-10-28,2024-11-02,Delivered,5,Bangalore
+761,1563,Zaid Chaudhry,512GB SSD,2024-07-22,2024-07-28,,Pending,0,Mumbai
+762,1487,Qushi Pathak,Bluetooth Headphones,2024-09-26,2024-10-05,2024-10-08,Delivered,3,Hyderabad
+763,1676,Devansh Bhatti,Smart Watch,2024-06-26,2024-07-05,,Delayed,15,Chennai
+764,1132,Ishanvi Bala,Laptop,2024-03-02,2024-03-12,2024-03-11,Delivered,0,Pune
+765,1129,Aarav Chandra,Ring Light,2024-04-17,2024-04-26,2024-04-27,Delivered,1,Hyderabad
+766,1546,Jagdish Bera,USB Hub,2024-05-12,2024-05-17,2024-05-17,Delivered,0,Chennai
+767,1071,Indira Vohra,Network Switch,2024-11-09,2024-11-17,2024-11-19,Delivered,2,Delhi
+768,1498,Madhavi Bajwa,USB Hub,2024-08-02,2024-08-10,2024-08-12,Delivered,2,Chennai
+769,1750,Idika Prabhakar,External Hard Drive,2024-04-02,2024-04-07,,Delayed,13,Kolkata
+770,1088,Chaaya Patel,Network Switch,2024-02-21,2024-02-28,,Delayed,11,Kolkata
+771,1934,Reva Mitra,HD Webcam,2024-07-14,2024-07-20,2024-07-24,Delivered,4,Chennai
+772,1866,Oliver Shetty,Smart Speaker,2024-01-05,2024-01-10,2024-01-10,Delivered,0,Hyderabad
+773,1247,Baljiwan Lad,Mechanical Keyboard,2024-06-10,2024-06-20,2024-06-23,Delivered,3,Chennai
+774,1060,Urvi Chana,Laptop Stand,2024-02-20,2024-02-25,2024-03-01,Delivered,5,Chennai
+775,1246,Darsh Pall,Laptop Stand,2024-11-18,2024-11-22,2024-11-23,Delivered,1,Bangalore
+776,1315,Oscar Bhavsar,USB-C Charger,2024-07-03,2024-07-10,2024-07-12,Delivered,2,Bangalore
+777,1372,Om Mukherjee,Air Purifier,2024-12-13,2024-12-19,2024-12-23,Delivered,4,Delhi
+778,1809,Vaishnavi Rana,Drone,2024-05-25,2024-06-02,2024-06-05,Delivered,3,Kolkata
+779,1020,Anika Mallick,Smart TV,2024-08-16,2024-08-20,2024-08-21,Delivered,1,Pune
+780,1501,Manthan Raja,Standing Desk,2024-03-15,2024-03-20,,Pending,0,Chennai
+781,1332,Urvi Biswas,Wireless Mouse,2024-11-19,2024-11-28,,Delayed,4,Delhi
+782,1614,Omisha Bera,Thermal Printer,2024-06-24,2024-06-30,2024-07-04,Delivered,4,Pune
+783,1001,Ubika Pradhan,Ring Light,2024-05-16,2024-05-25,2024-05-27,Delivered,2,Pune
+784,1544,Urvi Chandra,Smartphone,2024-10-27,2024-11-06,2024-11-06,Delivered,0,Delhi
+785,1553,Qushi Deep,Wireless Mouse,2024-04-30,2024-05-07,,Delayed,14,Delhi
+786,1166,Farhan Mallick,Action Camera,2024-03-26,2024-04-04,2024-04-03,Delivered,0,Hyderabad
+787,1799,Imaran Naidu,Smart Speaker,2024-01-28,2024-01-31,,Pending,0,Kolkata
+788,1383,Sanya Minhas,Wireless Mouse,2024-02-12,2024-02-16,2024-02-16,Delivered,0,Pune
+789,1835,Amruta Sastry,Thermal Printer,2024-07-18,2024-07-25,2024-07-29,Delivered,4,Chennai
+790,1974,Theodore Sengupta,Gaming Chair,2024-11-16,2024-11-21,2024-11-26,Delivered,5,Mumbai
+791,1895,Christopher Gupta,Action Camera,2024-01-18,2024-01-26,,Delayed,8,Chennai
+792,1797,Sai Nagar,Air Purifier,2024-10-03,2024-10-10,2024-10-10,Delivered,0,Delhi
+793,2000,Nandini Seth,Network Switch,2024-10-29,2024-11-08,,Pending,0,Hyderabad
+794,1306,Aayush Handa,Air Purifier,2024-11-23,2024-11-30,,Delayed,10,Delhi
+795,1641,Radhika Chand,Laptop Stand,2024-02-15,2024-02-25,2024-02-27,Delivered,2,Delhi
+796,1109,Omya Balakrishnan,512GB SSD,2024-06-04,2024-06-07,2024-06-12,Delivered,5,Bangalore
+797,1520,Jonathan Varghese,Drone,2024-05-26,2024-06-05,2024-06-09,Delivered,4,Kolkata
+798,1183,Rohan Venkatesh,Thermal Printer,2024-09-01,2024-09-08,2024-09-10,Delivered,2,Hyderabad
+799,1781,Aachal Parmar,Wi-Fi Router,2024-04-28,2024-05-01,2024-05-01,Delivered,0,Hyderabad
+800,1513,Chameli Kashyap,Mechanical Pencil,2024-08-11,2024-08-20,2024-08-24,Delivered,4,Kolkata
+801,1931,Logan Barad,Graphics Card,2024-07-12,2024-07-18,2024-07-20,Delivered,2,Hyderabad
+802,1737,Harsh Gill,Air Purifier,2024-11-09,2024-11-16,2024-11-20,Delivered,4,Kolkata
+803,1740,Krisha Cherian,Smart Watch,2024-05-17,2024-05-26,2024-05-25,Delivered,0,Delhi
+804,1004,Frado Sehgal,Power Bank,2024-05-28,2024-06-01,,Pending,0,Bangalore
+805,1909,Eiravati Master,HD Webcam,2024-12-24,2025-01-03,2025-01-02,Delivered,0,Mumbai
+806,1162,Akshay Wable,Thermal Printer,2024-09-30,2024-10-03,2024-10-02,Delivered,0,Bangalore
+807,1446,Nachiket Kar,External Hard Drive,2024-03-05,2024-03-15,,Pending,0,Mumbai
+808,1932,Riya Gade,Wi-Fi Router,2024-03-18,2024-03-21,2024-03-22,Delivered,1,Bangalore
+809,1999,Radhika Dhingra,Bluetooth Headphones,2024-09-12,2024-09-20,2024-09-25,Delivered,5,Bangalore
+810,1956,Dhriti Walla,Drawing Tablet,2024-02-11,2024-02-16,2024-02-21,Delivered,5,Mumbai
+811,1657,Sanya Lall,Laptop Stand,2024-10-05,2024-10-15,2024-10-20,Delivered,5,Kolkata
+812,1788,Wridesh Vohra,Graphics Card,2024-07-14,2024-07-17,2024-07-22,Delivered,5,Chennai
+813,1900,Libni Nori,Bluetooth Headphones,2024-08-14,2024-08-20,,Pending,0,Delhi
+814,1769,Wazir Wali,Action Camera,2024-08-23,2024-08-27,2024-08-27,Delivered,0,Chennai
+815,1937,Upadhriti Tata,Bluetooth Headphones,2024-12-14,2024-12-21,,Delayed,5,Pune
+816,1699,Yutika Lall,LED Desk Lamp,2024-10-08,2024-10-12,2024-10-16,Delivered,4,Delhi
+817,1118,Ekalinga Shukla,USB-C Charger,2024-07-03,2024-07-06,,Delayed,6,Delhi
+818,1739,Megha Sagar,USB Hub,2024-11-20,2024-11-29,2024-11-29,Delivered,0,Hyderabad
+819,1831,Ikbal Barman,Laptop,2024-03-02,2024-03-11,,Pending,0,Mumbai
+820,1012,Harsh Mall,HD Webcam,2024-10-24,2024-11-03,,Pending,0,Bangalore
+821,1567,Eesha Das,Standing Desk,2024-02-15,2024-02-21,2024-02-20,Delivered,0,Kolkata
+822,1258,Shravya Kalita,HD Webcam,2024-11-16,2024-11-19,2024-11-23,Delivered,4,Pune
+823,1542,Jagat Krishnamurthy,Ergonomic Chair,2024-10-01,2024-10-05,2024-10-05,Delivered,0,Hyderabad
+824,1480,Jasmit Manda,Noise Cancelling Earbuds,2024-11-26,2024-12-04,,Delayed,10,Mumbai
+825,1964,Vasana Reddy,Laptop Stand,2024-12-18,2024-12-27,2024-12-27,Delivered,0,Mumbai
+826,1391,Bakhshi Upadhyay,Drone,2024-09-05,2024-09-15,2024-09-18,Delivered,3,Delhi
+827,1395,Oviya Muni,Smart TV,2024-10-17,2024-10-22,2024-10-23,Delivered,1,Bangalore
+828,1066,Chaaya Tella,Power Bank,2024-11-02,2024-11-07,2024-11-07,Delivered,0,Bangalore
+829,1611,Ganga Ramakrishnan,VR Headset,2024-05-14,2024-05-22,2024-05-27,Delivered,5,Chennai
+830,1957,Devika Memon,Ring Light,2024-04-04,2024-04-07,,Pending,0,Kolkata
+831,1697,Avi Joshi,Air Purifier,2024-11-13,2024-11-19,2024-11-18,Delivered,0,Kolkata
+832,1812,Nachiket Krish,HD Webcam,2024-07-17,2024-07-23,2024-07-25,Delivered,2,Hyderabad
+833,1959,Pooja Bora,USB-C Charger,2024-05-24,2024-06-01,2024-06-02,Delivered,1,Mumbai
+834,1643,Naksh Bhasin,Smart Watch,2024-09-24,2024-09-28,2024-09-28,Delivered,0,Kolkata
+835,1157,Hemal Buch,iPad Tablet,2024-01-17,2024-01-23,2024-01-23,Delivered,0,Mumbai
+836,1113,Geetika Gour,Smart Speaker,2024-10-19,2024-10-28,,Pending,0,Hyderabad
+837,1049,Naveen Pingle,27-inch Monitor,2024-12-25,2025-01-01,2025-01-01,Delivered,0,Mumbai
+838,1774,Dhriti Lal,Smart TV,2024-04-16,2024-04-26,,Delayed,4,Kolkata
+839,1094,Rushil Kade,Wi-Fi Router,2024-11-23,2024-11-26,2024-11-30,Delivered,4,Kolkata
+840,1506,Jagdish Master,Smart Speaker,2024-07-07,2024-07-10,,Delayed,7,Mumbai
+841,1522,Damini Sharma,Smart Speaker,2024-02-06,2024-02-13,2024-02-13,Delivered,0,Mumbai
+842,1142,Gaurav Chaudhary,Noise Cancelling Earbuds,2024-02-21,2024-02-27,2024-02-27,Delivered,0,Hyderabad
+843,1882,Nitara Gill,Wi-Fi Router,2024-12-02,2024-12-08,2024-12-08,Delivered,0,Pune
+844,1926,Zayan Subramaniam,Network Switch,2024-02-24,2024-03-03,,Pending,0,Mumbai
+845,1409,Chanakya Pillay,Standing Desk,2024-03-26,2024-03-31,2024-04-03,Delivered,3,Pune
+846,1598,Bachittar Nagar,Ergonomic Chair,2024-03-21,2024-03-31,,Delayed,8,Kolkata
+847,1439,Lucky Datta,Network Switch,2024-07-09,2024-07-18,,Pending,0,Kolkata
+848,1599,Gautam Rege,Mechanical Pencil,2024-06-14,2024-06-20,2024-06-20,Delivered,0,Kolkata
+849,1765,Henry Bandi,Power Bank,2024-10-08,2024-10-15,2024-10-17,Delivered,2,Chennai
+850,1270,Warda Thakkar,Smartphone,2024-01-01,2024-01-04,,Delayed,12,Hyderabad
+851,1552,Ishanvi Chowdhury,Portable Speaker,2024-03-10,2024-03-17,2024-03-17,Delivered,0,Kolkata
+852,1975,Frado Ahluwalia,USB Hub,2024-06-10,2024-06-13,,Pending,0,Hyderabad
+853,1763,Anthony Prabhakar,Microphone,2024-09-18,2024-09-23,2024-09-25,Delivered,2,Delhi
+854,1253,Inaya Gour,Graphics Card,2024-03-11,2024-03-18,2024-03-21,Delivered,3,Delhi
+855,1993,Aarna Prakash,Portable Speaker,2024-05-11,2024-05-18,2024-05-20,Delivered,2,Pune
+856,1272,Zaid Pau,Smart Watch,2024-02-09,2024-02-17,,Pending,0,Chennai
+857,1147,Jeremiah Gill,Bluetooth Headphones,2024-12-19,2024-12-23,2024-12-24,Delivered,1,Pune
+858,1470,Ubika Shukla,Standing Desk,2024-10-22,2024-10-31,2024-10-30,Delivered,0,Bangalore
+859,1659,Nachiket Desai,External Hard Drive,2024-08-10,2024-08-19,,Delayed,4,Pune
+860,1406,Adya Raghavan,Mechanical Pencil,2024-11-30,2024-12-03,,Pending,0,Mumbai
+861,1512,Alka Basak,HD Webcam,2024-06-05,2024-06-08,2024-06-11,Delivered,3,Bangalore
+862,1672,Jasmit Bera,Drawing Tablet,2024-09-14,2024-09-20,2024-09-24,Delivered,4,Chennai
+863,1218,Ekantika Goyal,Drawing Tablet,2024-10-31,2024-11-04,2024-11-05,Delivered,1,Delhi
+864,1323,Gopal Rege,Mechanical Keyboard,2024-03-08,2024-03-16,2024-03-19,Delivered,3,Hyderabad
+865,1736,Kala Mannan,Network Switch,2024-07-23,2024-07-30,2024-08-02,Delivered,3,Kolkata
+866,1581,Wriddhish Reddy,Action Camera,2024-12-23,2024-12-28,,Pending,0,Hyderabad
+867,1217,Udant Manne,Noise Cancelling Earbuds,2024-04-11,2024-04-21,2024-04-24,Delivered,3,Hyderabad
+868,1068,Triya Borde,Network Switch,2024-11-11,2024-11-17,2024-11-18,Delivered,1,Bangalore
+869,1275,Yagnesh Ramakrishnan,Network Switch,2024-12-16,2024-12-20,2024-12-22,Delivered,2,Bangalore
+870,1411,Mitali Bhattacharyya,Smartphone,2024-06-27,2024-07-03,2024-07-06,Delivered,3,Kolkata
+871,1324,David Biswas,Power Bank,2024-06-05,2024-06-10,,Delayed,12,Hyderabad
+872,1825,Vasudha Natarajan,External Hard Drive,2024-03-15,2024-03-25,2024-03-30,Delivered,5,Delhi
+873,1983,Oviya Dara,Wireless Mouse,2024-12-16,2024-12-24,2024-12-28,Delivered,4,Mumbai
+874,1842,Hemani Bahri,Thermal Printer,2024-01-28,2024-02-03,,Delayed,5,Mumbai
+875,1235,Qushi Sule,Smartphone,2024-06-24,2024-06-28,2024-06-30,Delivered,2,Bangalore
+876,1058,Lekha Deep,Laptop Stand,2024-04-17,2024-04-23,2024-04-26,Delivered,3,Hyderabad
+877,1795,Omaja Hora,Smartphone,2024-09-04,2024-09-09,,Pending,0,Chennai
+878,1787,Yashawini Shanker,Thermal Printer,2024-10-25,2024-10-28,2024-10-27,Delivered,0,Delhi
+879,1864,Sudiksha Kala,Laptop,2024-12-22,2024-12-29,2025-01-02,Delivered,4,Mumbai
+880,1333,Lopa Sastry,Ring Light,2024-07-17,2024-07-24,,Pending,0,Kolkata
+881,1702,Bhanumati Sant,Mechanical Pencil,2024-02-25,2024-02-28,2024-03-03,Delivered,4,Delhi
+882,1225,Rachit Narayan,Air Purifier,2024-07-13,2024-07-17,,Delayed,10,Mumbai
+883,1571,Vrishti Oza,Smartphone,2024-04-05,2024-04-11,2024-04-13,Delivered,2,Mumbai
+884,1705,Amol Krishnamurthy,Gaming Chair,2024-05-06,2024-05-13,2024-05-15,Delivered,2,Mumbai
+885,1656,Tanvi Dani,Graphics Card,2024-06-26,2024-07-04,2024-07-05,Delivered,1,Hyderabad
+886,1277,Triveni Gulati,Mechanical Pencil,2024-05-21,2024-05-24,,Pending,0,Kolkata
+887,1389,Abha Nori,Drawing Tablet,2024-01-16,2024-01-23,2024-01-24,Delivered,1,Pune
+888,1474,Bhanumati Nadig,Smart Speaker,2024-03-11,2024-03-15,,Pending,0,Pune
+889,1168,Megha Ravi,HD Webcam,2024-11-09,2024-11-15,2024-11-18,Delivered,3,Chennai
+890,1995,Anirudh Warrior,Portable Speaker,2024-06-08,2024-06-16,2024-06-16,Delivered,0,Pune
+891,1747,Zayan Bhasin,Smart Speaker,2024-03-11,2024-03-17,,Delayed,7,Delhi
+892,1547,Anya Sane,Gaming Chair,2024-08-08,2024-08-13,,Pending,0,Bangalore
+893,1176,Chavvi Roy,HD Webcam,2024-02-04,2024-02-08,2024-02-13,Delivered,5,Pune
+894,1908,Peter Seth,Wi-Fi Router,2024-01-16,2024-01-24,,Delayed,9,Bangalore
+895,1624,Sachi Kala,iPad Tablet,2024-08-14,2024-08-21,2024-08-21,Delivered,0,Delhi
+896,1074,Rajata Brar,USB Hub,2024-04-04,2024-04-07,,Pending,0,Hyderabad
+897,1664,Aishani Sarma,Smartphone,2024-10-17,2024-10-23,2024-10-23,Delivered,0,Bangalore
+898,1700,Tanvi Sundaram,Action Camera,2024-02-10,2024-02-20,2024-02-25,Delivered,5,Pune
+899,1971,Turvi Prakash,Drone,2024-11-28,2024-12-06,2024-12-08,Delivered,2,Chennai
+900,1274,Ayush Sabharwal,Wi-Fi Router,2024-03-11,2024-03-16,2024-03-15,Delivered,0,Kolkata
+901,1687,Hritik Tara,Noise Cancelling Earbuds,2024-01-08,2024-01-15,,Delayed,6,Kolkata
+902,1215,Abeer Prabhu,Drone,2024-04-14,2024-04-18,2024-04-20,Delivered,2,Pune
+903,1364,Gavin Agarwal,Drawing Tablet,2024-06-15,2024-06-25,,Delayed,9,Kolkata
+904,1380,Dhruv Seth,Drawing Tablet,2024-01-22,2024-01-31,,Pending,0,Hyderabad
+905,1167,Lavanya Muni,Smart TV,2024-10-19,2024-10-22,2024-10-24,Delivered,2,Kolkata
+906,1374,Abeer Vig,Bluetooth Headphones,2024-01-22,2024-01-28,2024-01-30,Delivered,2,Hyderabad
+907,1855,Lavanya Dhawan,Drawing Tablet,2024-07-17,2024-07-20,2024-07-22,Delivered,2,Bangalore
+908,1651,Kiaan Venkataraman,Mechanical Keyboard,2024-05-26,2024-06-05,2024-06-06,Delivered,1,Pune
+909,1465,Upasna Shroff,Power Bank,2024-09-21,2024-09-26,2024-09-30,Delivered,4,Mumbai
+910,1955,Dalaja Seshadri,Air Purifier,2024-09-13,2024-09-17,2024-09-20,Delivered,3,Delhi
+911,1948,Samuel Saha,Smart Watch,2024-07-20,2024-07-29,2024-07-28,Delivered,0,Chennai
+912,1104,Falan Mohanty,Laptop Stand,2024-10-29,2024-11-04,,Delayed,4,Bangalore
+913,1888,Yauvani Muni,USB-C Charger,2024-12-20,2024-12-25,,Pending,0,Mumbai
+914,1979,Girindra Bhatia,Wireless Mouse,2024-02-28,2024-03-09,,Pending,0,Hyderabad
+915,1876,Pranav Lad,VR Headset,2024-12-28,2025-01-06,,Pending,0,Hyderabad
+916,1082,Timothy Tailor,Gaming Chair,2024-03-22,2024-03-31,2024-03-30,Delivered,0,Bangalore
+917,1297,Anay Karnik,Smart Watch,2024-10-16,2024-10-21,2024-10-21,Delivered,0,Kolkata
+918,1792,Chasmum Nayar,Power Bank,2024-12-30,2025-01-02,2025-01-03,Delivered,1,Bangalore
+919,1234,Noah Date,Noise Cancelling Earbuds,2024-11-16,2024-11-21,2024-11-21,Delivered,0,Mumbai
+920,1678,Thomas Prabhakar,Drone,2024-11-14,2024-11-21,2024-11-23,Delivered,2,Hyderabad
+921,1047,Lakshmi Lall,Action Camera,2024-01-03,2024-01-13,2024-01-16,Delivered,3,Chennai
+922,1072,Ryan Mani,Laptop,2024-07-28,2024-08-07,2024-08-10,Delivered,3,Delhi
+923,1722,Onkar Sunder,Portable Speaker,2024-10-07,2024-10-14,,Pending,0,Mumbai
+924,1197,Umang Apte,Bluetooth Headphones,2024-04-04,2024-04-09,2024-04-10,Delivered,1,Delhi
+925,1592,Amara Anand,Mechanical Keyboard,2024-01-17,2024-01-24,2024-01-23,Delivered,0,Mumbai
+926,1371,William Kunda,Smart Watch,2024-08-01,2024-08-06,2024-08-07,Delivered,1,Chennai
+927,1883,Xiti Prakash,LED Desk Lamp,2024-10-23,2024-10-31,,Delayed,4,Bangalore
+928,1907,Vinaya Badal,Network Switch,2024-07-07,2024-07-16,,Delayed,15,Kolkata
+929,1634,Jonathan Doshi,USB-C Charger,2024-10-08,2024-10-12,2024-10-12,Delivered,0,Pune
+930,1644,Ekaja Mani,Portable Speaker,2024-05-20,2024-05-28,2024-05-31,Delivered,3,Pune
+931,1850,Madhav Chaudhry,Smart Speaker,2024-04-17,2024-04-20,2024-04-24,Delivered,4,Mumbai
+932,1301,Oeshi Batra,Ergonomic Chair,2024-09-04,2024-09-11,2024-09-16,Delivered,5,Bangalore
+933,1566,Charan Sandal,Drone,2024-09-26,2024-10-04,,Delayed,12,Hyderabad
+934,1081,Vrishti Srinivasan,External Hard Drive,2024-11-19,2024-11-29,2024-11-29,Delivered,0,Pune
+935,1388,Zayyan Singhal,Smart TV,2024-05-28,2024-06-03,2024-06-02,Delivered,0,Pune
+936,1128,Harsh Gade,Wi-Fi Router,2024-03-01,2024-03-07,,Pending,0,Chennai
+937,1550,Ikbal Batra,Portable Speaker,2024-01-24,2024-02-01,2024-02-06,Delivered,5,Mumbai
+938,1471,Nachiket Viswanathan,Laptop Stand,2024-11-23,2024-11-29,,Pending,0,Kolkata
+939,1748,Baghyawati Vig,Ergonomic Chair,2024-02-04,2024-02-11,2024-02-14,Delivered,3,Kolkata
+940,1045,Samuel Shan,Standing Desk,2024-01-04,2024-01-08,,Pending,0,Chennai
+941,1827,Zaid Sachdev,Standing Desk,2024-10-18,2024-10-21,,Delayed,6,Kolkata
+942,1271,Sanya Mutti,Bluetooth Headphones,2024-06-22,2024-07-02,,Delayed,15,Pune
+943,1619,Meghana Madan,Air Purifier,2024-03-10,2024-03-20,2024-03-22,Delivered,2,Bangalore
+944,1353,Oni Parekh,Smart Speaker,2024-08-24,2024-09-02,,Delayed,3,Bangalore
+945,1868,Amol Patla,Portable Speaker,2024-10-16,2024-10-24,2024-10-23,Delivered,0,Hyderabad
+946,1368,Aashi Dua,Microphone,2024-12-16,2024-12-24,,Pending,0,Mumbai
+947,1100,Leena Chaudhuri,Mechanical Pencil,2024-03-17,2024-03-24,,Delayed,8,Pune
+948,1390,Jyoti Shanker,Smart Watch,2024-09-30,2024-10-05,2024-10-07,Delivered,2,Hyderabad
+949,1095,Ekaraj Nagi,Ergonomic Chair,2024-02-29,2024-03-07,,Pending,0,Pune
+950,1991,Vrinda Sidhu,Graphics Card,2024-01-17,2024-01-24,2024-01-26,Delivered,2,Bangalore
+951,1345,Harini Seshadri,Smart Watch,2024-08-19,2024-08-26,2024-08-27,Delivered,1,Mumbai
+952,1782,Bakhshi Ray,Wireless Mouse,2024-07-10,2024-07-13,,Pending,0,Chennai
+953,1221,Diya Varma,VR Headset,2024-09-16,2024-09-19,,Pending,0,Delhi
+954,1160,Ayaan Srivastava,Smart Speaker,2024-04-07,2024-04-15,,Delayed,14,Bangalore
+955,1965,Baghyawati Dyal,iPad Tablet,2024-06-16,2024-06-21,,Pending,0,Kolkata
+956,1349,Gautami Barman,Smart TV,2024-09-21,2024-09-26,2024-09-25,Delivered,0,Chennai
+957,1984,Advika Dani,Wireless Mouse,2024-12-31,2025-01-04,2025-01-03,Delivered,0,Bangalore
+958,1715,Sara Agarwal,LED Desk Lamp,2024-08-27,2024-08-30,2024-09-04,Delivered,5,Mumbai
+959,1164,Pushti Kapoor,Portable Speaker,2024-10-22,2024-10-29,,Pending,0,Bangalore
+960,1826,Fiyaz Ramakrishnan,Ergonomic Chair,2024-04-12,2024-04-18,2024-04-21,Delivered,3,Kolkata
+961,1778,Ishani Bava,USB Hub,2024-08-13,2024-08-17,2024-08-17,Delivered,0,Mumbai
+962,1007,Krisha Wali,Ergonomic Chair,2024-01-08,2024-01-12,2024-01-13,Delivered,1,Bangalore
+963,1891,Ryan Ghose,27-inch Monitor,2024-03-13,2024-03-20,2024-03-20,Delivered,0,Bangalore
+964,1829,Jagdish Grover,512GB SSD,2024-11-09,2024-11-17,2024-11-16,Delivered,0,Mumbai
+965,1285,Harinakshi Buch,Wireless Mouse,2024-08-29,2024-09-01,2024-08-31,Delivered,0,Chennai
+966,1604,Ayaan Dubey,Power Bank,2024-07-19,2024-07-24,,Pending,0,Hyderabad
+967,1460,Lipika Sibal,Air Purifier,2024-07-01,2024-07-08,2024-07-08,Delivered,0,Mumbai
+968,1226,Vyanjana Bala,Smart TV,2024-08-26,2024-08-31,2024-09-05,Delivered,5,Mumbai
+969,1430,Chaitaly Butala,Smart TV,2024-08-21,2024-08-28,,Pending,0,Chennai
+970,1987,Simon Savant,Laptop Stand,2024-04-28,2024-05-04,2024-05-07,Delivered,3,Bangalore
+971,1719,Bhanumati Chahal,Standing Desk,2024-07-19,2024-07-24,,Pending,0,Kolkata
+972,1666,Rohan Merchant,Action Camera,2024-06-15,2024-06-25,2024-06-24,Delivered,0,Mumbai
+973,1734,Jagvi Mannan,Thermal Printer,2024-06-28,2024-07-08,2024-07-08,Delivered,0,Kolkata
+974,1204,Jeremiah Gara,iPad Tablet,2024-06-27,2024-07-02,2024-07-04,Delivered,2,Bangalore
+975,1575,Varenya Kara,Air Purifier,2024-10-11,2024-10-15,,Pending,0,Chennai
+976,1028,Upkaar Chacko,Gaming Chair,2024-07-24,2024-08-02,2024-08-02,Delivered,0,Chennai
+977,1617,Janya Prabhu,Network Switch,2024-07-15,2024-07-19,2024-07-24,Delivered,5,Kolkata
+978,1518,Pahal Tiwari,Smart Watch,2024-08-10,2024-08-18,2024-08-18,Delivered,0,Pune
+979,1239,Rajeshri Balay,Drone,2024-12-08,2024-12-12,,Pending,0,Mumbai
+980,1224,Gaurang Sen,Power Bank,2024-10-30,2024-11-09,2024-11-08,Delivered,0,Delhi
+981,1096,Ekaja Sehgal,Mechanical Pencil,2024-06-06,2024-06-15,2024-06-14,Delivered,0,Bangalore
+982,1031,Vihaan Brahmbhatt,512GB SSD,2024-09-10,2024-09-13,2024-09-18,Delivered,5,Hyderabad
+983,1033,Gabriel Golla,HD Webcam,2024-11-21,2024-11-24,,Pending,0,Chennai
+984,1433,Amaira Kale,Power Bank,2024-09-29,2024-10-06,2024-10-09,Delivered,3,Delhi
+985,1605,Teerth Viswanathan,LED Desk Lamp,2024-04-15,2024-04-23,2024-04-28,Delivered,5,Chennai
+986,1090,Upma Sridhar,VR Headset,2024-06-25,2024-06-29,2024-07-02,Delivered,3,Chennai
+987,1559,Amrita Shenoy,Mechanical Keyboard,2024-03-06,2024-03-13,2024-03-16,Delivered,3,Mumbai
+988,1914,Girindra Agarwal,Smartphone,2024-12-26,2025-01-03,2025-01-04,Delivered,1,Delhi
+989,1759,Ishita Gandhi,Mechanical Pencil,2024-08-09,2024-08-18,,Pending,0,Chennai
+990,1693,Jeevika Kulkarni,Smart Watch,2024-07-14,2024-07-23,2024-07-27,Delivered,4,Chennai
+991,1105,Ayushman Varughese,Ring Light,2024-03-12,2024-03-18,2024-03-23,Delivered,5,Kolkata
+992,1755,Alexander Sachar,512GB SSD,2024-08-01,2024-08-06,2024-08-11,Delivered,5,Delhi
+993,1143,Samesh Dugar,HD Webcam,2024-01-06,2024-01-10,,Pending,0,Pune
+994,1229,Ethan Sharma,Wireless Mouse,2024-09-06,2024-09-15,,Delayed,5,Delhi
+995,1251,Dhriti Varma,Network Switch,2024-11-24,2024-12-03,,Delayed,15,Hyderabad
+996,1282,Atharv Sundaram,Power Bank,2024-04-02,2024-04-12,2024-04-15,Delivered,3,Chennai
+997,1760,Rehaan Kala,Laptop,2024-06-30,2024-07-06,2024-07-09,Delivered,3,Hyderabad
+998,1026,George Banik,USB Hub,2024-09-12,2024-09-18,,Pending,0,Chennai
+999,1115,Harini Nagarajan,Action Camera,2024-10-06,2024-10-14,2024-10-13,Delivered,0,Pune
+1000,1655,Yashvi Manda,Wireless Mouse,2024-07-07,2024-07-11,2024-07-15,Delivered,4,Delhi
