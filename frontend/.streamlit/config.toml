@@ -1,0 +1,7 @@
+[client]
+# 🚀 This line completely removes that unwanted page viewer menu from the sidebar
+showSidebarNavigation = false
+
+[ui]
+# Optional: This cleans up other dev elements for a production look
+hideTopBar = true

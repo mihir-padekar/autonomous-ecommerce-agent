@@ -1,0 +1,664 @@
+/* =======================================================
+GLOBAL
+======================================================= */
+
+html,
+body,
+[class*="css"] {
+    font-family: Inter, sans-serif;
+}
+
+.stApp {
+    background: #060B16;
+    color: white;
+}
+
+/* =======================================================
+SIDEBAR
+======================================================= */
+
+[data-testid="stSidebar"] {
+    background: #07101F;
+    border-right: 1px solid #182133;
+}
+
+[data-testid="stSidebar"] .block-container {
+    padding-top: 1rem;
+}
+
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.brand-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    background: linear-gradient(
+        135deg,
+        #6D28D9,
+        #2563EB
+    );
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:22px;
+}
+
+.brand-title {
+    color:white;
+    font-size:18px;
+    font-weight:700;
+}
+
+.brand-subtitle {
+    color:#94A3B8;
+    font-size:12px;
+}
+
+.menu-section {
+
+    color:#64748B;
+
+    font-size:11px;
+
+    font-weight:600;
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+    letter-spacing:1px;
+}
+
+/* =======================================================
+BUTTONS
+======================================================= */
+
+.stButton button {
+
+    width:100%;
+
+    background:#111827;
+
+    color:white;
+
+    border:1px solid #1E293B;
+
+    border-radius:12px;
+
+    height:42px;
+
+    transition:.25s ease;
+}
+
+.stButton button:hover {
+
+    border-color:#6366F1;
+
+    box-shadow:
+    0 0 10px rgba(99,102,241,.25);
+
+    transform:translateY(-1px);
+}
+
+/* =======================================================
+HEADER
+======================================================= */
+
+.dashboard-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+}
+
+.page-title {
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:700;
+}
+
+.page-subtitle {
+
+    color:#94A3B8;
+
+    font-size:14px;
+}
+
+/* =======================================================
+KPI CARD
+======================================================= */
+
+.kpi-card {
+
+    background:
+    linear-gradient(
+        135deg,
+        #101827,
+        #182233
+    );
+
+    border:1px solid #243044;
+
+    border-radius:16px;
+
+    padding:18px;
+
+    transition:.25s ease;
+
+    min-height:120px;
+
+    box-shadow:
+    0 0 20px rgba(
+        0,
+        0,
+        0,
+        .2
+    );
+}
+
+.kpi-card:hover {
+
+    border-color:#4F46E5;
+
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 0 18px rgba(
+        99,
+        102,
+        241,
+        .25
+    );
+}
+
+.kpi-icon {
+
+    font-size:20px;
+}
+
+.kpi-title {
+
+    color:#94A3B8;
+
+    font-size:12px;
+
+    margin-top:10px;
+}
+
+.kpi-value {
+
+    color:white;
+
+    font-size:28px;
+
+    font-weight:700;
+}
+
+.kpi-change-up {
+
+    color:#10B981;
+
+    font-size:12px;
+}
+
+.kpi-change-down {
+
+    color:#EF4444;
+
+    font-size:12px;
+}
+/* ==========================================
+RIGHT ASSISTANT PANEL
+========================================== */
+
+.assistant-panel{
+    background:#0E1726;
+    border:1px solid #1E293B;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:18px;
+}
+
+.assistant-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.assistant-title{
+    font-size:20px;
+    font-weight:700;
+    color:white;
+}
+
+.assistant-subtitle{
+    color:#94A3B8;
+    font-size:13px;
+}
+
+.online-pill{
+    background:#0F5132;
+    color:#4ADE80;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.assistant-section-title{
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:10px;
+    margin-top:10px;
+    color:white;
+}
+
+.chat-card{
+    background:#111C2E;
+    border:1px solid #1E293B;
+    border-radius:14px;
+    padding:12px;
+    margin-bottom:10px;
+    color:white;
+}
+
+.insight-card{
+    background:#111C2E;
+    border-left:4px solid #3B82F6;
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:8px;
+    color:#E2E8F0;
+}
+
+.stTextArea textarea{
+    background:#0E1726 !important;
+    color:white !important;
+    border:1px solid #334155 !important;
+}
+
+.stButton button{
+    border-radius:10px;
+}
+/* ==========================================================================
+   AI ASSISTANT SIDE PANEL DESIGN
+   ========================================================================== */
+
+.ai-panel-container {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 16px;
+    padding: 16px;
+    height: 100%;
+    min-height: 820px;
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Tab Headers */
+.panel-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.tab-btn {
+    flex: 1;
+    background: #1f2937;
+    color: #9ca3af;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.tab-btn.active {
+    background: #4f46e5;
+    color: #ffffff;
+}
+
+/* Greeting Display */
+.assistant-greeting {
+    margin-bottom: 16px;
+}
+.greeting-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+.greeting-body {
+    font-size: 13px;
+    color: #9ca3af;
+    line-height: 1.5;
+}
+
+/* Quick Action Option List */
+.quick-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.action-item {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #cbd5e1;
+    text-align: left;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s;
+}
+.action-item:hover {
+    background: #334155;
+}
+
+/* Dynamic Chat Stream Window */
+.chat-conversation-feed {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto;
+    margin-bottom: 16px;
+    max-height: 480px;
+}
+
+/* Dialog Clouds */
+.msg-box {
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 90%;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.msg-meta {
+    font-size: 11px;
+    color: #9ca3af;
+    margin-bottom: 4px;
+}
+.user-msg {
+    background: #2563eb;
+    color: white;
+    align-self: flex-end;
+}
+.agent-msg {
+    background: #1f2937;
+    color: #e5e7eb;
+    align-self: flex-start;
+    border: 1px solid #374151;
+}
+
+/* Execution Agent Pipeline Component Track */
+.pipeline-card {
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 4px;
+}
+.pipeline-header {
+    font-size: 12px;
+    font-weight: bold;
+    color: #94a3b8;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.pipeline-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.step {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #cbd5e1;
+}
+.status-tag {
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: #1e293b;
+}
+.step-done .status-tag {
+    color: #10b981;
+}
+.step-progress .status-tag {
+    color: #3b82f6;
+}
+
+/* Footer Input Actions Form */
+.panel-input-container {
+    display: flex;
+    gap: 8px;
+    background: #1f2937;
+    border-radius: 8px;
+    padding: 6px 10px;
+    align-items: center;
+}
+.chat-input-field {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    outline: none;
+}
+.chat-send-btn {
+    background: #4f46e5;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* =======================================================
+CHART CONTAINERS
+======================================================= */
+
+.chart-card {
+
+    background:#111827;
+
+    border:1px solid #1F2937;
+
+    border-radius:16px;
+
+    padding:15px;
+}
+
+/* =======================================================
+TABLE
+======================================================= */
+
+.workflow-card {
+
+    background:#111827;
+
+    border-radius:16px;
+
+    border:1px solid #1F2937;
+
+    padding:15px;
+}
+
+.status-success {
+
+    background:#065F46;
+
+    color:#10B981;
+
+    padding:5px 12px;
+
+    border-radius:50px;
+
+    font-size:12px;
+}
+
+.status-running {
+
+    background:#1E3A8A;
+
+    color:#60A5FA;
+
+    padding:5px 12px;
+
+    border-radius:50px;
+
+    font-size:12px;
+}
+
+/* =======================================================
+ALERT CARDS
+======================================================= */
+
+.alert-card {
+
+    background:#111827;
+
+    border-radius:16px;
+
+    border:1px solid #1F2937;
+
+    padding:16px;
+}
+
+.alert-value {
+
+    font-size:32px;
+
+    font-weight:700;
+}
+
+/* =======================================================
+AGENT FOOTER
+======================================================= */
+
+.agent-card {
+
+    background:#101827;
+
+    border:1px solid #1F2937;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    padding:12px;
+}
+
+/* =======================================================
+AI ASSISTANT
+======================================================= */
+
+.assistant-wrapper {
+
+    background:#091120;
+
+    border:1px solid #1E293B;
+
+    border-radius:18px;
+
+    padding:15px;
+
+    min-height:900px;
+}
+
+.assistant-title {
+
+    background:
+    linear-gradient(
+    135deg,
+    #6D28D9,
+    #4F46E5
+    );
+
+    padding:12px;
+
+    border-radius:12px;
+
+    color:white;
+
+    font-weight:600;
+
+    text-align:center;
+
+    margin-bottom:15px;
+}
+
+.quick-action {
+
+    background:#111827;
+
+    border-radius:12px;
+
+    padding:10px;
+
+    margin-bottom:8px;
+
+    border:1px solid #1F2937;
+}
+
+.chat-user {
+
+    background:#4F46E5;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    margin-bottom:10px;
+}
+
+.chat-bot {
+
+    background:#111827;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    margin-bottom:10px;
+}
+
+/* =======================================================
+SCROLLBAR
+======================================================= */
+
+::-webkit-scrollbar {
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background:#334155;
+
+    border-radius:20px;
+}
