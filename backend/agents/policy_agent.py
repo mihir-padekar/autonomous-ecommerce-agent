@@ -17,10 +17,10 @@ def policy_agent(state):
             "critical ticket handling and escalation policy"
     }
 
-    query = policy_query_map.get(
-        workflow,
-        state["query"]
-    )
+    if workflow == "rag":
+        query = state["query"]
+    else:
+        query = policy_query_map.get(workflow, state["query"])
 
     chunks = retrieve_policy(query)
 
@@ -30,7 +30,9 @@ def policy_agent(state):
 
         top_chunk = chunks[0]
 
-        state["policy"] = top_chunk["content"]
+        state["policy"] = "\n\n".join(
+            chunk["content"] for chunk in chunks
+        )
 
         state["policy_source"] = (
             top_chunk["source"]

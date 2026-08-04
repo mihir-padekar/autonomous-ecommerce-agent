@@ -1,9 +1,42 @@
 def report_agent(state):
     print("REPORT WORKFLOW:", state["workflow_type"])
     workflow = state["workflow_type"]
-    analysis = state["analysis"]
+    analysis = state.get("analysis", {})
     display_policy = state["policy"]
+    if workflow == "rag":
 
+        report = f"""
+    ==================================================
+    POLICY INFORMATION
+    ==================================================
+
+    Query:
+    {state['query']}
+
+    Response:
+    {state['chat_response']}
+
+    --------------------------------------------------
+    POLICY REFERENCE
+    --------------------------------------------------
+
+    Source:
+    {state['policy_source']}
+
+    Page:
+    {state['policy_page'] + 1}
+
+    Relevant Policy:
+
+    {display_policy}
+
+    ==================================================
+    """
+
+        state["report"] = report
+        return state
+
+    
     if len(display_policy) > 500:
         display_policy = display_policy[:500] + "..."
 

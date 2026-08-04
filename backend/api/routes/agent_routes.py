@@ -46,15 +46,116 @@ def run_query(request: QueryRequest):
             request.session_id
         )
         print("HISTORY:")
-        for item in history:
-            print(item)
         intent = intent_agent(
             request.query,
             history
         )
+
         print("INTENT:", intent)
+        for item in history:
+            print(item)
+        if intent["intent"] == "greeting":
+
+            response = (
+                "Hello! I'm your E-Commerce Operations Assistant.\n\n"
+                "I can help you with:\n"
+                "• Delayed Orders\n"
+                "• Complaints\n"
+                "• Tickets\n"
+                "• Executive Dashboard\n"
+                "• Company Policies (Refund, SLA, Escalation)\n"
+            )
+
+            save_message(
+                request.session_id,
+                "assistant",
+                response
+            )
+
+            return {
+                "workflow_type": "greeting",
+                "analysis": {},
+                "report": "",
+                "chat_response": response
+            }
+
+        if intent["intent"] == "thanks":
+
+            response = "You're welcome! Let me know if you need anything else."
+
+            save_message(
+                request.session_id,
+                "assistant",
+                response
+            )
+
+            return {
+                "workflow_type": "thanks",
+                "analysis": {},
+                "report": "",
+                "chat_response": response
+            }
+
+        if intent["intent"] == "goodbye":
+
+            response = "Goodbye! Have a great day."
+
+            save_message(
+                request.session_id,
+                "assistant",
+                response
+            )
+
+            return {
+                "workflow_type": "goodbye",
+                "analysis": {},
+                "report": "",
+                "chat_response": response
+            }
+
+        if intent["intent"] == "help":
+
+            response = (
+                "I can help with:\n\n"
+                "• Analyze delayed orders\n"
+                "• Analyze complaints\n"
+                "• Analyze support tickets\n"
+                "• Executive dashboard summaries\n"
+                "• Refund policy\n"
+                "• Return policy\n"
+                "• SLA & escalation policies"
+            )
+
+            save_message(
+                request.session_id,
+                "assistant",
+                response
+            )
+
+            return {
+                "workflow_type": "help",
+                "analysis": {},
+                "report": "",
+                "chat_response": response
+            }
+        # Execute workflow
+        if intent["intent"] == "workflow":
+            result = graph.invoke(
+                {
+
+                    "session_id":
+                        request.session_id,
+
+                    "query":
+                        request.query,
+
+                    "history":
+                        history
+                }
+            )
 
         if intent["intent"] == "followup":
+
             response = followup_agent(
                 request.query,
                 history
@@ -67,45 +168,66 @@ def run_query(request: QueryRequest):
             )
 
             return {
-
                 "workflow_type": "followup",
-
                 "analysis": {},
-
                 "report": "",
-
                 "chat_response": response
             }
-        # Execute workflow
 
-        result = graph.invoke(
-            {
+        if intent["intent"] == "unknown":
 
-                "session_id":
-                    request.session_id,
+            response = (
+                "Sorry, I couldn't understand your request or it isn't supported.\n\n"
+                "I can help with:\n"
+                "• Delayed Orders\n"
+                "• Complaints\n"
+                "• Support Tickets\n"
+                "• Executive Dashboard\n"
+                "• Warehouse Analysis\n"
+                "• Product Analysis\n"
+                "• Company Policies (Refund, SLA, Escalation)\n\n"
+                "Please ask a question related to e-commerce operations."
+            )
 
-                "query":
-                    request.query,
+            save_message(
+                request.session_id,
+                "assistant",
+                response
+            )
 
-                "history":
-                    history
+            return {
+                "workflow_type": "unknown",
+                "analysis": {},
+                "report": "",
+                "chat_response": response
             }
-        )
-
-
         if result.get("workflow_type") == "unknown":
 
-            raise HTTPException(
-                status_code=400,
-                detail=(
-                    "Unsupported query. "
-                    "Try: Show delayed orders, "
-                    "Show executive dashboard, "
-                    "Show warehouse delays, "
-                    "Show top delayed products, "
-                    "Show open tickets."
-                )
+            response = (
+                "I'm an E-Commerce Operations Assistant.\n\n"
+                "I can help you with:\n"
+                "• Delayed Orders\n"
+                "• Complaints\n"
+                "• Support Tickets\n"
+                "• Executive Dashboard\n"
+                "• Warehouse Analysis\n"
+                "• Product Analysis\n"
+                "• Company Policies (Refund, SLA, Escalation)\n\n"
+                "Please ask a question related to these topics."
             )
+
+            save_message(
+                request.session_id,
+                "assistant",
+                response
+            )
+
+            return {
+                "workflow_type": "unknown",
+                "analysis": {},
+                "report": "",
+                "chat_response": response
+            }
 
         # Save assistant response
 
@@ -119,20 +241,22 @@ def run_query(request: QueryRequest):
             role="assistant",
             message=result["chat_response"]
         )
-
+        print("=" * 50)
+        print(result)
+        print("=" * 50)
         return {
 
             "analysis":
-                result.get("analysis"),
+                result.get("analysis") or {},
 
             "report":
-                result.get("report"),
+                result.get("report", ""),
 
             "workflow_type":
                 result.get("workflow_type"),
 
             "chat_response":
-                result.get("chat_response")
+                result.get("chat_response","")
         }
 
     except HTTPException:

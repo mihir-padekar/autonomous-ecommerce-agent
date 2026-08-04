@@ -13,7 +13,7 @@ User Query:
 {state["query"]}
 
 Analysis:
-{state["analysis"]}
+{state.get("analysis", "No operational analysis available.")}
 
 Policy:
 {state.get("policy", "")}

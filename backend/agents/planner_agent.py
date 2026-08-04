@@ -55,8 +55,30 @@ Available Query Functions:
 Instructions:
 
 1. Choose the BEST matching query function.
-2. Return ONLY JSON.
-3. No explanation.
+
+2. If the user asks about:
+- refund policy
+- return policy
+- cancellation policy
+- delivery policy
+- SLA policy
+- escalation policy
+- company policies
+- "what is...", "explain...", or "how does the policy work"
+
+then ALWAYS choose:
+
+policy_lookup
+
+3. Choose database query functions ONLY when the user is asking for operational data such as:
+- delayed orders
+- complaints
+- tickets
+- dashboard
+- warehouse summary
+- product delays
+
+4. Return ONLY valid JSON.
 
 Format:
 
@@ -74,11 +96,17 @@ Format:
     print(content)
 
     try:
+        result = json.loads(content)
 
-        return json.loads(content)
+        if result.get("query_function") not in QUERY_METADATA:
+            return {
+                "query_function": "unknown"
+            }
+
+        return result
 
     except Exception:
 
-        raise ValueError(
-            f"Planner failed to parse JSON: {content}"
-        )
+        return {
+            "query_function": "unknown"
+        }

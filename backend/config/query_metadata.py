@@ -1,3 +1,6 @@
+from backend import rag
+
+
 QUERY_METADATA = {
 
     # Orders
@@ -58,5 +61,18 @@ QUERY_METADATA = {
     "get_full_dashboard_summary": {
         "workflow": "dashboard_analysis",
         "data_type": "dashboard"
-    }
+    },
+
+    #RAG/ Policy
+
+    "policy_lookup": {
+    "workflow": "rag",
+    "data_type": "documents"
+    },
+    # handle unkonwn
+    "unknown": {
+    "workflow": "unknown",
+    "data_type": "none"
+
+}
 }

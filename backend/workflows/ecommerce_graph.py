@@ -12,7 +12,7 @@ from backend.agents.executive_summary_agent import executive_summary_agent
 from backend.agents.chat_response_agent import chat_response_agent
 from backend.config.query_metadata import QUERY_METADATA
 from datetime import datetime
-
+from langgraph.graph import END
 from backend.database.db import SessionLocal
 from backend.database.models import (
     WorkflowExecution,
@@ -113,6 +113,23 @@ def log_agent_step(
 
 workflow = StateGraph(dict)
 
+#RAG
+def route_after_planner(state):
+
+    if state["workflow_type"] == "unknown":
+        return END
+
+    if state["workflow_type"] == "rag":
+        return "policy"
+
+    return "database"
+
+
+def route_after_policy(state):
+    if state["workflow_type"] == "rag":
+        return "chat_response"
+    return "compliance"
+
 
 # Planner Agent
 def planner_node(state):
@@ -128,13 +145,14 @@ def planner_node(state):
         history=state.get("history", [])
     )
 
-    state["query_function"] = result["query_function"]
+    state["query_function"] = result.get("query_function", "unknown")
 
+    # Unsupported query
     if state["query_function"] not in QUERY_METADATA:
 
-        raise ValueError(
-            f"Unsupported query: {state['query']}"
-        )
+        state["workflow_type"] = "unknown"
+        state["data_type"] = "none"
+        return state
 
     metadata = QUERY_METADATA[
         state["query_function"]
@@ -315,12 +333,22 @@ workflow.add_node("report", report_node)
 
 workflow.set_entry_point("planner")
 
-workflow.add_edge("planner", "database")
+workflow.add_conditional_edges(
+    "planner",
+    route_after_planner
+)
+
 workflow.add_edge("database", "analysis")
 workflow.add_edge("analysis", "policy")
-workflow.add_edge("policy", "compliance")
+
+workflow.add_conditional_edges(
+    "policy",
+    route_after_policy
+)
+
 workflow.add_edge("compliance", "executive_summary")
-workflow.add_edge("executive_summary","chat_response")
+workflow.add_edge("executive_summary", "chat_response")
+
 workflow.add_edge("chat_response", "report")
 
 workflow.set_finish_point("report")
