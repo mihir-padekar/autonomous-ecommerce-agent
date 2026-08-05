@@ -20,3 +20,4 @@ docx2txt
 streamlit
 SpeechRecognition
 plotly
+prophet

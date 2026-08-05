@@ -12,9 +12,20 @@ def get_insights():
 
     result = graph.invoke(
         {
-            "query": "Show executive dashboard"
+            "query": "Show executive dashboard",
+            "history": []
         }
     )
+
+    print("=" * 80)
+    print("GRAPH RESULT:")
+    print(result)
+    print("=" * 80)
+
+    analysis = result.get("analysis")
+
+    if analysis is None:
+        raise Exception(f"Analysis missing. Result = {result}")
 
     analysis = result["analysis"]
 

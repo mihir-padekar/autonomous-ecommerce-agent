@@ -91,12 +91,20 @@ Format:
         prompt
     )
 
+    import re
     content = response.content.strip()
 
     print(content)
 
+    match = re.search(r"\{.*\}", content, re.DOTALL)
+
+    if not match:
+        return {
+            "query_function": "unknown"
+        }
+
     try:
-        result = json.loads(content)
+        result = json.loads(match.group())
 
         if result.get("query_function") not in QUERY_METADATA:
             return {
