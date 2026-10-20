@@ -1,0 +1,374 @@
+{
+  "run_id": "routing-eval-484feab3",
+  "eval_type": "routing",
+  "total_samples": 35,
+  "passed": 34,
+  "failed": 1,
+  "accuracy": 0.9714285714285714,
+  "avg_fact_coverage": null,
+  "keyword_hit_rate": null,
+  "failure_breakdown": {
+    "NONE": 34,
+    "WRONG_TOOL_SELECTED": 1
+  },
+  "results": [
+    {
+      "query_id": "ROUTE_001",
+      "query": "What is the return policy for electronics items?",
+      "expected_route": "lookup_policy",
+      "predicted_tool": "lookup_policy",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.013
+    },
+    {
+      "query_id": "ROUTE_002",
+      "query": "Explain the delivery SLA compensation policy",
+      "expected_route": "lookup_policy",
+      "predicted_tool": "lookup_policy",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.007
+    },
+    {
+      "query_id": "ROUTE_003",
+      "query": "What is the refund timeline for damaged goods?",
+      "expected_route": "lookup_policy",
+      "predicted_tool": "lookup_policy",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.005
+    },
+    {
+      "query_id": "ROUTE_004",
+      "query": "How does the customer complaint escalation policy work?",
+      "expected_route": "lookup_policy",
+      "predicted_tool": "get_customer_complaints",
+      "correct": false,
+      "failure_mode": "WRONG_TOOL_SELECTED",
+      "failure_detail": "Predicted 'get_customer_complaints', expected 'lookup_policy'",
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_005",
+      "query": "What are the return rules for beauty products?",
+      "expected_route": "lookup_policy",
+      "predicted_tool": "lookup_policy",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.006
+    },
+    {
+      "query_id": "ROUTE_006",
+      "query": "Show me all delayed orders",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.001
+    },
+    {
+      "query_id": "ROUTE_007",
+      "query": "Which shipments are currently running behind schedule?",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.011
+    },
+    {
+      "query_id": "ROUTE_008",
+      "query": "List pending deliveries that missed their delivery date",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.009
+    },
+    {
+      "query_id": "ROUTE_009",
+      "query": "Fetch delayed orders list",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.001
+    },
+    {
+      "query_id": "ROUTE_010",
+      "query": "Show orders delayed by more than 5 days",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.009
+    },
+    {
+      "query_id": "ROUTE_011",
+      "query": "Show shipments delayed > 5 days",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.008
+    },
+    {
+      "query_id": "ROUTE_012",
+      "query": "List orders with high delays over 5 days",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.002
+    },
+    {
+      "query_id": "ROUTE_013",
+      "query": "Fetch high delay orders",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.002
+    },
+    {
+      "query_id": "ROUTE_014",
+      "query": "Show all open complaints",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.003
+    },
+    {
+      "query_id": "ROUTE_015",
+      "query": "List unresolved customer complaints",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.003
+    },
+    {
+      "query_id": "ROUTE_016",
+      "query": "Fetch pending customer disputes",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.008
+    },
+    {
+      "query_id": "ROUTE_017",
+      "query": "Show critical complaints",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.003
+    },
+    {
+      "query_id": "ROUTE_018",
+      "query": "List all urgent customer complaints",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.003
+    },
+    {
+      "query_id": "ROUTE_019",
+      "query": "Emergency high priority complaints",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.008
+    },
+    {
+      "query_id": "ROUTE_020",
+      "query": "Show high and critical complaints",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_021",
+      "query": "List severe and high severity complaints",
+      "expected_route": "get_customer_complaints",
+      "predicted_tool": "get_customer_complaints",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.008
+    },
+    {
+      "query_id": "ROUTE_022",
+      "query": "Show all open tickets",
+      "expected_route": "get_ticket_details",
+      "predicted_tool": "get_ticket_details",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_023",
+      "query": "List active support tickets",
+      "expected_route": "get_ticket_details",
+      "predicted_tool": "get_ticket_details",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_024",
+      "query": "Current open ticket backlog",
+      "expected_route": "get_ticket_details",
+      "predicted_tool": "get_ticket_details",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_025",
+      "query": "Show critical open tickets",
+      "expected_route": "get_ticket_details",
+      "predicted_tool": "get_ticket_details",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_026",
+      "query": "List urgent unresolved support tickets",
+      "expected_route": "get_ticket_details",
+      "predicted_tool": "get_ticket_details",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_027",
+      "query": "Emergency P1 tickets pending",
+      "expected_route": "get_ticket_details",
+      "predicted_tool": "get_ticket_details",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.004
+    },
+    {
+      "query_id": "ROUTE_028",
+      "query": "Show warehouse delay summary",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.001
+    },
+    {
+      "query_id": "ROUTE_029",
+      "query": "Which warehouse has highest shipping delays?",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.001
+    },
+    {
+      "query_id": "ROUTE_030",
+      "query": "What are the top delayed products?",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.009
+    },
+    {
+      "query_id": "ROUTE_031",
+      "query": "Which items face the most shipping delays?",
+      "expected_route": "get_warehouse_delay_summary",
+      "predicted_tool": "get_warehouse_delay_summary",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.008
+    },
+    {
+      "query_id": "ROUTE_032",
+      "query": "hello",
+      "expected_route": "__chat__",
+      "predicted_tool": "__chat__",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.005
+    },
+    {
+      "query_id": "ROUTE_033",
+      "query": "help",
+      "expected_route": "__chat__",
+      "predicted_tool": "__chat__",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.007
+    },
+    {
+      "query_id": "ROUTE_034",
+      "query": "thank you",
+      "expected_route": "__chat__",
+      "predicted_tool": "__chat__",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.006
+    },
+    {
+      "query_id": "ROUTE_035",
+      "query": "bye",
+      "expected_route": "__chat__",
+      "predicted_tool": "__chat__",
+      "correct": true,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 0.007
+    }
+  ],
+  "per_category_accuracy": {
+    "policy": 0.8,
+    "orders": 1.0,
+    "complaints": 1.0,
+    "tickets": 1.0,
+    "analytics": 1.0,
+    "chat": 1.0
+  }
+}

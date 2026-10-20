@@ -1,0 +1,702 @@
+[
+  {
+    "query": "What is the return policy for electronic items?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Electronics can be returned within 10 days of delivery if unopened and in original packaging."
+    ],
+    "ground_truth_answer": "Electronics can be returned within 10 days of delivery if unopened and in original packaging."
+  },
+  {
+    "query": "Could you clarify: what is the return policy for electronic items?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Electronics can be returned within 10 days of delivery if unopened and in original packaging."
+    ],
+    "ground_truth_answer": "Electronics can be returned within 10 days of delivery if unopened and in original packaging."
+  },
+  {
+    "query": "Company policy on: return policy for electronic items",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Electronics can be returned within 10 days of delivery if unopened and in original packaging."
+    ],
+    "ground_truth_answer": "Electronics can be returned within 10 days of delivery if unopened and in original packaging."
+  },
+  {
+    "query": "What are the delivery SLA escalation rules for delayed shipments?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Shipments delayed beyond 48 hours past SLA are escalated to Level 2 support and regional hub managers."
+    ],
+    "ground_truth_answer": "Shipments delayed beyond 48 hours past SLA are escalated to Level 2 support and regional hub managers."
+  },
+  {
+    "query": "Could you clarify: what are the delivery sla escalation rules for delayed shipments?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Shipments delayed beyond 48 hours past SLA are escalated to Level 2 support and regional hub managers."
+    ],
+    "ground_truth_answer": "Shipments delayed beyond 48 hours past SLA are escalated to Level 2 support and regional hub managers."
+  },
+  {
+    "query": "Company policy on: what are the delivery sla escalation rules for delayed shipments",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Shipments delayed beyond 48 hours past SLA are escalated to Level 2 support and regional hub managers."
+    ],
+    "ground_truth_answer": "Shipments delayed beyond 48 hours past SLA are escalated to Level 2 support and regional hub managers."
+  },
+  {
+    "query": "How are damaged product refund requests handled?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Damaged product claims require photographic proof submitted within 24 hours of delivery for an immediate refund."
+    ],
+    "ground_truth_answer": "Damaged product claims require photographic proof submitted within 24 hours of delivery for an immediate refund."
+  },
+  {
+    "query": "Could you clarify: how are damaged product refund requests handled?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Damaged product claims require photographic proof submitted within 24 hours of delivery for an immediate refund."
+    ],
+    "ground_truth_answer": "Damaged product claims require photographic proof submitted within 24 hours of delivery for an immediate refund."
+  },
+  {
+    "query": "Company policy on: how are damaged product refund requests handled",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Damaged product claims require photographic proof submitted within 24 hours of delivery for an immediate refund."
+    ],
+    "ground_truth_answer": "Damaged product claims require photographic proof submitted within 24 hours of delivery for an immediate refund."
+  },
+  {
+    "query": "Explain the standard customer complaint escalation policy.",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Complaints unresolved within 24 hours escalate to Tier 2 support, and beyond 72 hours escalate to executive customer relations."
+    ],
+    "ground_truth_answer": "Complaints unresolved within 24 hours escalate to Tier 2 support, and beyond 72 hours escalate to executive customer relations."
+  },
+  {
+    "query": "Could you clarify: explain the standard customer complaint escalation policy.",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Complaints unresolved within 24 hours escalate to Tier 2 support, and beyond 72 hours escalate to executive customer relations."
+    ],
+    "ground_truth_answer": "Complaints unresolved within 24 hours escalate to Tier 2 support, and beyond 72 hours escalate to executive customer relations."
+  },
+  {
+    "query": "Company policy on: explain the standard customer complaint escalation policy.",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Complaints unresolved within 24 hours escalate to Tier 2 support, and beyond 72 hours escalate to executive customer relations."
+    ],
+    "ground_truth_answer": "Complaints unresolved within 24 hours escalate to Tier 2 support, and beyond 72 hours escalate to executive customer relations."
+  },
+  {
+    "query": "What is the refund timeline for canceled orders?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Refunds for prepaid orders canceled before dispatch are processed within 3 to 5 business days to the original payment method."
+    ],
+    "ground_truth_answer": "Refunds for prepaid orders canceled before dispatch are processed within 3 to 5 business days to the original payment method."
+  },
+  {
+    "query": "Could you clarify: what is the refund timeline for canceled orders?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Refunds for prepaid orders canceled before dispatch are processed within 3 to 5 business days to the original payment method."
+    ],
+    "ground_truth_answer": "Refunds for prepaid orders canceled before dispatch are processed within 3 to 5 business days to the original payment method."
+  },
+  {
+    "query": "Company policy on: refund timeline for canceled orders",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Refunds for prepaid orders canceled before dispatch are processed within 3 to 5 business days to the original payment method."
+    ],
+    "ground_truth_answer": "Refunds for prepaid orders canceled before dispatch are processed within 3 to 5 business days to the original payment method."
+  },
+  {
+    "query": "What is the policy for missing items in a delivered package?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Missing items must be reported within 48 hours with packaging photos for replacement or refund."
+    ],
+    "ground_truth_answer": "Missing items must be reported within 48 hours with packaging photos for replacement or refund."
+  },
+  {
+    "query": "Could you clarify: what is the policy for missing items in a delivered package?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Missing items must be reported within 48 hours with packaging photos for replacement or refund."
+    ],
+    "ground_truth_answer": "Missing items must be reported within 48 hours with packaging photos for replacement or refund."
+  },
+  {
+    "query": "Company policy on: policy for missing items in a delivered package",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Missing items must be reported within 48 hours with packaging photos for replacement or refund."
+    ],
+    "ground_truth_answer": "Missing items must be reported within 48 hours with packaging photos for replacement or refund."
+  },
+  {
+    "query": "How do critical support tickets get escalated?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Critical severity tickets must be acknowledged within 15 minutes and resolved within 4 hours by the on-call incident team."
+    ],
+    "ground_truth_answer": "Critical severity tickets must be acknowledged within 15 minutes and resolved within 4 hours by the on-call incident team."
+  },
+  {
+    "query": "Could you clarify: how do critical support tickets get escalated?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Critical severity tickets must be acknowledged within 15 minutes and resolved within 4 hours by the on-call incident team."
+    ],
+    "ground_truth_answer": "Critical severity tickets must be acknowledged within 15 minutes and resolved within 4 hours by the on-call incident team."
+  },
+  {
+    "query": "Company policy on: how do critical support tickets get escalated",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Critical severity tickets must be acknowledged within 15 minutes and resolved within 4 hours by the on-call incident team."
+    ],
+    "ground_truth_answer": "Critical severity tickets must be acknowledged within 15 minutes and resolved within 4 hours by the on-call incident team."
+  },
+  {
+    "query": "Can a customer exchange an apparel item for a different size?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Apparel items can be exchanged within 14 days of delivery provided tags are attached and unworn."
+    ],
+    "ground_truth_answer": "Apparel items can be exchanged within 14 days of delivery provided tags are attached and unworn."
+  },
+  {
+    "query": "Could you clarify: can a customer exchange an apparel item for a different size?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Apparel items can be exchanged within 14 days of delivery provided tags are attached and unworn."
+    ],
+    "ground_truth_answer": "Apparel items can be exchanged within 14 days of delivery provided tags are attached and unworn."
+  },
+  {
+    "query": "Company policy on: can a customer exchange an apparel item for a different size",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Apparel items can be exchanged within 14 days of delivery provided tags are attached and unworn."
+    ],
+    "ground_truth_answer": "Apparel items can be exchanged within 14 days of delivery provided tags are attached and unworn."
+  },
+  {
+    "query": "What happens if a delivery courier fails SLA three times?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Couriers breaching delivery SLA three times in a calendar month are placed under performance review with reduced volume allocation."
+    ],
+    "ground_truth_answer": "Couriers breaching delivery SLA three times in a calendar month are placed under performance review with reduced volume allocation."
+  },
+  {
+    "query": "Could you clarify: what happens if a delivery courier fails sla three times?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Couriers breaching delivery SLA three times in a calendar month are placed under performance review with reduced volume allocation."
+    ],
+    "ground_truth_answer": "Couriers breaching delivery SLA three times in a calendar month are placed under performance review with reduced volume allocation."
+  },
+  {
+    "query": "Company policy on: what happens if a delivery courier fails sla three times",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Couriers breaching delivery SLA three times in a calendar month are placed under performance review with reduced volume allocation."
+    ],
+    "ground_truth_answer": "Couriers breaching delivery SLA three times in a calendar month are placed under performance review with reduced volume allocation."
+  },
+  {
+    "query": "What is the priority handling policy for VIP or prime customers?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Priority members receive expedited 2-hour complaint SLA and dedicated dispute arbitration."
+    ],
+    "ground_truth_answer": "Priority members receive expedited 2-hour complaint SLA and dedicated dispute arbitration."
+  },
+  {
+    "query": "Could you clarify: what is the priority handling policy for vip or prime customers?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Priority members receive expedited 2-hour complaint SLA and dedicated dispute arbitration."
+    ],
+    "ground_truth_answer": "Priority members receive expedited 2-hour complaint SLA and dedicated dispute arbitration."
+  },
+  {
+    "query": "Company policy on: priority handling policy for vip or prime customers",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Priority members receive expedited 2-hour complaint SLA and dedicated dispute arbitration."
+    ],
+    "ground_truth_answer": "Priority members receive expedited 2-hour complaint SLA and dedicated dispute arbitration."
+  },
+  {
+    "query": "What is the international shipping return policy?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "International orders can be returned within 30 days at customer postage cost unless defective."
+    ],
+    "ground_truth_answer": "International orders can be returned within 30 days at customer postage cost unless defective."
+  },
+  {
+    "query": "How are hazardous material returns managed?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Hazardous materials and chemicals cannot be returned via standard post and require certified carrier pickup."
+    ],
+    "ground_truth_answer": "Hazardous materials and chemicals cannot be returned via standard post and require certified carrier pickup."
+  },
+  {
+    "query": "What is the warranty policy on refurbished goods?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Refurbished electronics carry a 90-day limited warranty covering functional defects only."
+    ],
+    "ground_truth_answer": "Refurbished electronics carry a 90-day limited warranty covering functional defects only."
+  },
+  {
+    "query": "What is the procedure for suspected fraudulent orders?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Suspected fraudulent orders are placed on a 12-hour fraud security hold before fulfillment."
+    ],
+    "ground_truth_answer": "Suspected fraudulent orders are placed on a 12-hour fraud security hold before fulfillment."
+  },
+  {
+    "query": "What is the SLA for payment gateway refund reconciliation?",
+    "expected_route": "policy_lookup",
+    "ground_truth_context": [
+      "Payment gateway reconciliation occurs within 24 hours of merchant settlement confirmation."
+    ],
+    "ground_truth_answer": "Payment gateway reconciliation occurs within 24 hours of merchant settlement confirmation."
+  },
+  {
+    "query": "Show me all delayed orders",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "List shipments currently delayed",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Fetch delayed orders list",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Which orders missed their estimated delivery date?",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Are there any orders delayed right now?",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Show all pending orders behind delivery schedule",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Orders delayed beyond expected SLA",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Retrieve delayed customer shipments",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Show orders with shipping delay",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Find orders currently stuck in transit",
+    "expected_route": "get_delayed_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of delayed orders."
+  },
+  {
+    "query": "Show me orders with high delivery delays",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Orders delayed by more than 5 days",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Fetch high delay orders",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "List orders having extreme shipping delays",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Which deliveries have major delays?",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Orders delayed over a week",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Show high severity delayed shipments",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "List shipments with severe delay status",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Orders with excessive transit delays",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Find highest delayed orders in system",
+    "expected_route": "get_high_delay_orders",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of high delay orders."
+  },
+  {
+    "query": "Show all open complaints",
+    "expected_route": "get_open_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open complaints."
+  },
+  {
+    "query": "List active customer complaints",
+    "expected_route": "get_open_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open complaints."
+  },
+  {
+    "query": "Fetch unresolved complaints",
+    "expected_route": "get_open_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open complaints."
+  },
+  {
+    "query": "Are there any open complaints?",
+    "expected_route": "get_open_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open complaints."
+  },
+  {
+    "query": "Get customer complaints currently open",
+    "expected_route": "get_open_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open complaints."
+  },
+  {
+    "query": "Show critical complaints",
+    "expected_route": "get_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of critical complaints."
+  },
+  {
+    "query": "List all critical customer issues",
+    "expected_route": "get_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of critical complaints."
+  },
+  {
+    "query": "Fetch urgent complaints",
+    "expected_route": "get_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of critical complaints."
+  },
+  {
+    "query": "Critical priority complaints list",
+    "expected_route": "get_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of critical complaints."
+  },
+  {
+    "query": "Show complaints marked as critical",
+    "expected_route": "get_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of critical complaints."
+  },
+  {
+    "query": "Show high and critical complaints",
+    "expected_route": "get_high_and_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "High and critical complaints."
+  },
+  {
+    "query": "List severe and urgent complaints",
+    "expected_route": "get_high_and_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "High and critical complaints."
+  },
+  {
+    "query": "Fetch high priority complaints",
+    "expected_route": "get_high_and_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "High and critical complaints."
+  },
+  {
+    "query": "Show all critical and high level complaints",
+    "expected_route": "get_high_and_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "High and critical complaints."
+  },
+  {
+    "query": "Summary of high and critical customer disputes",
+    "expected_route": "get_high_and_critical_complaints",
+    "ground_truth_context": [],
+    "ground_truth_answer": "High and critical complaints."
+  },
+  {
+    "query": "Show all open tickets",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "List support tickets currently open",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "Fetch open tickets count and records",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "What support tickets are unresolved?",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "Show pending customer tickets",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "List tickets needing agent response",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "Open service tickets list",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "Get all unclosed tickets",
+    "expected_route": "get_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "List of open tickets."
+  },
+  {
+    "query": "Show critical open tickets",
+    "expected_route": "get_critical_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Critical open tickets."
+  },
+  {
+    "query": "List urgent open support tickets",
+    "expected_route": "get_critical_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Critical open tickets."
+  },
+  {
+    "query": "Fetch critical priority tickets",
+    "expected_route": "get_critical_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Critical open tickets."
+  },
+  {
+    "query": "Which tickets are marked critical open?",
+    "expected_route": "get_critical_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Critical open tickets."
+  },
+  {
+    "query": "Show urgent unresolved tickets",
+    "expected_route": "get_critical_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Critical open tickets."
+  },
+  {
+    "query": "Critical tickets awaiting resolution",
+    "expected_route": "get_critical_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Critical open tickets."
+  },
+  {
+    "query": "List top severity open tickets",
+    "expected_route": "get_critical_open_tickets",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Critical open tickets."
+  },
+  {
+    "query": "Show warehouse delay summary",
+    "expected_route": "get_warehouse_delay_summary",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Warehouse delay summary."
+  },
+  {
+    "query": "Which warehouse has highest delays?",
+    "expected_route": "get_warehouse_delay_summary",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Warehouse delay summary."
+  },
+  {
+    "query": "Warehouse shipping performance report",
+    "expected_route": "get_warehouse_delay_summary",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Warehouse delay summary."
+  },
+  {
+    "query": "Summarize fulfillment center delay metrics",
+    "expected_route": "get_warehouse_delay_summary",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Warehouse delay summary."
+  },
+  {
+    "query": "Warehouse delay breakdown",
+    "expected_route": "get_warehouse_delay_summary",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Warehouse delay summary."
+  },
+  {
+    "query": "What are the top delayed products?",
+    "expected_route": "get_top_delayed_products",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Top delayed products summary."
+  },
+  {
+    "query": "Which items face the most shipping delays?",
+    "expected_route": "get_top_delayed_products",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Top delayed products summary."
+  },
+  {
+    "query": "Top delayed SKUs report",
+    "expected_route": "get_top_delayed_products",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Top delayed products summary."
+  },
+  {
+    "query": "Show products with highest delay frequencies",
+    "expected_route": "get_top_delayed_products",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Top delayed products summary."
+  },
+  {
+    "query": "List delayed items summary",
+    "expected_route": "get_top_delayed_products",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Top delayed products summary."
+  },
+  {
+    "query": "hi",
+    "expected_route": "greeting",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Hello! I'm your E-Commerce Operations Assistant."
+  },
+  {
+    "query": "hello",
+    "expected_route": "greeting",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Hello! I'm your E-Commerce Operations Assistant."
+  },
+  {
+    "query": "good morning",
+    "expected_route": "greeting",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Hello! I'm your E-Commerce Operations Assistant."
+  },
+  {
+    "query": "hey there",
+    "expected_route": "greeting",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Hello! I'm your E-Commerce Operations Assistant."
+  },
+  {
+    "query": "good afternoon",
+    "expected_route": "greeting",
+    "ground_truth_context": [],
+    "ground_truth_answer": "Hello! I'm your E-Commerce Operations Assistant."
+  },
+  {
+    "query": "help",
+    "expected_route": "help",
+    "ground_truth_context": [],
+    "ground_truth_answer": "I can help with delayed orders, complaints, tickets, policies, and analytics."
+  },
+  {
+    "query": "what can you do",
+    "expected_route": "help",
+    "ground_truth_context": [],
+    "ground_truth_answer": "I can help with delayed orders, complaints, tickets, policies, and analytics."
+  },
+  {
+    "query": "features",
+    "expected_route": "help",
+    "ground_truth_context": [],
+    "ground_truth_answer": "I can help with delayed orders, complaints, tickets, policies, and analytics."
+  },
+  {
+    "query": "capabilities",
+    "expected_route": "help",
+    "ground_truth_context": [],
+    "ground_truth_answer": "I can help with delayed orders, complaints, tickets, policies, and analytics."
+  },
+  {
+    "query": "who are you",
+    "expected_route": "help",
+    "ground_truth_context": [],
+    "ground_truth_answer": "I can help with delayed orders, complaints, tickets, policies, and analytics."
+  }
+]

@@ -4,11 +4,11 @@ langgraph
 langchain
 langchain-groq
 python-dotenv
-pydantic
+pydantic>=2.0.0
+pydantic-settings
 sqlalchemy
 sqlalchemy-orm
 psycopg2-binary
-langchain
 langchain-community
 langchain-chroma
 langchain-huggingface
@@ -21,3 +21,7 @@ streamlit
 SpeechRecognition
 plotly
 prophet
+mcp>=1.2.0
+langfuse
+pytest
+pytest-asyncio

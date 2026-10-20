@@ -6,5 +6,5 @@ def get_retriever():
 
     return vector_db.as_retriever(
         search_type="similarity",
-        search_kwargs={"k": 3}
+        search_kwargs={"k": 5}
     )

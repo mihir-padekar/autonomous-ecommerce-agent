@@ -1,0 +1,19 @@
+{
+  "suite_id": "suite-8f447ec0",
+  "timestamp": "2026-10-16T08:55:19.792872+00:00",
+  "runs": {
+    "rag": {
+      "run_id": "rag-eval-97cc317d",
+      "accuracy": "80.0%",
+      "keyword_hit_rate": "80.0%",
+      "avg_fact_coverage": "85.6%",
+      "total_samples": 15,
+      "passed": 12,
+      "failed": 3,
+      "failure_breakdown": {
+        "NONE": 12,
+        "RETRIEVAL_LOW_RECALL": 3
+      }
+    }
+  }
+}

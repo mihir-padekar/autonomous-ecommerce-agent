@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # 1. Local PostgreSQL (Optional if not using cloud Neon PostgreSQL)
+  postgres:
+    image: postgres:15-alpine
+    container_name: ecommerce-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-ecommerce_ops}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. FastAPI Operations Backend & LangGraph Agent
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ecommerce-api
+    restart: unless-stopped
+    command: ["uvicorn", "app.api.server:app", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - PRIMARY_MODEL=${PRIMARY_MODEL:-qwen/qwen3.8-27b}
+      - FALLBACK_MODEL=${FALLBACK_MODEL:-openai/gpt-oss-120b}
+      - LANGFUSE_PUBLIC_KEY=${LANGFUSE_PUBLIC_KEY:-}
+      - LANGFUSE_SECRET_KEY=${LANGFUSE_SECRET_KEY:-}
+      - LANGFUSE_HOST=${LANGFUSE_HOST:-https://cloud.langfuse.com}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # 3. Streamlit Dual-Pane Operations Control Center
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ecommerce-ui
+    restart: unless-stopped
+    command: ["streamlit", "run", "demo_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - PRIMARY_MODEL=${PRIMARY_MODEL:-qwen/qwen3.8-27b}
+      - FALLBACK_MODEL=${FALLBACK_MODEL:-openai/gpt-oss-120b}
+    ports:
+      - "8501:8501"
+    depends_on:
+      - app
+
+volumes:
+  pgdata:
+

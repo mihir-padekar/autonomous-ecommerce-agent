@@ -1,0 +1,316 @@
+{
+  "run_id": "rag-eval-97cc317d",
+  "eval_type": "rag",
+  "total_samples": 15,
+  "passed": 12,
+  "failed": 3,
+  "accuracy": 0.8,
+  "avg_fact_coverage": 0.8555555555555556,
+  "keyword_hit_rate": 0.8,
+  "failure_breakdown": {
+    "NONE": 12,
+    "RETRIEVAL_LOW_RECALL": 3
+  },
+  "results": [
+    {
+      "question_id": "RAG_001",
+      "user_input": "What is the return window for electronics items?",
+      "reference": "Electronic items have a return window of 14 days starting from the confirmed delivery date.",
+      "retrieved_chunks": [
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint.",
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse",
+        "3. POLICY OBJECTIVES \nThe organization shall: \n\u2022 Process eligible refunds efficiently. \n\u2022 Ensure transparent communication. \n\u2022 Minimize refund-related disputes. \n\u2022 Prevent fraudulent activities. \n\u2022 Maintain accurate financial records. \n\u2022 Comply with consumer protection regulations. \n\u2022 Support automated refund decision systems. \n \n4. DEFINITIONS \nRefund \nA monetary reimbursement issued to a customer for an eligible transaction. \nReturn \nThe process of sending purchased goods back to the company or seller. \nReplacement \nShipment of a new item in place of a defective, damaged, or incorrect item. \nExchange \nReplacement of a product with a different variant, size, or model. \nChargeback \nA payment reversal initiated by the customer's bank or payment provider. \nReturn Merchandise Authorization (RMA) \nA unique authorization number assigned to approved return requests. \nRefund Request \nA customer-initiated request seeking reimbursement."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 32160.6
+    },
+    {
+      "question_id": "RAG_002",
+      "user_input": "What is the return window for mobile devices?",
+      "reference": "Mobile devices have an eligible return window of 7 days from the confirmed delivery date.",
+      "retrieved_chunks": [
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint.",
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse",
+        "Product Cata logs \nPRODUCT_ID NAME CATEGORY BRAND PRICE STOCK DESCRIPTION \n101 iPhone 16 Mobile Apple 90000 50 Flagship \nsmartphone \nwith A18 chip \nand advanced \ncamera system \n102 Samsung \nGalaxy S26 \nMobile Samsung 85000 30 Premium \nAndroid \nsmartphone \nwith AI-powered \nfeatures \n103 MacBook \nPro M4 \nLaptop Apple 180000 10 High-\nperformance \nlaptop for \ndevelopers and \ncreators \n104 Dell XPS 15 Laptop Dell 145000 15 Premium \nultrabook with \nIntel Core Ultra \nprocessor \n105 HP Spectre \nx360 \nLaptop HP 135000 18 Convertible \nlaptop with \ntouchscreen and \nstylus support \n106 Lenovo \nThinkPad X1 \nCarbon \nLaptop Lenovo 150000 12 Business laptop \nwith lightweight \ndesign and \ndurability \n107 Asus ROG \nStrix G18 \nLaptop Asus 175000 8 Gaming laptop \nwith RTX \ngraphics and \nhigh refresh \ndisplay \n108 Sony WH-\n1000XM6 \nAudio Sony 35000 40 Wireless noise-\ncancelling \nheadphones"
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\product_catalog.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 14.0
+    },
+    {
+      "question_id": "RAG_003",
+      "user_input": "How many days does a customer have to return fashion and apparel?",
+      "reference": "Fashion & Apparel products have a return window of 30 days from delivery.",
+      "retrieved_chunks": [
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint.",
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse",
+        "2. Support validates order details. \n3. Return authorization is generated. \n4. Reverse logistics pickup is arranged. \n5. Replacement or refund is issued. \nTarget resolution time: \n\u2022 Within 5 business days. \n \n10. LOST SHIPMENT POLICY \nA shipment is considered lost when: \n\u2022 Tracking shows no movement for 7 consecutive days. \n\u2022 Carrier confirms loss. \n\u2022 Delivery cannot be verified. \nActions: \n\u2022 Investigation initiated. \n\u2022 Carrier contacted. \n\u2022 Customer notified. \nResolution: \n\u2022 Full refund or replacement. \n \n11. DELIVERY DELAY REFUND RULES \nRefund eligibility due to delays is governed by the Delivery SLA Policy. \nDelay Categories \nDelay: 1\u20133 Days \nAction: \n\u2022 Customer notification. \nRefund Eligibility: \n\u2022 No automatic refund. \n \nDelay: 4\u20137 Days"
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 18.2
+    },
+    {
+      "question_id": "RAG_004",
+      "user_input": "What is the return window for home and furniture items?",
+      "reference": "Home & Furniture items can be returned within 15 days of the confirmed delivery date.",
+      "retrieved_chunks": [
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint.",
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse",
+        "3. POLICY OBJECTIVES \nThe organization shall: \n\u2022 Process eligible refunds efficiently. \n\u2022 Ensure transparent communication. \n\u2022 Minimize refund-related disputes. \n\u2022 Prevent fraudulent activities. \n\u2022 Maintain accurate financial records. \n\u2022 Comply with consumer protection regulations. \n\u2022 Support automated refund decision systems. \n \n4. DEFINITIONS \nRefund \nA monetary reimbursement issued to a customer for an eligible transaction. \nReturn \nThe process of sending purchased goods back to the company or seller. \nReplacement \nShipment of a new item in place of a defective, damaged, or incorrect item. \nExchange \nReplacement of a product with a different variant, size, or model. \nChargeback \nA payment reversal initiated by the customer's bank or payment provider. \nReturn Merchandise Authorization (RMA) \nA unique authorization number assigned to approved return requests. \nRefund Request \nA customer-initiated request seeking reimbursement."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 16.1
+    },
+    {
+      "question_id": "RAG_005",
+      "user_input": "What is the return policy for home appliances?",
+      "reference": "Appliances have a return window of 10 days starting from the delivery date.",
+      "retrieved_chunks": [
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse",
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint.",
+        "3. POLICY OBJECTIVES \nThe organization shall: \n\u2022 Process eligible refunds efficiently. \n\u2022 Ensure transparent communication. \n\u2022 Minimize refund-related disputes. \n\u2022 Prevent fraudulent activities. \n\u2022 Maintain accurate financial records. \n\u2022 Comply with consumer protection regulations. \n\u2022 Support automated refund decision systems. \n \n4. DEFINITIONS \nRefund \nA monetary reimbursement issued to a customer for an eligible transaction. \nReturn \nThe process of sending purchased goods back to the company or seller. \nReplacement \nShipment of a new item in place of a defective, damaged, or incorrect item. \nExchange \nReplacement of a product with a different variant, size, or model. \nChargeback \nA payment reversal initiated by the customer's bank or payment provider. \nReturn Merchandise Authorization (RMA) \nA unique authorization number assigned to approved return requests. \nRefund Request \nA customer-initiated request seeking reimbursement."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 12.3
+    },
+    {
+      "question_id": "RAG_006",
+      "user_input": "Can beauty products be returned after opening?",
+      "reference": "Beauty products are strictly non-returnable after opening.",
+      "retrieved_chunks": [
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint.",
+        "Action: \n\u2022 Service recovery review. \nRefund Eligibility: \n\u2022 Shipping fee reimbursement may apply. \n \nDelay: More Than 7 Days \nAction: \n\u2022 Escalation review. \nRefund Eligibility: \n\u2022 Full refund consideration. \n \nDelay: More Than 14 Days \nAction: \n\u2022 Critical escalation. \nRefund Eligibility: \n\u2022 Full refund recommended. \n \n12. PARTIAL REFUND POLICY \nPartial refunds may be issued when: \n\u2022 Product has minor cosmetic defects. \n\u2022 Customer chooses to retain product. \n\u2022 Delivery commitments are partially missed. \n\u2022 Promotional pricing corrections are required. \nPartial refund amounts must be approved according to the Approval Authority Matrix. \n \n13. MARKETPLACE SELLER SCENARIOS \nFor third-party seller transactions: \n\u2022 Seller remains primary responsible party. \n\u2022 Platform may intervene if seller fails to respond.",
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse"
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 14.0
+    },
+    {
+      "question_id": "RAG_007",
+      "user_input": "What is the return policy on grocery products?",
+      "reference": "Grocery products are non-returnable under the company refund policy.",
+      "retrieved_chunks": [
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse",
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint.",
+        "\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse \noperations, logistics partners, and automated systems involved in refund processing."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 12.4
+    },
+    {
+      "question_id": "RAG_008",
+      "user_input": "What is the reporting window and proof required for damaged goods?",
+      "reference": "Customers must report damaged goods within 48 hours of delivery and submit photographic evidence. Support must initiate resolution within 24 hours of verification.",
+      "retrieved_chunks": [
+        "Operational Performance \n\u2022 Warehouse accuracy \n\u2022 Dispatch compliance \n\u2022 Carrier SLA compliance \n \n15. REPORTING REQUIREMENTS \nThe Logistics Operations Team shall generate: \nDaily Reports \n\u2022 Delayed orders \n\u2022 SLA breaches \n\u2022 Carrier performance exceptions \nWeekly Reports \n\u2022 Trend analysis \n\u2022 Incident summaries \nMonthly Reports \n\u2022 Executive dashboard \n\u2022 KPI scorecards \n\u2022 Root cause analysis \n16. AUDIT REQUIREMENTS \nAll delivery activities must be auditable. \nRequired records include: \n\u2022 Order timestamps \n\u2022 Fulfillment timestamps \n\u2022 Dispatch timestamps \n\u2022 Tracking updates \n\u2022 Delivery confirmations \n\u2022 Customer communications \n\u2022 Escalation actions \nAudit records must be retained for a minimum of 24 months.",
+        "\u2022 Tax regulations \n\u2022 Data privacy regulations \n\u2022 Payment card industry standards \n \n22. EXCEPTION HANDLING \nExceptions may be granted when: \n\u2022 Regulatory requirements apply. \n\u2022 Executive approval is provided. \n\u2022 Customer safety concerns exist. \n\u2022 Significant service failures occur. \nAll exceptions must be documented and approved. \n \n23. REPORTING REQUIREMENTS \nThe following reports shall be generated: \nDaily Reports \n\u2022 Refund requests \n\u2022 Approval rates \n\u2022 Pending investigations \nWeekly Reports \n\u2022 Refund trends \n\u2022 Fraud indicators \n\u2022 Seller disputes \nMonthly Reports \n\u2022 Refund volume analysis \n\u2022 Financial impact assessment \n\u2022 Compliance review",
+        "7. RETURN WINDOWS BY PRODUCT CATEGORY \nProduct Category Return Window \nElectronics 14 Days \nMobile Devices 7 Days \nFashion & Apparel 30 Days \nHome & Furniture 15 Days \nAppliances 10 Days \nBooks 7 Days \nBeauty Products Non-Returnable After Opening \nGrocery Products Non-Returnable \nSoftware Licenses Non-Refundable After Activation \nReturn windows begin on the confirmed delivery date. \n \n8. DAMAGED GOODS HANDLING \nCustomers must: \n\u2022 Report damage within 48 hours. \n\u2022 Submit photographic evidence. \n\u2022 Provide order information. \n\u2022 Retain original packaging. \nSupport teams shall: \n\u2022 Verify evidence. \n\u2022 Review carrier records. \n\u2022 Determine refund eligibility. \nResolution must be initiated within 24 hours of verification. \n \n9. WRONG ITEM DELIVERY PROCESS \nWhen incorrect items are delivered: \n1. Customer submits complaint."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 15.6
+    },
+    {
+      "question_id": "RAG_009",
+      "user_input": "When is an undelivered shipment officially classified as lost?",
+      "reference": "A shipment is considered lost when tracking shows no movement for 7 consecutive days, carrier confirms loss, or delivery cannot be verified.",
+      "retrieved_chunks": [
+        "2. Support validates order details. \n3. Return authorization is generated. \n4. Reverse logistics pickup is arranged. \n5. Replacement or refund is issued. \nTarget resolution time: \n\u2022 Within 5 business days. \n \n10. LOST SHIPMENT POLICY \nA shipment is considered lost when: \n\u2022 Tracking shows no movement for 7 consecutive days. \n\u2022 Carrier confirms loss. \n\u2022 Delivery cannot be verified. \nActions: \n\u2022 Investigation initiated. \n\u2022 Carrier contacted. \n\u2022 Customer notified. \nResolution: \n\u2022 Full refund or replacement. \n \n11. DELIVERY DELAY REFUND RULES \nRefund eligibility due to delays is governed by the Delivery SLA Policy. \nDelay Categories \nDelay: 1\u20133 Days \nAction: \n\u2022 Customer notification. \nRefund Eligibility: \n\u2022 No automatic refund. \n \nDelay: 4\u20137 Days",
+        "7. CARRIER RESPONSIBILITIES \nApproved carriers must: \n\u2022 Accept assigned shipments promptly. \n\u2022 Maintain shipment tracking visibility. \n\u2022 Meet contracted transit commitments. \n\u2022 Report operational disruptions. \n\u2022 Handle packages according to handling guidelines. \n\u2022 Maintain proof-of-delivery records. \nCarrier performance shall be reviewed monthly. \n \n8. DELIVERY EXCEPTIONS \nDelivery commitments may be suspended due to: \nAddress Issues \n\u2022 Invalid address \n\u2022 Missing address details \n\u2022 Restricted delivery zones \nCustomer Issues \n\u2022 Customer unavailable \n\u2022 Delivery refusal \n\u2022 Requested delivery rescheduling \nRegulatory Issues \n\u2022 Customs delays \n\u2022 Government restrictions \n\u2022 Security inspections \nOperational Issues \n\u2022 Inventory discrepancies \n\u2022 Warehouse outages \n\u2022 Carrier network failures",
+        "Escalation Notification \nCustomers shall be informed whenever: \n\u2022 Delivery exceeds 3 days beyond SLA. \n\u2022 Refund eligibility is triggered. \n\u2022 Escalation review begins. \n \n11. DELAY CLASSIFICATION MATRIX \nClassification Delay Duration Severity \nMinor 1\u20132 Days Low \nModerate 3\u20135 Days Medium \nMajor 6\u201310 Days High \nCritical More than 10 Days Severe \n \n \n12. SLA BREACH RULES \nAn SLA breach occurs when: \n\u2022 Standard delivery exceeds 7 business days. \n\u2022 Express delivery exceeds 2 business days. \n\u2022 Same-day delivery misses end-of-day commitment. \n\u2022 International delivery exceeds 15 business days. \nEvery SLA breach must: \n\u2022 Generate an incident record. \n\u2022 Trigger automated monitoring. \n\u2022 Be reviewed by operations management."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 14.0
+    },
+    {
+      "question_id": "RAG_010",
+      "user_input": "What refund applies for orders delayed by 1 to 3 days?",
+      "reference": "For delivery delays of 1 to 3 days, customer notification is sent and there is no automatic refund.",
+      "retrieved_chunks": [
+        "2. Support validates order details. \n3. Return authorization is generated. \n4. Reverse logistics pickup is arranged. \n5. Replacement or refund is issued. \nTarget resolution time: \n\u2022 Within 5 business days. \n \n10. LOST SHIPMENT POLICY \nA shipment is considered lost when: \n\u2022 Tracking shows no movement for 7 consecutive days. \n\u2022 Carrier confirms loss. \n\u2022 Delivery cannot be verified. \nActions: \n\u2022 Investigation initiated. \n\u2022 Carrier contacted. \n\u2022 Customer notified. \nResolution: \n\u2022 Full refund or replacement. \n \n11. DELIVERY DELAY REFUND RULES \nRefund eligibility due to delays is governed by the Delivery SLA Policy. \nDelay Categories \nDelay: 1\u20133 Days \nAction: \n\u2022 Customer notification. \nRefund Eligibility: \n\u2022 No automatic refund. \n \nDelay: 4\u20137 Days",
+        "Action: \n\u2022 Service recovery review. \nRefund Eligibility: \n\u2022 Shipping fee reimbursement may apply. \n \nDelay: More Than 7 Days \nAction: \n\u2022 Escalation review. \nRefund Eligibility: \n\u2022 Full refund consideration. \n \nDelay: More Than 14 Days \nAction: \n\u2022 Critical escalation. \nRefund Eligibility: \n\u2022 Full refund recommended. \n \n12. PARTIAL REFUND POLICY \nPartial refunds may be issued when: \n\u2022 Product has minor cosmetic defects. \n\u2022 Customer chooses to retain product. \n\u2022 Delivery commitments are partially missed. \n\u2022 Promotional pricing corrections are required. \nPartial refund amounts must be approved according to the Approval Authority Matrix. \n \n13. MARKETPLACE SELLER SCENARIOS \nFor third-party seller transactions: \n\u2022 Seller remains primary responsible party. \n\u2022 Platform may intervene if seller fails to respond.",
+        "REFUND & RETURNS POLICY \n \n1. PURPOSE \nThis Refund & Returns Policy establishes the rules, procedures, responsibilities, approval \nworkflows, financial controls, compliance requirements, and customer service standards \ngoverning product returns, refunds, replacements, exchanges, and compensation requests. \nThe policy aims to: \n\u2022 Protect customer rights. \n\u2022 Ensure fair and consistent refund decisions. \n\u2022 Reduce fraud and abuse. \n\u2022 Standardize operational procedures. \n\u2022 Enable automated policy enforcement. \n\u2022 Support audit and compliance requirements. \n\u2022 Improve customer satisfaction while minimizing financial risk. \n \n2. SCOPE \nThis policy applies to: \n\u2022 Direct-to-consumer orders. \n\u2022 Marketplace orders. \n\u2022 Domestic shipments. \n\u2022 International shipments. \n\u2022 Mobile application purchases. \n\u2022 Website purchases. \n\u2022 Subscription-based purchases. \n\u2022 Promotional purchases. \n\u2022 Gift purchases. \nThe policy applies to all customers, sellers, support teams, finance teams, warehouse"
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 0.5,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 15.5
+    },
+    {
+      "question_id": "RAG_011",
+      "user_input": "What action is taken if a delivery delay exceeds 14 days?",
+      "reference": "For delays greater than 14 days, a critical escalation is triggered and a full refund is recommended.",
+      "retrieved_chunks": [
+        "2. Support validates order details. \n3. Return authorization is generated. \n4. Reverse logistics pickup is arranged. \n5. Replacement or refund is issued. \nTarget resolution time: \n\u2022 Within 5 business days. \n \n10. LOST SHIPMENT POLICY \nA shipment is considered lost when: \n\u2022 Tracking shows no movement for 7 consecutive days. \n\u2022 Carrier confirms loss. \n\u2022 Delivery cannot be verified. \nActions: \n\u2022 Investigation initiated. \n\u2022 Carrier contacted. \n\u2022 Customer notified. \nResolution: \n\u2022 Full refund or replacement. \n \n11. DELIVERY DELAY REFUND RULES \nRefund eligibility due to delays is governed by the Delivery SLA Policy. \nDelay Categories \nDelay: 1\u20133 Days \nAction: \n\u2022 Customer notification. \nRefund Eligibility: \n\u2022 No automatic refund. \n \nDelay: 4\u20137 Days",
+        "Escalation Notification \nCustomers shall be informed whenever: \n\u2022 Delivery exceeds 3 days beyond SLA. \n\u2022 Refund eligibility is triggered. \n\u2022 Escalation review begins. \n \n11. DELAY CLASSIFICATION MATRIX \nClassification Delay Duration Severity \nMinor 1\u20132 Days Low \nModerate 3\u20135 Days Medium \nMajor 6\u201310 Days High \nCritical More than 10 Days Severe \n \n \n12. SLA BREACH RULES \nAn SLA breach occurs when: \n\u2022 Standard delivery exceeds 7 business days. \n\u2022 Express delivery exceeds 2 business days. \n\u2022 Same-day delivery misses end-of-day commitment. \n\u2022 International delivery exceeds 15 business days. \nEvery SLA breach must: \n\u2022 Generate an incident record. \n\u2022 Trigger automated monitoring. \n\u2022 Be reviewed by operations management.",
+        "9. FORCE MAJEURE CONDITIONS \nThe company shall not be considered in breach of SLA obligations when delays are caused \nby events beyond reasonable control, including: \n\u2022 Natural disasters \n\u2022 Earthquakes \n\u2022 Floods \n\u2022 Hurricanes \n\u2022 Pandemics \n\u2022 Government actions \n\u2022 War \n\u2022 Civil unrest \n\u2022 Transportation shutdowns \n\u2022 Internet outages \n\u2022 Utility failures \nForce majeure events shall be documented and approved by Operations Management. \n10. CUSTOMER COMMUNICATION STANDARDS \nOrder Confirmation \nSent within: \n\u2022 5 minutes of order acceptance. \nShipment Confirmation \nSent within: \n\u2022 15 minutes of dispatch. \nDelay Notification \nSent within: \n\u2022 2 hours of identifying a likely SLA breach. \nNotification must include: \n\u2022 Order ID \n\u2022 Revised delivery estimate \n\u2022 Reason for delay \n\u2022 Support contact information"
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf"
+      ],
+      "keyword_hit": false,
+      "fact_coverage": 0.0,
+      "failure_mode": "RETRIEVAL_LOW_RECALL",
+      "failure_detail": "Expected keywords absent from top-k chunks despite correct source being retrieved.",
+      "latency_ms": 14.8
+    },
+    {
+      "question_id": "RAG_012",
+      "user_input": "What is the refund approval limit for a frontline Customer Support Agent?",
+      "reference": "A Customer Support Agent can approve refunds up to $50.",
+      "retrieved_chunks": [
+        "16. APPROV AL AUTHORITY MATRIX \nRefund Amount Approval Required \nUp to $50 Customer Support Agent \n$51 - $250 Support Supervisor \n$251 - $1,000 Operations Manager \nAbove $1,000 Department Director \nAutomated approvals may be used for low-risk refunds. \n \n17. FINANCIAL CONTROLS \nFinance teams shall ensure: \n\u2022 Accurate refund accounting. \n\u2022 Reconciliation of payment records. \n\u2022 Segregation of duties. \n\u2022 Fraud monitoring. \n\u2022 Regulatory compliance. \nMonthly refund audits shall be conducted. \n \n18. REFUND PROCESSING SLAS \nRefund Method Processing SLA \nCredit Card 3\u20137 Business Days \nDebit Card 3\u201310 Business Days \nBank Transfer 5\u201310 Business Days \nWallet Refund 24 Hours \nStore Credit Immediate \nDelays caused by financial institutions are excluded from SLA calculations.",
+        "Action: \n\u2022 Service recovery review. \nRefund Eligibility: \n\u2022 Shipping fee reimbursement may apply. \n \nDelay: More Than 7 Days \nAction: \n\u2022 Escalation review. \nRefund Eligibility: \n\u2022 Full refund consideration. \n \nDelay: More Than 14 Days \nAction: \n\u2022 Critical escalation. \nRefund Eligibility: \n\u2022 Full refund recommended. \n \n12. PARTIAL REFUND POLICY \nPartial refunds may be issued when: \n\u2022 Product has minor cosmetic defects. \n\u2022 Customer chooses to retain product. \n\u2022 Delivery commitments are partially missed. \n\u2022 Promotional pricing corrections are required. \nPartial refund amounts must be approved according to the Approval Authority Matrix. \n \n13. MARKETPLACE SELLER SCENARIOS \nFor third-party seller transactions: \n\u2022 Seller remains primary responsible party. \n\u2022 Platform may intervene if seller fails to respond.",
+        "19. CUSTOMER COMMUNICATION REQUIREMENTS \nCustomers shall receive: \n\u2022 Refund request confirmation. \n\u2022 Investigation updates. \n\u2022 Approval or rejection notices. \n\u2022 Refund completion notification. \nCommunications must include: \n\u2022 Case ID \n\u2022 Order ID \n\u2022 Resolution status \n\u2022 Expected timelines \n \n20. AUDIT LOGGING REQUIREMENTS \nThe system must log: \n\u2022 Request creation timestamp \n\u2022 Customer details \n\u2022 Order details \n\u2022 Refund amount \n\u2022 Decision outcome \n\u2022 Approver information \n\u2022 Payment transaction references \nRetention Period: \n\u2022 Minimum 7 years \n \n21. REGULATORY COMPLIANCE \nRefund operations shall comply with: \n\u2022 Consumer protection laws \n\u2022 Electronic commerce regulations \n\u2022 Financial reporting requirements"
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 16.3
+    },
+    {
+      "question_id": "RAG_013",
+      "user_input": "What approval level is needed for refunds between $251 and $1000?",
+      "reference": "Refunds between $251 and $1,000 require approval from the Operations Manager.",
+      "retrieved_chunks": [
+        "16. APPROV AL AUTHORITY MATRIX \nRefund Amount Approval Required \nUp to $50 Customer Support Agent \n$51 - $250 Support Supervisor \n$251 - $1,000 Operations Manager \nAbove $1,000 Department Director \nAutomated approvals may be used for low-risk refunds. \n \n17. FINANCIAL CONTROLS \nFinance teams shall ensure: \n\u2022 Accurate refund accounting. \n\u2022 Reconciliation of payment records. \n\u2022 Segregation of duties. \n\u2022 Fraud monitoring. \n\u2022 Regulatory compliance. \nMonthly refund audits shall be conducted. \n \n18. REFUND PROCESSING SLAS \nRefund Method Processing SLA \nCredit Card 3\u20137 Business Days \nDebit Card 3\u201310 Business Days \nBank Transfer 5\u201310 Business Days \nWallet Refund 24 Hours \nStore Credit Immediate \nDelays caused by financial institutions are excluded from SLA calculations.",
+        "19. CUSTOMER COMMUNICATION REQUIREMENTS \nCustomers shall receive: \n\u2022 Refund request confirmation. \n\u2022 Investigation updates. \n\u2022 Approval or rejection notices. \n\u2022 Refund completion notification. \nCommunications must include: \n\u2022 Case ID \n\u2022 Order ID \n\u2022 Resolution status \n\u2022 Expected timelines \n \n20. AUDIT LOGGING REQUIREMENTS \nThe system must log: \n\u2022 Request creation timestamp \n\u2022 Customer details \n\u2022 Order details \n\u2022 Refund amount \n\u2022 Decision outcome \n\u2022 Approver information \n\u2022 Payment transaction references \nRetention Period: \n\u2022 Minimum 7 years \n \n21. REGULATORY COMPLIANCE \nRefund operations shall comply with: \n\u2022 Consumer protection laws \n\u2022 Electronic commerce regulations \n\u2022 Financial reporting requirements",
+        "24. GOVERNANCE \nThe Refund Governance Committee shall oversee: \n\u2022 Policy compliance \n\u2022 Approval controls \n\u2022 Fraud prevention \n\u2022 Financial risk management \n\u2022 Customer satisfaction metrics \nPolicy exceptions require committee approval."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\refund_policy.pdf"
+      ],
+      "keyword_hit": true,
+      "fact_coverage": 1.0,
+      "failure_mode": "NONE",
+      "failure_detail": null,
+      "latency_ms": 14.5
+    },
+    {
+      "question_id": "RAG_014",
+      "user_input": "What is the SLA commitment for Standard Delivery?",
+      "reference": "Standard Delivery commitment requires order processing within 24 hours and delivery in 3 to 7 business days.",
+      "retrieved_chunks": [
+        "DELIVERY SERVICE LEVEL AGREEMENT (SLA) POLICY \nDocument Title: Delivery Service Level Agreement (SLA) Policy \nDocument Owner: Logistics Operations Department \nEffective Date: June 2, 2026 \nReview Frequency: Annual or as required by business changes \n \n1. PURPOSE \nThe purpose of this Delivery Service Level Agreement (SLA) Policy is to establish \nstandardized service commitments, operational expectations, delivery timelines, \naccountability measures, escalation procedures, and performance monitoring requirements \ngoverning the fulfillment and delivery of customer orders. \nThis policy serves as the authoritative reference for logistics teams, customer support teams, \nwarehouse operations personnel, delivery partners, technology systems, and automated \ndecision-making agents responsible for order fulfillment and customer experience \nmanagement. \nThe objectives of this policy are to: \n\u2022 Ensure consistent delivery performance. \n\u2022 Define measurable delivery standards.",
+        "\u2022 Customer support operations. \n\u2022 Automated fulfillment systems. \n\u2022 AI-powered operational agents. \nThe policy applies from the moment an order is confirmed until successful delivery, \ncancellation, return, or closure. \n \n3. DEFINITIONS \n3.1 Order Confirmation \nThe point at which payment authorization is completed and the order is accepted for \nprocessing. \n3.2 Fulfillment \nActivities associated with inventory allocation, picking, packing, labeling, and shipment \npreparation. \n3.3 Dispatch \nThe transfer of a packaged shipment from warehouse control to an approved carrier. \n3.4 Delivery Completion \nThe successful transfer of goods to the customer or authorized recipient. \n3.5 Business Day \nMonday through Friday excluding company-recognized public holidays. \n3.6 SLA \nA measurable service commitment defining expected operational performance. \n3.7 Delivery Delay \nAny delivery occurring after the committed delivery date. \n3.8 SLA Breach",
+        "5. DELIVERY COMMITMENTS \nThe company commits to: \n1. Accurate order processing. \n2. Timely shipment dispatch. \n3. Shipment visibility through tracking. \n4. Proactive delay notifications. \n5. Delivery confirmation recording. \n6. Continuous monitoring of delivery performance. \nAll commitments are subject to exceptions described within this policy. \n \n6. WAREHOUSE PROCESSING SLA \nInventory Allocation \nTarget: 15 minutes from order confirmation. \nPicking \nTarget: 2 hours. \nAccuracy Target: \n\u2022 99.5% picking accuracy. \nPacking \nTarget: \n\u2022 Within 2 hours after picking. \nQuality Requirements: \n\u2022 Product protection standards. \n\u2022 Correct labelling. \n\u2022 Regulatory compliance. \nDispatch \nTarget: \n\u2022 Within 24 hours of order confirmation. \nPerformance Goal: \n\u2022 98% on-time dispatch rate."
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\delivery_sla_policy.pdf"
+      ],
+      "keyword_hit": false,
+      "fact_coverage": 0.3333333333333333,
+      "failure_mode": "RETRIEVAL_LOW_RECALL",
+      "failure_detail": "Expected keywords absent from top-k chunks despite correct source being retrieved.",
+      "latency_ms": 15.4
+    },
+    {
+      "question_id": "RAG_015",
+      "user_input": "What are the specs and price of the iPhone 16 in the catalog?",
+      "reference": "Product ID 101 iPhone 16 is in the Mobile category by Apple, priced at 90000 with 50 units in stock, featuring the A18 chip and advanced camera system.",
+      "retrieved_chunks": [
+        "Product Cata logs \nPRODUCT_ID NAME CATEGORY BRAND PRICE STOCK DESCRIPTION \n101 iPhone 16 Mobile Apple 90000 50 Flagship \nsmartphone \nwith A18 chip \nand advanced \ncamera system \n102 Samsung \nGalaxy S26 \nMobile Samsung 85000 30 Premium \nAndroid \nsmartphone \nwith AI-powered \nfeatures \n103 MacBook \nPro M4 \nLaptop Apple 180000 10 High-\nperformance \nlaptop for \ndevelopers and \ncreators \n104 Dell XPS 15 Laptop Dell 145000 15 Premium \nultrabook with \nIntel Core Ultra \nprocessor \n105 HP Spectre \nx360 \nLaptop HP 135000 18 Convertible \nlaptop with \ntouchscreen and \nstylus support \n106 Lenovo \nThinkPad X1 \nCarbon \nLaptop Lenovo 150000 12 Business laptop \nwith lightweight \ndesign and \ndurability \n107 Asus ROG \nStrix G18 \nLaptop Asus 175000 8 Gaming laptop \nwith RTX \ngraphics and \nhigh refresh \ndisplay \n108 Sony WH-\n1000XM6 \nAudio Sony 35000 40 Wireless noise-\ncancelling \nheadphones",
+        "Product Cata logs \nwith premium \nsound \n109 AirPods Pro \n3 \nAudio Apple 28000 60 True wireless \nearbuds with \nactive noise \ncancellation \n110 Galaxy Buds \n3 Pro \nAudio Samsung 12000 70 Wireless \nearbuds with \nimmersive audio \nexperience \n111 iPad Pro M4 Tablet Apple 110000 20 Professional \ntablet powered \nby Apple M4 \nchip \n112 Galaxy Tab \nS10 \nTablet Samsung 85000 25 Android tablet \nwith AMOLED \ndisplay and S-\nPen \n113 Kindle \nPaperwhite \nTablet Amazon 16000 50 E-reader with \nglare-free \ndisplay and long \nbattery life \n114 Apple \nWatch Ultra \n3 \nWearable Apple 85000 15 Advanced \nsmartwatch for \nfitness and \noutdoor \nactivities \n115 Galaxy \nWatch 8 \nWearable Samsung 42000 25 Smartwatch \nwith health \nmonitoring and \nGPS tracking \n116 Fitbit \nCharge 7 \nWearable Fitbit 15000 35 Fitness tracker \nwith heart rate \nand sleep \nmonitoring",
+        "Product Cata logs \n117 LG OLED C5 \n55-inch \nTV LG 125000 10 OLED smart TV \nwith cinematic \npicture quality \n118 Sony Bravia \nXR 65-inch \nTV Sony 155000 8 Premium smart \nTV with \ncognitive \nprocessor XR \n119 Samsung \nNeo QLED \n55-inch \nTV Samsung 135000 12 4K smart TV \nwith Mini LED \ntechnology \n120 Canon EOS \nR8 \nCamera Canon 145000 6 Full-frame \nmirrorless \ncamera for \nphotography \nenthusiasts \n121 Sony Alpha \nA7 IV \nCamera Sony 210000 5 Professional \nmirrorless \ncamera with \n33MP sensor \n122 Nikon Z6 III Camera Nikon 185000 7 Hybrid camera \ndesigned for \nphotography \nand videography \n123 Logitech MX \nMaster 4 \nAccessory Logitech 12000 100 Advanced \nwireless \nproductivity \nmouse for \nprofessionals \n124 Keychron K8 \nPro \nAccessory Keychron 9000 80 Mechanical \nkeyboard with \nwireless \nconnectivity \n125 Anker 737 \nPower Bank \nAccessory Anker 14000 65 High-capacity \nfast-charging \npower bank for \nmultiple devices"
+      ],
+      "retrieved_sources": [
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\product_catalog.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\product_catalog.pdf",
+        "D:\\1_CDAC_notes\\Project\\autonomous-ecommerce-agent\\knowledge_base\\policies\\product_catalog.pdf"
+      ],
+      "keyword_hit": false,
+      "fact_coverage": 1.0,
+      "failure_mode": "RETRIEVAL_LOW_RECALL",
+      "failure_detail": "Expected keywords absent from top-k chunks despite correct source being retrieved.",
+      "latency_ms": 17.1
+    }
+  ]
+}

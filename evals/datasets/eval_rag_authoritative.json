@@ -1,0 +1,239 @@
+[
+  {
+    "question_id": "RAG_001",
+    "user_input": "What is the return window for electronics items?",
+    "reference": "Electronic items have a return window of 14 days starting from the confirmed delivery date.",
+    "reference_facts": [
+      "category = Electronics",
+      "return_window = 14 Days"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 4,
+    "expected_chunk_keywords": [
+      "RETURN WINDOWS BY PRODUCT CATEGORY",
+      "Electronics 14 Days"
+    ],
+    "category": "return_window"
+  },
+  {
+    "question_id": "RAG_002",
+    "user_input": "What is the return window for mobile devices?",
+    "reference": "Mobile devices have an eligible return window of 7 days from the confirmed delivery date.",
+    "reference_facts": [
+      "category = Mobile Devices",
+      "return_window = 7 Days"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 4,
+    "expected_chunk_keywords": [
+      "Mobile Devices 7 Days"
+    ],
+    "category": "return_window"
+  },
+  {
+    "question_id": "RAG_003",
+    "user_input": "How many days does a customer have to return fashion and apparel?",
+    "reference": "Fashion & Apparel products have a return window of 30 days from delivery.",
+    "reference_facts": [
+      "category = Fashion & Apparel",
+      "return_window = 30 Days"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 4,
+    "expected_chunk_keywords": [
+      "Fashion & Apparel 30 Days"
+    ],
+    "category": "return_window"
+  },
+  {
+    "question_id": "RAG_004",
+    "user_input": "What is the return window for home and furniture items?",
+    "reference": "Home & Furniture items can be returned within 15 days of the confirmed delivery date.",
+    "reference_facts": [
+      "category = Home & Furniture",
+      "return_window = 15 Days"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 4,
+    "expected_chunk_keywords": [
+      "Home & Furniture 15 Days"
+    ],
+    "category": "return_window"
+  },
+  {
+    "question_id": "RAG_005",
+    "user_input": "What is the return policy for home appliances?",
+    "reference": "Appliances have a return window of 10 days starting from the delivery date.",
+    "reference_facts": [
+      "category = Appliances",
+      "return_window = 10 Days"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 4,
+    "expected_chunk_keywords": [
+      "Appliances 10 Days"
+    ],
+    "category": "return_window"
+  },
+  {
+    "question_id": "RAG_006",
+    "user_input": "Can beauty products be returned after opening?",
+    "reference": "Beauty products are strictly non-returnable after opening.",
+    "reference_facts": [
+      "category = Beauty Products",
+      "condition = Non-Returnable After Opening"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 4,
+    "expected_chunk_keywords": [
+      "Beauty Products Non-Returnable After Opening"
+    ],
+    "category": "return_window"
+  },
+  {
+    "question_id": "RAG_007",
+    "user_input": "What is the return policy on grocery products?",
+    "reference": "Grocery products are non-returnable under the company refund policy.",
+    "reference_facts": [
+      "category = Grocery Products",
+      "condition = Non-Returnable"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 4,
+    "expected_chunk_keywords": [
+      "Grocery Products Non-Returnable"
+    ],
+    "category": "return_window"
+  },
+  {
+    "question_id": "RAG_008",
+    "user_input": "What is the reporting window and proof required for damaged goods?",
+    "reference": "Customers must report damaged goods within 48 hours of delivery and submit photographic evidence. Support must initiate resolution within 24 hours of verification.",
+    "reference_facts": [
+      "report_timeline = within 48 hours",
+      "evidence = photographic evidence"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 5,
+    "expected_chunk_keywords": [
+      "DAMAGED GOODS HANDLING",
+      "Report damage within 48 hours"
+    ],
+    "category": "claims_handling"
+  },
+  {
+    "question_id": "RAG_009",
+    "user_input": "When is an undelivered shipment officially classified as lost?",
+    "reference": "A shipment is considered lost when tracking shows no movement for 7 consecutive days, carrier confirms loss, or delivery cannot be verified.",
+    "reference_facts": [
+      "lost_condition = no movement for 7 consecutive days"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 5,
+    "expected_chunk_keywords": [
+      "LOST SHIPMENT POLICY",
+      "no movement for 7 consecutive days"
+    ],
+    "category": "claims_handling"
+  },
+  {
+    "question_id": "RAG_010",
+    "user_input": "What refund applies for orders delayed by 1 to 3 days?",
+    "reference": "For delivery delays of 1 to 3 days, customer notification is sent and there is no automatic refund.",
+    "reference_facts": [
+      "delay_duration = 1-3 Days",
+      "refund_eligibility = No automatic refund"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 6,
+    "expected_chunk_keywords": [
+      "DELIVERY DELAY REFUND RULES",
+      "Delay: 1\u20133 Days",
+      "No automatic refund"
+    ],
+    "category": "delay_refund"
+  },
+  {
+    "question_id": "RAG_011",
+    "user_input": "What action is taken if a delivery delay exceeds 14 days?",
+    "reference": "For delays greater than 14 days, a critical escalation is triggered and a full refund is recommended.",
+    "reference_facts": [
+      "delay_duration = More Than 14 Days",
+      "action = Critical escalation",
+      "recommendation = Full refund recommended"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 7,
+    "expected_chunk_keywords": [
+      "Delay: More Than 14 Days",
+      "Full refund recommended"
+    ],
+    "category": "delay_refund"
+  },
+  {
+    "question_id": "RAG_012",
+    "user_input": "What is the refund approval limit for a frontline Customer Support Agent?",
+    "reference": "A Customer Support Agent can approve refunds up to $50.",
+    "reference_facts": [
+      "role = Customer Support Agent",
+      "max_amount = $50"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 8,
+    "expected_chunk_keywords": [
+      "APPROVAL AUTHORITY MATRIX",
+      "Up to $50 Customer Support Agent"
+    ],
+    "category": "approval_authority"
+  },
+  {
+    "question_id": "RAG_013",
+    "user_input": "What approval level is needed for refunds between $251 and $1000?",
+    "reference": "Refunds between $251 and $1,000 require approval from the Operations Manager.",
+    "reference_facts": [
+      "amount_range = $251 - $1,000",
+      "approver = Operations Manager"
+    ],
+    "expected_source_document": "refund_policy.pdf",
+    "expected_source_page": 8,
+    "expected_chunk_keywords": [
+      "$251 - $1,000 Operations Manager"
+    ],
+    "category": "approval_authority"
+  },
+  {
+    "question_id": "RAG_014",
+    "user_input": "What is the SLA commitment for Standard Delivery?",
+    "reference": "Standard Delivery commitment requires order processing within 24 hours and delivery in 3 to 7 business days.",
+    "reference_facts": [
+      "tier = Standard Delivery",
+      "processing = Within 24 hours",
+      "delivery = 3\u20137 business days"
+    ],
+    "expected_source_document": "delivery_sla_policy.pdf",
+    "expected_source_page": 2,
+    "expected_chunk_keywords": [
+      "4.1 Standard Delivery",
+      "Processing: Within 24 hours",
+      "Delivery: 3\u20137 business days"
+    ],
+    "category": "delivery_sla"
+  },
+  {
+    "question_id": "RAG_015",
+    "user_input": "What are the specs and price of the iPhone 16 in the catalog?",
+    "reference": "Product ID 101 iPhone 16 is in the Mobile category by Apple, priced at 90000 with 50 units in stock, featuring the A18 chip and advanced camera system.",
+    "reference_facts": [
+      "product_id = 101",
+      "brand = Apple",
+      "price = 90000",
+      "chip = A18"
+    ],
+    "expected_source_document": "product_catalog.pdf",
+    "expected_source_page": 0,
+    "expected_chunk_keywords": [
+      "101 iPhone 16 Mobile Apple 90000 50 Flagship smartphone with A18 chip"
+    ],
+    "category": "product_catalog"
+  }
+]

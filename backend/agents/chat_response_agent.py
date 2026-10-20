@@ -26,7 +26,8 @@ Instructions:
 - Answer naturally like ChatGPT.
 - Be concise.
 - Mention important metrics.
-- Use policy context if relevant.
+- When answering a policy or SLA query, strictly preserve and state the exact numbers, time windows (e.g., days/hours), conditions, and approval tiers from the Policy context.
+- Do NOT contradict or omit specific figures present in the policy.
 - Do NOT generate a report.
 - Do NOT use headings.
 - Maximum 150 words.

@@ -1,0 +1,17 @@
+{
+  "suite_id": "suite-37b2aca0",
+  "timestamp": "2026-10-16T08:54:37.796846+00:00",
+  "runs": {
+    "routing": {
+      "run_id": "routing-eval-597b077c",
+      "accuracy": "91.4%",
+      "total_samples": 35,
+      "passed": 32,
+      "failed": 3,
+      "failure_breakdown": {
+        "NONE": 32,
+        "WRONG_TOOL_SELECTED": 3
+      }
+    }
+  }
+}

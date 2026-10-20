@@ -1,55 +1,62 @@
-# Virtual Environment
-venv/
-.env/
+# ==============================================================================
+# Autonomous E-Commerce Operations Copilot — .gitignore
+# ==============================================================================
 
-# Environment Variables
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets (CRITICAL: Never commit credentials)
 .env
 *.env
+!.env.example
+secrets.json
+credentials.json
 
-# Python Cache
+# Python Bytecode & Cache
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyd
 
-# VS Code
-.vscode/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Logs
-*.log
-
-# Build Files
-build/
-dist/
-*.egg-info/
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-# Testing
+# Testing & Coverage
 .pytest_cache/
 .coverage
+htmlcov/
+.tox/
 
-# SQLite Databases
-*.db
-*.sqlite3
+# Local Vector Databases & Embeddings Cache
+chroma_db/
+.chroma/
 
-# Temporary Files
+# LangGraph & Checkpointer Caches
+.langgraph/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Archives & Temporary Dumps
+*.zip
+*.tar.gz
+*.rar
+*.log
 temp/
 tmp/
 
-# Generated Reports
-reports/generated/
-
-# ChromaDB Storage (optional)
-chroma_db/
-
-# LangGraph Cache (if created)
-.langgraph/
-
-# Secrets
-secrets.json
-credentials.json
+# Build & Packaging Artefacts
+build/
+dist/
+*.egg-info/

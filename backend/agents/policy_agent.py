@@ -31,7 +31,7 @@ def policy_agent(state):
         top_chunk = chunks[0]
 
         state["policy"] = "\n\n".join(
-            chunk["content"] for chunk in chunks
+            chunk["content"] for chunk in chunks[:2]
         )
 
         state["policy_source"] = (
