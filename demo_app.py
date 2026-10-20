@@ -5,6 +5,15 @@ import uuid
 import streamlit as st
 import pandas as pd
 
+# Sync Streamlit Community Cloud secrets into os.environ before backend imports
+try:
+    if hasattr(st, "secrets"):
+        for k, v in st.secrets.items():
+            if isinstance(v, (str, int, float, bool)):
+                os.environ.setdefault(k, str(v))
+except Exception:
+    pass
+
 # Set page config for a widescreen B2B SaaS experience
 st.set_page_config(
     page_title="Operations Copilot | Autonomous E-Commerce",

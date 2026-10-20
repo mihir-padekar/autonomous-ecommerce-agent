@@ -18,9 +18,7 @@ chromadb
 pypdf
 docx2txt
 streamlit
-SpeechRecognition
 plotly
-prophet
 mcp>=1.2.0
 langfuse
 pytest
