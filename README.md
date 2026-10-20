@@ -4,6 +4,12 @@
 An autonomous operations intelligence platform powered by **Model Context Protocol (FastMCP)**, **LangGraph ReAct Orchestration**, **Human-in-the-Loop (HITL) Governance**, **Security Guardrails**, **Langfuse Distributed Tracing**, and an **Obsidian Dark B2B Control Cockpit**.
 
 ---
+# UI/Working 
+
+<img width="1917" height="867" alt="Screenshot 2026-10-20 120639" src="https://github.com/user-attachments/assets/dcda6722-43f6-4535-b661-c8773d958be9" />
+<img width="1917" height="862" alt="Screenshot 2026-10-20 121535" src="https://github.com/user-attachments/assets/31678f3f-ba24-4036-af62-16ffa43dfdef" />
+<img width="1917" height="865" alt="Screenshot 2026-10-20 121607" src="https://github.com/user-attachments/assets/394daad7-5cbe-4b65-8f97-97b3884fd4e9" />
+
 
 ## 📑 Project Phase Documentation
 
