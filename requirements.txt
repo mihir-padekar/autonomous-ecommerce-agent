@@ -9,6 +9,7 @@ pydantic-settings
 sqlalchemy
 sqlalchemy-orm
 psycopg2-binary
+psycopg[binary]
 langchain-community
 langchain-chroma
 langchain-huggingface
