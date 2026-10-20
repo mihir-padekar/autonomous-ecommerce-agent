@@ -5,7 +5,7 @@ An autonomous operations intelligence platform powered by **Model Context Protoc
 
 **Live Demo link - https://autonomous-ecommerce-agent-ewct4oenj3qhgiuvejwwcy.streamlit.app/**
 ---
-# UI/Working 
+# UI
 
 <img width="1917" height="867" alt="Screenshot 2026-10-20 120639" src="https://github.com/user-attachments/assets/dcda6722-43f6-4535-b661-c8773d958be9" />
 <img width="1917" height="862" alt="Screenshot 2026-10-20 121535" src="https://github.com/user-attachments/assets/31678f3f-ba24-4036-af62-16ffa43dfdef" />
