@@ -2,7 +2,8 @@
 ### Enterprise Production-Grade, Observable & Guard-Railed Operations Intelligence Platform
 
 An autonomous operations intelligence platform powered by **Model Context Protocol (FastMCP)**, **LangGraph ReAct Orchestration**, **Human-in-the-Loop (HITL) Governance**, **Security Guardrails**, **Langfuse Distributed Tracing**, and an **Obsidian Dark B2B Control Cockpit**.
-Live Demo link - https://autonomous-ecommerce-agent-ewct4oenj3qhgiuvejwwcy.streamlit.app/
+
+**Live Demo link - https://autonomous-ecommerce-agent-ewct4oenj3qhgiuvejwwcy.streamlit.app/**
 ---
 # UI/Working 
 
